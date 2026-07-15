@@ -104,7 +104,7 @@ button {
   position: sticky;
   top: 0;
   height: 100vh;
-  overflow-y: auto;
+  overflow: hidden;
   transition: width 0.18s ease;
 }
 
@@ -124,7 +124,8 @@ button {
 
 .sidebar-expanded {
   display: flex;
-  min-height: 100%;
+  min-height: 0;
+  height: 100%;
   flex-direction: column;
 }
 
@@ -256,6 +257,18 @@ button {
   margin-left: auto;
 }
 
+.sidebar-scroll {
+  min-height: 0;
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 0.4rem;
+  scrollbar-width: none;
+}
+
+.sidebar-scroll::-webkit-scrollbar {
+  display: none;
+}
+
 .sidebar-section {
   margin-bottom: 1.1rem;
 }
@@ -288,9 +301,11 @@ button {
 }
 
 .sidebar-footer {
-  margin-top: auto;
+  flex-shrink: 0;
+  margin-top: 0.8rem;
   border-top: 1px solid var(--line);
   padding-top: 0.9rem;
+  background: var(--surface);
 }
 
 .sidebar-account {
@@ -400,6 +415,9 @@ button {
 }
 
 .share-button {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
   border: 1px solid var(--line);
   background: var(--surface-raised);
   color: var(--ink);
@@ -967,6 +985,44 @@ button {
   font-size: 0.72rem;
   color: var(--muted);
   margin: 0.6rem 0 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 0.45rem 0 1.4rem;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink-soft);
+  border-radius: 999px;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.social-link:hover {
+  background: var(--surface-raised);
+  border-color: rgba(255, 255, 255, 0.22);
+  color: var(--ink);
+}
+
+.social-link svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+  flex-shrink: 0;
 }
 
 /* ---------- Event page ---------- */

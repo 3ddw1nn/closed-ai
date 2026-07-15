@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <filter id="black-mark" color-interpolation-filters="sRGB">
+      <feColorMatrix
+        type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 1 0"
+      />
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#fff" />
+  <image
+    href="closedai-logo-black.svg"
+    x="10"
+    y="10"
+    width="44"
+    height="44"
+    preserveAspectRatio="xMidYMid meet"
+  />
+</svg>

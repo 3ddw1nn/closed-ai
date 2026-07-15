@@ -30,6 +30,26 @@ export const eventStories: Record<string, EventStory> = {
     aftermath: `Service restored since April 2023. The Garante fined OpenAI €15 million in late 2024 over the same underlying issues; OpenAI appealed. Italy remains the regulator OpenAI checks the weather on first.`,
   },
 
+  "ftc-investigation": {
+    body: [
+      `By July 2023, ChatGPT had already leaked chats, been banned in Italy, hallucinated legal accusations about real people, and trained on a data soup nobody outside the building could inspect. So the Federal Trade Commission did what regulators do when the demo becomes infrastructure: it sent a very long homework assignment.`,
+      `The FTC's civil investigative demand asked OpenAI for records about how it tested and mitigated risks in its models, including whether ChatGPT generated false, misleading, or disparaging statements about real people. The agency also asked about privacy, security, training data sources, and whether OpenAI scraped data directly from the internet or bought it from third parties. As <a href="https://www.theguardian.com/technology/2023/jul/13/ftc-investigate-chat-gpt-openai" target="_blank" rel="noopener noreferrer">The Guardian reported</a>, the investigation went straight at both halves of the product: what went into the model, and what came out of it.`,
+      `That mattered because OpenAI's public posture was still mostly wonder and inevitability. The FTC's questions reframed ChatGPT as a consumer product that could harm reputations, mishandle personal data, and mislead users while speaking with machine confidence. The agency was not asking whether AI was magical. It was asking whether the magic violated consumer-protection law.`,
+      `The investigation also landed before most of the later legal pileup. Copyright suits were just beginning. The board meltdown had not happened. The New York Times had not sued. In retrospect, the FTC demand reads like the first adult in the room asking where the receipts were kept.`,
+    ],
+    aftermath: `The investigation became part of the wider regulatory pressure around ChatGPT's data practices, hallucinations, and safety claims. OpenAI kept growing anyway, because apparently scrutiny is just another acquisition channel now.`,
+  },
+
+  "authors-guild-lawsuit": {
+    body: [
+      `Before The New York Times turned AI copyright into a heavyweight prize fight, the novelists walked in swinging. In September 2023, the Authors Guild and 17 writers — including John Grisham, Jodi Picoult, Jonathan Franzen, Elin Hilderbrand, and George R.R. Martin — <a href="https://apnews.com/article/openai-lawsuit-authors-grisham-george-rr-martin-37f9073ab67ab25b7e6b2975b2a63bfe" target="_blank" rel="noopener noreferrer">sued OpenAI</a> in federal court.`,
+      `Their allegation was simple enough for a dust jacket: OpenAI copied their books without permission to train a commercial product. The complaint called ChatGPT a massive enterprise dependent on systematic theft, and the authors argued that generated summaries, derivative outlines, and style imitation were not cute party tricks but market substitution wearing a chatbot mask.`,
+      `The Martin example was tailor-made for headlines. The lawsuit alleged ChatGPT could generate an unauthorized, detailed prequel outline to <em>A Game of Thrones</em>, complete with existing characters from <em>A Song of Ice and Fire</em>. You do not have to be a copyright scholar to see why an author might consider "write the next one, but free" a hostile product feature.`,
+      `OpenAI responded with the usual respect-for-creators language and fair-use positioning. But the suit established an important flank: this was not only newspapers worrying about traffic or paywalls. It was authors saying the model had eaten the library and was now selling autocomplete back to the public.`,
+    ],
+    aftermath: `The Authors Guild case remains part of the copyright front surrounding AI training. It also made the later Suchir Balaji story hit harder: his critique was not abstract theory. Writers had already been saying the same thing in court.`,
+  },
+
   "board-fires-altman": {
     body: [
       `On Friday, November 17, 2023, OpenAI's nonprofit board published a blog post firing the most famous CEO in tech, stating he had not been consistently candid with them. What followed was the most chaotic five days in the history of corporate governance, live-tweeted throughout.`,
@@ -48,6 +68,17 @@ export const eventStories: Record<string, EventStory> = {
       `Every AI training lawsuit since — the authors, the publishers, the record labels, everyone — cites this case. And its discovery process would eventually generate its own separate scandal (see July 2026).`,
     ],
     aftermath: `Ongoing, enormous, and increasingly ugly — see the sanctions fight of July 2026. Whatever the outcome, it will define what "fair use" means for model training in the US.`,
+  },
+
+  "musk-sues-openai": {
+    body: [
+      `On February 29, 2024, Elon Musk sued OpenAI, Sam Altman, and Greg Brockman, alleging that the company had betrayed the founding deal he says drew him into bankrolling it: a nonprofit, open-source-ish lab developing AI for public benefit, not a closed, Microsoft-aligned product engine. Subtle? No. Relevant? Extremely.`,
+      `The <a href="https://apnews.com/article/microsoft-sam-altman-openai-chatgpt-425186c7640aa3d0956e99314a9240e2" target="_blank" rel="noopener noreferrer">AP's summary</a> captured the core accusation: OpenAI had, in Musk's view, become a closed-source de facto subsidiary of Microsoft, refining AGI to maximize profit instead of benefiting humanity. The lawsuit sought to stop OpenAI and Microsoft from profiting from the technology and accused the nonprofit board of failing its mission.`,
+      `OpenAI's answer was not exactly "we love the mission too." It was more like: Elon, please. The company published old emails suggesting Musk had supported a for-profit structure, wanted OpenAI to merge with Tesla, and later demanded control. Musk withdrew the first suit in June 2024, then <a href="https://www.theverge.com/2024/8/5/24213557/elon-musk-openai-lawsuit-sam-altman-greg-brockman-revived" target="_blank" rel="noopener noreferrer">revived it in federal court</a> with broader allegations, including racketeering-flavored claims.`,
+      `This is why the case belongs in the timeline even if you do not want to make Musk the hero of anything. The suit forced the founding contradiction into public: OpenAI marketed itself as the anti-Big-Tech safety lab, then became the most valuable private software company on Earth with Microsoft in the engine room. Whether Musk had clean hands is a separate question. The wound he pointed at was real.`,
+      `By 2026, the case had become courtroom theater over who knew what, when, and whether Musk waited too long to sue. A jury ultimately <a href="https://www.wsj.com/tech/ai/jury-sides-with-openai-sam-altman-in-case-brought-by-elon-musk-933240ff" target="_blank" rel="noopener noreferrer">rejected Musk's claims</a> on statute-of-limitations grounds, without delivering the grand moral verdict either side wanted.`,
+    ],
+    aftermath: `OpenAI won the case, but not the vibes. The nonprofit-versus-profit question survived the lawsuit and reappeared in the 2025 restructuring, where the charity became extremely rich and somehow less reassuring.`,
   },
 
   "sky-voice-scarjo": {

@@ -57,6 +57,46 @@ export const timelineEvents: TimelineEvent[] = [
     category: "Policy",
   },
   {
+    date: "2023-07-13",
+    period: "Jul 13, 2023",
+    slug: "ftc-investigation",
+    prompt: "why is the FTC asking for your training-data homework?",
+    title: "The FTC Starts Asking the Obvious Questions",
+    summary:
+      "The FTC opened a consumer-protection investigation into OpenAI, demanding records on hallucinated defamation, privacy practices, scraped training data, and safety testing. The chatbot had gone mainstream; the regulator wanted to know whether 'move fast' had become 'mislead people at scale.'",
+    sources: [
+      {
+        title: "The Guardian",
+        url: "https://www.theguardian.com/technology/2023/jul/13/ftc-investigate-chat-gpt-openai",
+      },
+      {
+        title: "The Washington Post",
+        url: "https://www.washingtonpost.com/technology/2023/07/13/ftc-openai-chatgpt-sam-altman-lina-khan/",
+      },
+    ],
+    category: "Policy",
+  },
+  {
+    date: "2023-09-19",
+    period: "Sep 2023",
+    slug: "authors-guild-lawsuit",
+    prompt: "summarize this author's entire career, with crimes",
+    title: "The Novelists Call It Mass Theft",
+    summary:
+      "The Authors Guild and 17 writers, including John Grisham, Jodi Picoult, Jonathan Franzen, and George R.R. Martin, sued OpenAI over book training data. Their filing called ChatGPT a commercial product built on 'systematic theft on a mass scale.' The book people had entered the chat.",
+    sources: [
+      {
+        title: "AP",
+        url: "https://apnews.com/article/openai-lawsuit-authors-grisham-george-rr-martin-37f9073ab67ab25b7e6b2975b2a63bfe",
+      },
+      {
+        title: "Authors Guild",
+        url: "https://authorsguild.org/news/ag-and-authors-file-class-action-suit-against-openai/",
+      },
+    ],
+    category: "Legal",
+  },
+  {
     date: "2023-11-17",
     period: "Nov 17-21, 2023",
     slug: "board-fires-altman",
@@ -92,6 +132,30 @@ export const timelineEvents: TimelineEvent[] = [
       {
         title: "Wikipedia",
         url: "https://en.wikipedia.org/wiki/The_New_York_Times_v._Microsoft_and_OpenAI",
+      },
+    ],
+    category: "Legal",
+  },
+  {
+    date: "2024-02-29",
+    period: "Feb 2024-May 2026",
+    slug: "musk-sues-openai",
+    prompt: "wait, wasn't this supposed to be a nonprofit?",
+    title: "Elon Sues Over the Charity That Became a Money Printer",
+    summary:
+      "Musk sued OpenAI and Altman, alleging the company betrayed its founding mission by becoming closed-source, Microsoft-aligned, and profit-driven. OpenAI said Musk wanted control himself. The case eventually failed on timing, but it put the original nonprofit promise on trial.",
+    sources: [
+      {
+        title: "AP",
+        url: "https://apnews.com/article/microsoft-sam-altman-openai-chatgpt-425186c7640aa3d0956e99314a9240e2",
+      },
+      {
+        title: "The Verge",
+        url: "https://www.theverge.com/2024/8/5/24213557/elon-musk-openai-lawsuit-sam-altman-greg-brockman-revived",
+      },
+      {
+        title: "WSJ",
+        url: "https://www.wsj.com/tech/ai/jury-sides-with-openai-sam-altman-in-case-brought-by-elon-musk-933240ff",
       },
     ],
     category: "Legal",
