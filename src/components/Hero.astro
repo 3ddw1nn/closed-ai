@@ -1,4 +1,5 @@
 ---
+import { timelineEvents } from "@/data/timeline";
 import WackyLogo from "./WackyLogo.astro";
 ---
 
@@ -17,6 +18,12 @@ import WackyLogo from "./WackyLogo.astro";
   </p>
   <p class="intro-disclaimer">
     Satirical headlines, real events, real sources. Judge for yourself.
+  </p>
+  <p
+    class="incident-counter"
+    title="Every documented incident on this page, counted"
+  >
+    {timelineEvents.length} incidents and counting
   </p>
 
   <div class="starter-grid">

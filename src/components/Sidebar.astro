@@ -143,12 +143,39 @@ for (const event of [...timelineEvents].sort((a, b) =>
   </div>
 </aside>
 
+<div class="sidebar-backdrop" data-sidebar-backdrop aria-hidden="true">
+</div>
+
 <script>
   const appShell = document.querySelector(".app");
   const sidebar = document.querySelector(".sidebar");
   const sidebarToggles = document.querySelectorAll("[data-sidebar-toggle]");
   const sidebarOpeners = document.querySelectorAll("[data-sidebar-open]");
   const storageKey = "closedai-sidebar-collapsed";
+
+  const mobileSidebarOpeners = document.querySelectorAll(
+    "[data-mobile-sidebar-open]",
+  );
+  const sidebarBackdrop = document.querySelector("[data-sidebar-backdrop]");
+
+  const setMobileSidebarOpen = (open: boolean) => {
+    appShell?.classList.toggle("mobile-sidebar-open", open);
+    sidebar?.setAttribute("aria-expanded", String(open));
+  };
+
+  for (const opener of mobileSidebarOpeners) {
+    opener.addEventListener("click", () => setMobileSidebarOpen(true));
+  }
+
+  sidebarBackdrop?.addEventListener("click", () =>
+    setMobileSidebarOpen(false),
+  );
+
+  sidebar?.addEventListener("click", (event) => {
+    if ((event.target as HTMLElement).closest("a")) {
+      setMobileSidebarOpen(false);
+    }
+  });
 
   const setSidebarCollapsed = (collapsed: boolean) => {
     appShell?.classList.toggle("sidebar-collapsed", collapsed);
@@ -181,9 +208,15 @@ for (const event of [...timelineEvents].sort((a, b) =>
 
   setSidebarCollapsed(savedCollapsed);
 
+  const mobileMediaQuery = window.matchMedia("(max-width: 1023.98px)");
+
   for (const toggle of sidebarToggles) {
     toggle.addEventListener("click", () => {
-      setSidebarCollapsed(!appShell?.classList.contains("sidebar-collapsed"));
+      if (mobileMediaQuery.matches) {
+        setMobileSidebarOpen(false);
+      } else {
+        setSidebarCollapsed(!appShell?.classList.contains("sidebar-collapsed"));
+      }
     });
   }
 

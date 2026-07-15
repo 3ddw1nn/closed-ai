@@ -114,6 +114,49 @@ button {
   }
 }
 
+/* Mobile: sidebar becomes a slide-in drawer over the content, ChatGPT-style. */
+@media (max-width: 1023.98px) {
+  .sidebar {
+    display: flex;
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: min(80vw, 320px);
+    height: 100dvh;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    z-index: 60;
+  }
+
+  .sidebar-rail {
+    display: none;
+  }
+
+  .app.mobile-sidebar-open .sidebar {
+    transform: translateX(0);
+  }
+
+  .sidebar-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 55;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+
+  .app.mobile-sidebar-open .sidebar-backdrop {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sidebar-backdrop {
+    display: none;
+  }
+}
+
 .sidebar-top {
   display: flex;
   align-items: center;
@@ -383,12 +426,62 @@ button {
   background: linear-gradient(to bottom, var(--canvas) 65%, transparent);
 }
 
+.mobile-menu-button {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  background: transparent;
+  border-radius: 999px;
+  color: var(--ink);
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+
+.mobile-menu-button:hover {
+  background: var(--surface-raised);
+}
+
+.mobile-menu-button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 @media (min-width: 1024px) {
   .chat-header {
     justify-content: flex-end;
   }
 
-  .chat-header .header-brand {
+  .chat-header .header-brand,
+  .mobile-menu-button {
+    display: none;
+  }
+}
+
+/* Below the sidebar breakpoint, mirror ChatGPT's mobile bar: menu button
+   on the left, centered brand, actions on the right. */
+@media (max-width: 1023.98px) {
+  .chat-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .header-brand {
+    grid-column: 2;
+    justify-content: center;
+  }
+
+  .header-actions {
+    grid-column: 3;
+  }
+
+  .header-note {
     display: none;
   }
 }
@@ -412,22 +505,6 @@ button {
 .header-note {
   font-size: 0.75rem;
   color: var(--muted);
-}
-
-.incident-counter {
-  display: inline-flex;
-  align-items: center;
-  border: 1px solid var(--line);
-  background: var(--surface-raised);
-  border-radius: 999px;
-  padding: 0.35rem 0.9rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--error-ink);
-}
-
-.incident-counter:empty {
-  display: none;
 }
 
 .share-button {
@@ -522,6 +599,19 @@ button {
   margin-top: 0.6rem;
   font-size: 0.78rem;
   color: var(--muted);
+}
+
+.incident-counter {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1.25rem;
+  border: 1px solid var(--line);
+  background: var(--surface-raised);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--error-ink);
 }
 
 .starter-grid {
