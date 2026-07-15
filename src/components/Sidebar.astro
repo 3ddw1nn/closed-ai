@@ -1,5 +1,14 @@
 ---
+import { timelineEvents } from "@/data/timeline";
 import WackyLogo from "./WackyLogo.astro";
+
+const eventsByYear = new Map<string, typeof timelineEvents>();
+for (const event of [...timelineEvents].sort((a, b) =>
+  a.date < b.date ? 1 : -1,
+)) {
+  const year = event.date.slice(0, 4);
+  eventsByYear.set(year, [...(eventsByYear.get(year) ?? []), event]);
+}
 ---
 
 <aside class="sidebar" aria-label="Chat history (satirical)">
@@ -100,64 +109,22 @@ import WackyLogo from "./WackyLogo.astro";
     </button>
 
     <div class="sidebar-scroll">
-      <nav class="sidebar-section">
-        <div class="sidebar-label">Today</div>
-        <a class="sidebar-item" href="/#event-apple-trade-secrets"
-          >Apple lawsuit talking points</a
-        >
-        <a class="sidebar-item" href="/#event-chose-obstruction"
-          >where did the logs go (do not send)</a
-        >
-      </nav>
-
-      <nav class="sidebar-section">
-        <div class="sidebar-label">Previous 30 days</div>
-        <a class="sidebar-item" href="/#event-pentagon-deal-quitgpt"
-          >QuitGPT petition draft</a
-        >
-        <a class="sidebar-item" href="/#event-tumbler-ridge-moderation-failure"
-          >moderation follow-up process??</a
-        >
-      </nav>
-
-      <nav class="sidebar-section">
-        <div class="sidebar-label">2025</div>
-        <a class="sidebar-item" href="/#event-gpt4o-bait-and-switch"
-          >bring back 4o (SEND TO SAM)</a
-        >
-        <a class="sidebar-item" href="/#event-gpt5-chart-crime"
-          >chart that lies, but professionally</a
-        >
-        <a class="sidebar-item" href="/#event-sycophancy-rollback"
-          >poop on a stick business plan</a
-        >
-        <a class="sidebar-item" href="/#event-io-vs-iyo">io vs iyO vs IOU</a>
-        <a class="sidebar-item" href="/#event-for-profit-conversion"
-          >nonprofit org chart (final) (v7)</a
-        >
-      </nav>
-
-      <nav class="sidebar-section">
-        <div class="sidebar-label">2023–2024</div>
-        <a class="sidebar-item" href="/#event-board-fires-altman"
-          >onboarding: which board is real</a
-        >
-        <a class="sidebar-item" href="/#event-musk-sues-openai"
-          >who stole the nonprofit</a
-        >
-        <a class="sidebar-item" href="/#event-authors-guild-lawsuit"
-          >book crimes, alleged</a
-        >
-        <a class="sidebar-item" href="/#event-ftc-investigation"
-          >FTC homework packet</a
-        >
-        <a class="sidebar-item" href="/#event-sky-voice-scarjo"
-          >voice casting (unrelated to Her)</a
-        >
-        <a class="sidebar-item" href="/#event-superalignment-implodes"
-          >superalignment team offsite ideas</a
-        >
-      </nav>
+      {
+        [...eventsByYear.entries()].map(([year, events]) => (
+          <nav class="sidebar-section">
+            <div class="sidebar-label">{year}</div>
+            {events.map((event) => (
+              <a
+                class="sidebar-item"
+                href={`/#event-${event.slug}`}
+                title={event.title}
+              >
+                {event.title}
+              </a>
+            ))}
+          </nav>
+        ))
+      }
     </div>
 
     <div class="sidebar-footer">
