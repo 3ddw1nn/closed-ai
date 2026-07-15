@@ -41,6 +41,18 @@ const faviconFor = (url: string) => {
         <span class="event-counter"
           >Incident {index + 1} of {timelineEvents.length}</span
         >
+        <button
+          class="action-icon delete-icon-btn"
+          type="button"
+          data-delete-slug={event.slug}
+          data-delete-title={event.title}
+          title="Delete this incident"
+          aria-label={`Delete: ${event.title}`}
+        >
+          <svg viewBox="0 0 24 24">
+            <path d="M4 7h16M9 7V4h6v3m-8 0 1 13h8l1-13" />
+          </svg>
+        </button>
       </span>
     </nav>
 

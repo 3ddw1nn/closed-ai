@@ -896,6 +896,19 @@ button {
   stroke-linejoin: round;
 }
 
+.delete-icon-btn {
+  display: none;
+}
+
+html.admin-mode .delete-icon-btn {
+  display: grid;
+}
+
+.delete-icon-btn:hover {
+  background: var(--error-bg);
+  color: var(--error-ink);
+}
+
 /* Scroll reveal */
 
 .exchange {

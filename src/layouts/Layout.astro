@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import SecretMenu from "@/components/SecretMenu.astro";
 
 interface Props {
   title?: string;
@@ -46,9 +47,15 @@ const {
     />
     <script is:inline>
       document.documentElement.dataset.theme = "dark";
+      try {
+        if (sessionStorage.getItem("closedai-admin-code")) {
+          document.documentElement.classList.add("admin-mode");
+        }
+      } catch {}
     </script>
   </head>
   <body>
     <slot />
+    <SecretMenu />
   </body>
 </html>

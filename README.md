@@ -8,12 +8,16 @@ A satirical, sourced timeline of OpenAI incidents from 2023 to present — an ho
 
 ## How it works
 
-There are no APIs and no scraping — same as the original. Every event is hand-curated in [`src/data/timeline.ts`](src/data/timeline.ts) with a satirical title, a summary, a category tag (Legal / Quality / Reliability / Safety / Policy), and links to real news sources. Source favicons load from Google's favicon service, so there are no icon assets to maintain.
+The public site has no APIs and no scraping — same as the original. Every event is hand-curated in [`src/data/timeline.ts`](src/data/timeline.ts) with a satirical title, a summary, a category tag (Legal / Quality / Reliability / Safety / Policy), and links to real news sources. Source favicons load from Google's favicon service, so there are no icon assets to maintain.
+
+There's also a hidden, admin-only surface (Ctrl+Shift+C + a code) described below — the scraper only stages raw candidate headlines for manual review, it never auto-publishes anything.
 
 ## Stack
 
-- [Astro](https://astro.build) — static site, zero client JS except the timeline order toggle and scroll-reveal
+- [Astro](https://astro.build) — static site, zero client JS except the timeline order toggle, scroll-reveal, and the admin panel
 - Plain CSS (no framework)
+- A few standalone Vercel serverless functions under `api/` for the admin panel (the rest of the site stays static)
+- A GitHub Actions cron job (`.github/workflows/scrape.yml`) for the daily scrape
 
 ## Develop
 
@@ -41,3 +45,18 @@ Append an object to `timelineEvents` in `src/data/timeline.ts`:
 ```
 
 The event page at `/events/my-new-incident/` is generated automatically.
+
+## Admin panel (secret menu)
+
+Press **Ctrl+Shift+C** anywhere on the site and enter the admin code to unlock:
+
+- **Run scraper now** — triggers `.github/workflows/scrape.yml` on demand (it also runs nightly at ~1am PST). It searches for recent OpenAI-controversy news via Firecrawl and stages raw candidates (title/url/source only, no auto-written summary) in `public/pending.json`. Nothing is added to `timeline.ts` automatically — the panel lets you copy a pre-filled snippet to paste in and finish by hand, same as "Add an event" above.
+- **Delete** — a trash icon appears on every timeline card and article page. Deleting removes the entry from `timeline.ts` via a direct commit (GitHub Contents API) and the site redeploys ~1-2 minutes later. Reachable via `git revert` if you delete the wrong thing.
+
+Required secrets (set these yourself, values are not in the repo):
+
+| Name | Where | Purpose |
+| --- | --- | --- |
+| `ADMIN_CODE` | Vercel project env var | The code checked by `/api/verify-code`, `/api/scrape-trigger`, `/api/delete-article` |
+| `GH_ADMIN_TOKEN` | Vercel project env var | Fine-grained GitHub PAT scoped to this repo, `contents:write` + `actions:write` |
+| `FIRECRAWL_API_KEY` | GitHub Actions repo secret | Used by `scripts/scrape.mjs` to search for candidate news |
