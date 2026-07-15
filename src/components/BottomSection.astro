@@ -1,0 +1,61 @@
+---
+import WackyLogo from "./WackyLogo.astro";
+---
+
+<section class="ending" id="thread-end">
+  <div class="typing-row">
+    <span class="assistant-avatar" aria-hidden="true">
+      <WackyLogo size={22} />
+    </span>
+    <p class="typing-line">
+      And remember kids… <strong>don't be like OpenAI</strong><span
+        class="typing-dots"
+        aria-hidden="true"><span></span><span></span><span></span></span
+      >
+    </p>
+  </div>
+
+  <div class="error-card" role="alert">
+    <span class="error-icon" aria-hidden="true">!</span>
+    <div class="error-text">
+      <strong>Something went wrong.</strong>
+      <span>
+        Repeatedly. Since 2023. If this issue persists, please check the
+        thread above.
+      </span>
+    </div>
+    <button id="regenerate" class="regenerate-button" type="button">
+      ⟳ Regenerate company
+    </button>
+  </div>
+
+  <div class="composer">
+    <div
+      class="composer-bar"
+      title="You've reached your message limit. Upgrade to Grief Pro."
+    >
+      <span class="composer-plus" aria-hidden="true">＋</span>
+      <span class="composer-placeholder">Message ClosedAI…</span>
+      <span class="composer-send" aria-hidden="true">↑</span>
+    </div>
+    <p class="composer-note">
+      ClosedAI can make mistakes. Check important info. (See above.)
+    </p>
+  </div>
+</section>
+
+<script>
+  const regenerate = document.querySelector("#regenerate");
+
+  regenerate?.addEventListener("click", () => {
+    const label = regenerate as HTMLButtonElement;
+    label.textContent = "⟳ Regenerating…";
+    setTimeout(() => {
+      label.textContent = "⟳ Same company generated";
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        label.textContent = "⟳ Regenerate company";
+      }, 900);
+    }, 900);
+  });
+</script>

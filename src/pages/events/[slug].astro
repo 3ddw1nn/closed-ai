@@ -1,0 +1,132 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import WackyLogo from "@/components/WackyLogo.astro";
+import { timelineEvents, type TimelineEvent } from "@/data/timeline";
+import { eventStories } from "@/data/stories";
+
+export function getStaticPaths() {
+  return timelineEvents.map((event, index) => ({
+    params: { slug: event.slug },
+    props: { event, index },
+  }));
+}
+
+interface Props {
+  event: TimelineEvent;
+  index: number;
+}
+
+const { event, index } = Astro.props;
+
+const story = eventStories[event.slug];
+const body = story?.body ?? [event.summary];
+const aftermath = story?.aftermath;
+
+const previousEvent = timelineEvents[index - 1];
+const nextEvent = timelineEvents[index + 1];
+
+const faviconFor = (url: string) => {
+  const host = new URL(url).hostname;
+  return `https://www.google.com/s2/favicons?domain=${host}&sz=32`;
+};
+---
+
+<Layout title={`${event.title} — closedai.rip`} description={event.summary}>
+  <article class="event-page">
+    <nav class="event-nav-top">
+      <a href={`/#event-${event.slug}`} class="event-back"
+        >← Back to the thread</a
+      >
+      <span class="event-nav-right">
+        <span class="event-counter"
+          >Incident {index + 1} of {timelineEvents.length}</span
+        >
+      </span>
+    </nav>
+
+    <div class="user-row">
+      <div class="user-bubble">{event.prompt}</div>
+    </div>
+
+    <div class="assistant-row">
+      <span class="assistant-avatar" aria-hidden="true">
+        <WackyLogo size={22} />
+      </span>
+      <div class="assistant-content">
+        <div class="assistant-meta">
+          <time datetime={event.date} class="meta-date">{event.period}</time>
+          <span class={`meta-category pill-${event.category}`}>
+            {event.category}
+          </span>
+        </div>
+        <h1 class="event-title">{event.title}</h1>
+
+        <div class="event-body">
+          {body.map((paragraph) => <p set:html={paragraph} />)}
+        </div>
+
+        {
+          aftermath && (
+            <section class="event-aftermath">
+              <h2 class="event-section-heading">Where it stands</h2>
+              <p set:html={aftermath} />
+            </section>
+          )
+        }
+
+        <h2 class="event-section-heading">Sources</h2>
+        <div class="assistant-sources">
+          {
+            event.sources.map((source) => (
+              <a
+                href={source.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="source-chip"
+              >
+                <img
+                  src={faviconFor(source.url)}
+                  alt=""
+                  width="14"
+                  height="14"
+                  loading="lazy"
+                  aria-hidden="true"
+                />
+                <span>{source.title}</span>
+              </a>
+            ))
+          }
+        </div>
+
+        <nav class="event-pagination">
+          {
+            previousEvent ? (
+              <a
+                href={`/events/${previousEvent.slug}/`}
+                class="event-pagination-link"
+              >
+                <span class="event-pagination-label">← Previous incident</span>
+                <span class="event-pagination-title">
+                  {previousEvent.title}
+                </span>
+              </a>
+            ) : (
+              <span />
+            )
+          }
+          {
+            nextEvent && (
+              <a
+                href={`/events/${nextEvent.slug}/`}
+                class="event-pagination-link event-pagination-next"
+              >
+                <span class="event-pagination-label">Next incident →</span>
+                <span class="event-pagination-title">{nextEvent.title}</span>
+              </a>
+            )
+          }
+        </nav>
+      </div>
+    </div>
+  </article>
+</Layout>

@@ -1,0 +1,37 @@
+---
+import BottomSection from "@/components/BottomSection.astro";
+import Hero from "@/components/Hero.astro";
+import Sidebar from "@/components/Sidebar.astro";
+import Timeline from "@/components/Timeline.astro";
+import WackyLogo from "@/components/WackyLogo.astro";
+import Layout from "@/layouts/Layout.astro";
+---
+
+<Layout>
+  <div class="app">
+    <Sidebar />
+    <div class="chat-main">
+      <header class="chat-header">
+        <a href="/" class="header-brand">
+          <WackyLogo size={24} />
+          ClosedAI
+        </a>
+        <div class="header-actions">
+          <span class="header-note">Not affiliated with OpenAI</span>
+          <button
+            class="share-button"
+            type="button"
+            title="Sharing is how the NYT found out"
+          >
+            Share
+          </button>
+        </div>
+      </header>
+      <div class="thread">
+        <Hero />
+        <Timeline />
+        <BottomSection />
+      </div>
+    </div>
+  </div>
+</Layout>

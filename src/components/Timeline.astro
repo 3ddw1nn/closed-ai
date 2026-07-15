@@ -1,0 +1,178 @@
+---
+import { timelineEvents } from "@/data/timeline";
+import WackyLogo from "./WackyLogo.astro";
+
+const displayedTimelineEvents = [...timelineEvents].reverse();
+
+const faviconFor = (url: string) => {
+  const host = new URL(url).hostname;
+  return `https://www.google.com/s2/favicons?domain=${host}&sz=32`;
+};
+---
+
+<section aria-label="Incident thread">
+  <div class="thread-toolbar">
+    <button
+      id="thread-order-toggle"
+      type="button"
+      class="order-button"
+      data-order="newest"
+    >
+      Show oldest first
+    </button>
+  </div>
+
+  <ol id="thread" style="list-style: none; margin: 0; padding: 0;">
+    {
+      displayedTimelineEvents.map((event) => (
+        <li
+          id={`event-${event.slug}`}
+          data-category={event.category}
+          data-exchange
+          class="exchange"
+        >
+          <div class="user-row">
+            <div class="user-bubble">{event.prompt}</div>
+          </div>
+          <div class="assistant-row">
+            <span class="assistant-avatar" aria-hidden="true">
+              <WackyLogo size={22} />
+            </span>
+            <article class="assistant-content">
+              <div class="assistant-meta">
+                <time datetime={event.date} class="meta-date">
+                  {event.period}
+                </time>
+                <span class={`meta-category pill-${event.category}`}>
+                  {event.category}
+                </span>
+              </div>
+              <h2 class="assistant-title">
+                <a href={`/events/${event.slug}/`}>{event.title}</a>
+              </h2>
+              <p class="assistant-summary">{event.summary}</p>
+              <p class="fullstory-link">
+                <a href={`/events/${event.slug}/`}>Full story →</a>
+              </p>
+              <div class="assistant-sources">
+                {event.sources.map((source) => (
+                  <a
+                    href={source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="source-chip"
+                  >
+                    <img
+                      src={faviconFor(source.url)}
+                      alt=""
+                      width="14"
+                      height="14"
+                      loading="lazy"
+                      aria-hidden="true"
+                    />
+                    <span>{source.title}</span>
+                    <span class="sr-only">opens in a new tab</span>
+                  </a>
+                ))}
+              </div>
+              <div class="assistant-actions">
+                <button
+                  class="action-icon"
+                  type="button"
+                  title="Good response (rare)"
+                  aria-label="Thumbs up"
+                >
+                  <svg viewBox="0 0 24 24">
+                    <path d="M7 11v9m0-9 4-7c1.5 0 2.5 1 2.5 2.5L13 10h5.2c1.2 0 2 1.1 1.7 2.2l-1.6 6.3c-.2.9-1 1.5-1.9 1.5H7m0-9H4v9h3" />
+                  </svg>
+                </button>
+                <button
+                  class="action-icon"
+                  type="button"
+                  title="Bad response (accurate)"
+                  aria-label="Thumbs down"
+                >
+                  <svg viewBox="0 0 24 24">
+                    <path d="M17 13V4m0 9-4 7c-1.5 0-2.5-1-2.5-2.5L11 14H5.8c-1.2 0-2-1.1-1.7-2.2l1.6-6.3C5.9 4.6 6.7 4 7.6 4H17m0 9h3V4h-3" />
+                  </svg>
+                </button>
+                <a
+                  class="action-icon"
+                  href={`/events/${event.slug}/`}
+                  title="Full story"
+                  aria-label={`Full story: ${event.title}`}
+                >
+                  <svg viewBox="0 0 24 24">
+                    <path d="M9 18l6-6-6-6" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+          </div>
+        </li>
+      ))
+    }
+  </ol>
+</section>
+
+<script>
+  const thread = document.querySelector("#thread");
+  const orderToggle = document.querySelector("#thread-order-toggle");
+  const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  ).matches;
+  const exchanges = thread
+    ? Array.from(thread.querySelectorAll("[data-exchange]")).filter(
+        (entry): entry is HTMLElement => entry instanceof HTMLElement,
+      )
+    : [];
+
+  const setOrder = (order: "oldest" | "newest") => {
+    if (!thread || !orderToggle) return;
+
+    const isNewest = order === "newest";
+    const ordered = isNewest ? exchanges : [...exchanges].reverse();
+
+    for (const entry of ordered) {
+      thread.append(entry);
+    }
+
+    orderToggle.setAttribute("data-order", order);
+    orderToggle.textContent = isNewest
+      ? "Show oldest first"
+      : "Show newest first";
+  };
+
+  if (thread && orderToggle) {
+    setOrder("newest");
+
+    orderToggle.addEventListener("click", () => {
+      setOrder(
+        orderToggle.getAttribute("data-order") === "newest"
+          ? "oldest"
+          : "newest",
+      );
+    });
+  }
+
+  if (prefersReducedMotion || !("IntersectionObserver" in window)) {
+    for (const entry of exchanges) {
+      entry.classList.add("is-visible");
+    }
+  } else {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+          }
+        }
+      },
+      { rootMargin: "0px 0px -10% 0px", threshold: 0.1 },
+    );
+
+    for (const entry of exchanges) {
+      revealObserver.observe(entry);
+    }
+  }
+</script>
