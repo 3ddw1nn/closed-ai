@@ -1,4 +1,4 @@
-# closedai.rip
+# ClosedAI
 
 Everything that \*went\* wrong with OpenAI.
 
