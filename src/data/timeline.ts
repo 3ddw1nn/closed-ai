@@ -160,14 +160,18 @@ export const timelineEvents: TimelineEvent[] = [
     date: "2024-11-26",
     period: "Nov 26, 2024",
     slug: "suchir-balaji",
-    prompt: "what happened to the researcher who spoke up?",
-    title: "Whistleblower Suchir Balaji Is Found Dead",
+    prompt: "what happened to the OpenAI whistleblower?",
+    title: "Suchir Balaji Warns About Copyright, Then Dies",
     summary:
-      "One month after publicly accusing OpenAI of violating copyright law with its training data, 26-year-old former researcher Suchir Balaji was found dead in his apartment. Authorities ruled it a suicide; his parents have disputed the ruling. He had been named as a potential witness in the NYT case.",
+      "Suchir Balaji helped build OpenAI's data pipeline, left in August 2024, and publicly argued ChatGPT was not fair use of its training data. Weeks after Times lawyers named him as someone with potentially relevant documents, the 26-year-old was found dead. Authorities ruled suicide; his parents dispute that conclusion.",
     sources: [
       {
-        title: "Wikipedia",
-        url: "https://en.wikipedia.org/wiki/Suchir_Balaji",
+        title: "AP",
+        url: "https://apnews.com/article/openai-whistleblower-suchir-balaji-death-283e70b31d34ebb71b62e73aafb56a7d",
+      },
+      {
+        title: "Suchir Balaji",
+        url: "https://suchir.net/fair_use.html",
       },
       {
         title: "ABC7",
