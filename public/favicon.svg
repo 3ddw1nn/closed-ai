@@ -1,13 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
   <rect width="120" height="120" rx="24" fill="#000"/>
-  <g fill="none" stroke="#fff" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M60 18 C76 17 89 27 93 42 C96 54 90 67 78 75 L62 85"/>
-    <path d="M60 18 C76 17 89 27 93 42 C96 54 90 67 78 75 L62 85" transform="rotate(58 60 60) translate(1 -1)"/>
-    <path d="M60 18 C76 17 89 27 93 42 C96 54 90 67 78 75 L62 85" transform="rotate(121 60 60) translate(-1 1)"/>
-    <path d="M60 18 C76 17 89 27 93 42 C96 54 90 67 78 75 L62 85" transform="rotate(178 60 60) translate(0 2)"/>
-    <path d="M60 18 C76 17 89 27 93 42 C96 54 90 67 78 75 L62 85" transform="rotate(242 60 60) translate(-2 -1)"/>
-    <path d="M60 18 C76 17 89 27 93 42 C96 54 90 67 78 75 L62 85" transform="rotate(304 60 60) translate(2 0)"/>
-    <path d="M60 40 78 50 78 70 60 80 42 70 42 50 Z" stroke-width="6"/>
-    <path d="M78 25 83 20 M88 31 95 29" stroke-width="3"/>
+  <g fill="none" stroke="#fff" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 66 C26 44 41 30 60 30 C79 30 94 44 94 66"/>
+    <path d="M31 67 C21 81 30 100 46 101 C55 102 59 96 60 88"/>
+    <path d="M89 67 C99 81 90 100 74 101 C65 102 61 96 60 88"/>
+    <path d="M43 95 C38 108 26 109 22 99"/>
+    <path d="M77 95 C82 108 94 109 98 99"/>
+    <path d="M60 30 C58 20 66 14 76 18 C85 21 86 31 78 35"/>
+    <path d="M18 68 C15 62 15 56 20 51"/>
+    <path d="M102 68 C105 62 105 56 100 51"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M60 48 C66 48 70 52 71 58 C72 63 69 68 64 70 L58 74"/>
+    <path d="M60 48 C66 48 70 52 71 58 C72 63 69 68 64 70 L58 74" transform="rotate(60 60 62)"/>
+    <path d="M60 48 C66 48 70 52 71 58 C72 63 69 68 64 70 L58 74" transform="rotate(120 60 62)"/>
+    <path d="M60 48 C66 48 70 52 71 58 C72 63 69 68 64 70 L58 74" transform="rotate(180 60 62)"/>
+    <path d="M60 48 C66 48 70 52 71 58 C72 63 69 68 64 70 L58 74" transform="rotate(240 60 62)"/>
+    <path d="M60 48 C66 48 70 52 71 58 C72 63 69 68 64 70 L58 74" transform="rotate(300 60 62)"/>
+    <circle cx="60" cy="62" r="3.2" fill="#000" stroke-width="1.6"/>
   </g>
 </svg>
