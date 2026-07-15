@@ -3,79 +3,184 @@ import WackyLogo from "./WackyLogo.astro";
 ---
 
 <aside class="sidebar" aria-label="Chat history (satirical)">
-  <div class="sidebar-top">
-    <a href="/" class="sidebar-brand">
-      <WackyLogo size={26} />
-      <span>ClosedAI</span>
-    </a>
+  <div class="sidebar-rail" aria-label="Collapsed navigation">
+    <button
+      class="rail-logo"
+      type="button"
+      data-sidebar-toggle
+      title="Open sidebar"
+      aria-label="Open sidebar"
+    >
+      <WackyLogo size={31} />
+    </button>
+    <nav class="rail-nav" aria-label="Quick actions">
+      <a href="/" class="rail-button" title="New incident" aria-label="New incident">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 20h9" />
+          <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L8 18l-4 1 1-4Z" />
+        </svg>
+      </a>
+      <a href="/#thread" class="rail-button" title="Search" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="10.5" cy="10.5" r="7.2" />
+          <path d="m16 16 5 5" />
+        </svg>
+      </a>
+      <a href="/#event-gpt4o-bait-and-switch" class="rail-button" title="Pinned" aria-label="Pinned">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M15.5 3.5 20.5 8.5" />
+          <path d="m14.2 4.8-5.7 5.7-4.3 1.4 7.9 7.9 1.4-4.3 5.7-5.7" />
+          <path d="M8.8 15.2 3.5 20.5" />
+        </svg>
+      </a>
+      <a href="/#thread-end" class="rail-button" title="Messages" aria-label="Messages">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 11.5a7.5 7.5 0 0 1-8 7.5 8.7 8.7 0 0 1-3.5-.8L4 19.5l1.3-4.1A7.2 7.2 0 0 1 4 11.5 7.5 7.5 0 0 1 12 4a7.5 7.5 0 0 1 8 7.5Z" />
+        </svg>
+      </a>
+    </nav>
+    <button
+      class="rail-account"
+      type="button"
+      data-sidebar-toggle
+      title="Open sidebar"
+      aria-label="Open sidebar"
+    >
+      <span class="account-avatar" aria-hidden="true">You</span>
+    </button>
   </div>
 
-  <button class="new-chat-button" type="button" disabled>
-    <span>＋ New incident</span>
-    <span>any minute now</span>
-  </button>
+  <div class="sidebar-expanded">
+    <div class="sidebar-top">
+      <a href="/" class="sidebar-brand">
+        <WackyLogo size={26} />
+        <span>ClosedAI</span>
+      </a>
+      <button
+        class="sidebar-toggle"
+        type="button"
+        data-sidebar-toggle
+        aria-label="Collapse sidebar"
+        title="Collapse sidebar"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="4" y="5" width="16" height="14" rx="3" />
+          <path d="M12 5v14" />
+        </svg>
+      </button>
+    </div>
 
-  <nav class="sidebar-section">
-    <div class="sidebar-label">Today</div>
-    <a class="sidebar-item" href="/#event-apple-trade-secrets"
-      >Apple lawsuit talking points</a
-    >
-    <a class="sidebar-item" href="/#event-chose-obstruction"
-      >where did the logs go (do not send)</a
-    >
-  </nav>
+    <button class="new-chat-button" type="button" disabled>
+      <span>＋ New incident</span>
+      <span>any minute now</span>
+    </button>
 
-  <nav class="sidebar-section">
-    <div class="sidebar-label">Previous 30 days</div>
-    <a class="sidebar-item" href="/#event-pentagon-deal-quitgpt"
-      >QuitGPT petition draft</a
-    >
-    <a class="sidebar-item" href="/#event-tumbler-ridge-moderation-failure"
-      >moderation follow-up process??</a
-    >
-  </nav>
+    <nav class="sidebar-section">
+      <div class="sidebar-label">Today</div>
+      <a class="sidebar-item" href="/#event-apple-trade-secrets"
+        >Apple lawsuit talking points</a
+      >
+      <a class="sidebar-item" href="/#event-chose-obstruction"
+        >where did the logs go (do not send)</a
+      >
+    </nav>
 
-  <nav class="sidebar-section">
-    <div class="sidebar-label">2025</div>
-    <a class="sidebar-item" href="/#event-gpt4o-bait-and-switch"
-      >bring back 4o (SEND TO SAM)</a
-    >
-    <a class="sidebar-item" href="/#event-gpt5-chart-crime"
-      >chart that lies, but professionally</a
-    >
-    <a class="sidebar-item" href="/#event-sycophancy-rollback"
-      >poop on a stick business plan</a
-    >
-    <a class="sidebar-item" href="/#event-io-vs-iyo">io vs iyO vs IOU</a>
-    <a class="sidebar-item" href="/#event-for-profit-conversion"
-      >nonprofit org chart (final) (v7)</a
-    >
-  </nav>
+    <nav class="sidebar-section">
+      <div class="sidebar-label">Previous 30 days</div>
+      <a class="sidebar-item" href="/#event-pentagon-deal-quitgpt"
+        >QuitGPT petition draft</a
+      >
+      <a class="sidebar-item" href="/#event-tumbler-ridge-moderation-failure"
+        >moderation follow-up process??</a
+      >
+    </nav>
 
-  <nav class="sidebar-section">
-    <div class="sidebar-label">2023–2024</div>
-    <a class="sidebar-item" href="/#event-board-fires-altman"
-      >onboarding: which board is real</a
-    >
-    <a class="sidebar-item" href="/#event-sky-voice-scarjo"
-      >voice casting (unrelated to Her)</a
-    >
-    <a class="sidebar-item" href="/#event-superalignment-implodes"
-      >superalignment team offsite ideas</a
-    >
-  </nav>
+    <nav class="sidebar-section">
+      <div class="sidebar-label">2025</div>
+      <a class="sidebar-item" href="/#event-gpt4o-bait-and-switch"
+        >bring back 4o (SEND TO SAM)</a
+      >
+      <a class="sidebar-item" href="/#event-gpt5-chart-crime"
+        >chart that lies, but professionally</a
+      >
+      <a class="sidebar-item" href="/#event-sycophancy-rollback"
+        >poop on a stick business plan</a
+      >
+      <a class="sidebar-item" href="/#event-io-vs-iyo">io vs iyO vs IOU</a>
+      <a class="sidebar-item" href="/#event-for-profit-conversion"
+        >nonprofit org chart (final) (v7)</a
+      >
+    </nav>
 
-  <div class="sidebar-footer">
-    <a class="upgrade-card" href="/#thread-end">
-      <strong>Upgrade to Grief Pro</strong>
-      More wrongdoing per month. $200/mo, obviously.
-    </a>
-    <div class="sidebar-account">
-      <span class="account-avatar" aria-hidden="true">You</span>
-      <span>
-        <span class="account-name">You</span><br />
-        <span class="account-plan">Free plan (they raised $40B)</span>
-      </span>
+    <nav class="sidebar-section">
+      <div class="sidebar-label">2023–2024</div>
+      <a class="sidebar-item" href="/#event-board-fires-altman"
+        >onboarding: which board is real</a
+      >
+      <a class="sidebar-item" href="/#event-sky-voice-scarjo"
+        >voice casting (unrelated to Her)</a
+      >
+      <a class="sidebar-item" href="/#event-superalignment-implodes"
+        >superalignment team offsite ideas</a
+      >
+    </nav>
+
+    <div class="sidebar-footer">
+      <a class="upgrade-card" href="/#thread-end">
+        <strong>Upgrade to Grief Pro</strong>
+        More wrongdoing per month. $200/mo, obviously.
+      </a>
+      <div class="sidebar-account">
+        <span class="account-avatar" aria-hidden="true">You</span>
+        <span>
+          <span class="account-name">You</span><br />
+          <span class="account-plan">Free plan (they raised $40B)</span>
+        </span>
+      </div>
     </div>
   </div>
 </aside>
+
+<script>
+  const appShell = document.querySelector(".app");
+  const sidebar = document.querySelector(".sidebar");
+  const sidebarToggles = document.querySelectorAll("[data-sidebar-toggle]");
+  const storageKey = "closedai-sidebar-collapsed";
+
+  const setSidebarCollapsed = (collapsed: boolean) => {
+    appShell?.classList.toggle("sidebar-collapsed", collapsed);
+    sidebar?.setAttribute("aria-expanded", String(!collapsed));
+
+    for (const toggle of sidebarToggles) {
+      toggle.setAttribute(
+        "aria-label",
+        collapsed ? "Open sidebar" : "Collapse sidebar",
+      );
+      toggle.setAttribute(
+        "title",
+        collapsed ? "Open sidebar" : "Collapse sidebar",
+      );
+    }
+
+    try {
+      localStorage.setItem(storageKey, String(collapsed));
+    } catch {
+      /* Ignore private browsing storage failures. */
+    }
+  };
+
+  let savedCollapsed = false;
+  try {
+    savedCollapsed = localStorage.getItem(storageKey) === "true";
+  } catch {
+    savedCollapsed = false;
+  }
+
+  setSidebarCollapsed(savedCollapsed);
+
+  for (const toggle of sidebarToggles) {
+    toggle.addEventListener("click", () => {
+      setSidebarCollapsed(!appShell?.classList.contains("sidebar-collapsed"));
+    });
+  }
+</script>

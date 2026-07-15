@@ -1,5 +1,5 @@
 {
-  "name": "closedai-rip",
+  "name": "closedai",
   "version": "0.1.0",
   "private": true,
   "description": "A satirical Astro timeline of OpenAI controversies. Everything that *went* wrong with OpenAI.",

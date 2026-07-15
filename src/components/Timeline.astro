@@ -79,8 +79,10 @@ const faviconFor = (url: string) => {
                 <button
                   class="action-icon"
                   type="button"
+                  data-feedback="like"
                   title="Good response (rare)"
                   aria-label="Thumbs up"
+                  aria-pressed="false"
                 >
                   <svg viewBox="0 0 24 24">
                     <path d="M7 11v9m0-9 4-7c1.5 0 2.5 1 2.5 2.5L13 10h5.2c1.2 0 2 1.1 1.7 2.2l-1.6 6.3c-.2.9-1 1.5-1.9 1.5H7m0-9H4v9h3" />
@@ -89,8 +91,10 @@ const faviconFor = (url: string) => {
                 <button
                   class="action-icon"
                   type="button"
+                  data-feedback="dislike"
                   title="Bad response (accurate)"
                   aria-label="Thumbs down"
+                  aria-pressed="false"
                 >
                   <svg viewBox="0 0 24 24">
                     <path d="M17 13V4m0 9-4 7c-1.5 0-2.5-1-2.5-2.5L11 14H5.8c-1.2 0-2-1.1-1.7-2.2l1.6-6.3C5.9 4.6 6.7 4 7.6 4H17m0 9h3V4h-3" />
@@ -152,6 +156,27 @@ const faviconFor = (url: string) => {
           ? "oldest"
           : "newest",
       );
+    });
+  }
+
+  for (const button of document.querySelectorAll("[data-feedback]")) {
+    button.addEventListener("click", () => {
+      if (!(button instanceof HTMLButtonElement)) return;
+
+      const controls = button
+        .closest(".assistant-actions")
+        ?.querySelectorAll("[data-feedback]");
+      const wasSelected = button.classList.contains("is-selected");
+
+      for (const control of controls ?? []) {
+        control.classList.remove("is-selected");
+        control.setAttribute("aria-pressed", "false");
+      }
+
+      if (!wasSelected) {
+        button.classList.add("is-selected");
+        button.setAttribute("aria-pressed", "true");
+      }
     });
   }
 

@@ -29,6 +29,7 @@
   --pill-policy-ink: #d8b4fe;
 
   --sidebar-width: 17rem;
+  --sidebar-rail-width: 4.75rem;
 
   --font-sans:
     "Söhne", "Helvetica Neue", Helvetica, ui-sans-serif, system-ui,
@@ -150,6 +151,7 @@ button {
   top: 0;
   height: 100vh;
   overflow-y: auto;
+  transition: width 0.18s ease;
 }
 
 @media (min-width: 1024px) {
@@ -166,6 +168,19 @@ button {
   margin-bottom: 1rem;
 }
 
+.sidebar-expanded {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.sidebar-rail {
+  display: none;
+  min-height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
 .sidebar-brand {
   display: inline-flex;
   align-items: center;
@@ -173,6 +188,96 @@ button {
   font-weight: 600;
   font-size: 0.95rem;
   text-decoration: none;
+}
+
+.sidebar-toggle,
+.rail-button,
+.rail-account {
+  display: grid;
+  place-items: center;
+  width: 2.55rem;
+  height: 2.55rem;
+  border: 0;
+  background: transparent;
+  border-radius: 0.7rem;
+  color: var(--ink);
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background 0.12s ease,
+    color 0.12s ease;
+}
+
+.sidebar-toggle {
+  width: 2.2rem;
+  height: 2.2rem;
+  color: var(--muted);
+}
+
+.sidebar-toggle:hover,
+.rail-button:hover,
+.rail-account:hover {
+  background: var(--surface-raised);
+  color: var(--ink);
+}
+
+.sidebar-toggle svg,
+.rail-button svg {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.rail-logo {
+  display: grid;
+  place-items: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  border: 0;
+  background: transparent;
+  border-radius: 0.7rem;
+  color: var(--ink);
+  cursor: pointer;
+  margin-bottom: 2.2rem;
+  transition: background 0.12s ease;
+}
+
+.rail-logo:hover {
+  background: var(--surface-raised);
+}
+
+.rail-nav {
+  display: grid;
+  gap: 0.95rem;
+}
+
+.rail-account {
+  margin-top: auto;
+  margin-bottom: 0.35rem;
+}
+
+.rail-account .account-avatar {
+  width: 2.35rem;
+  height: 2.35rem;
+  font-size: 0.72rem;
+}
+
+.app.sidebar-collapsed .sidebar {
+  width: var(--sidebar-rail-width);
+  padding: 1rem 0.65rem 0.85rem;
+  overflow: hidden;
+}
+
+.app.sidebar-collapsed .sidebar-expanded {
+  display: none;
+}
+
+.app.sidebar-collapsed .sidebar-rail {
+  display: flex;
 }
 
 .new-chat-button {
@@ -692,6 +797,15 @@ button {
 .action-icon:hover {
   background: var(--surface-raised);
   color: var(--ink);
+}
+
+.action-icon.is-selected {
+  background: var(--bubble);
+  color: var(--ink);
+}
+
+.action-icon.is-selected svg {
+  stroke-width: 2.15;
 }
 
 .action-icon svg {
