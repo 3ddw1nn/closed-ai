@@ -1,8 +1,6 @@
 ---
 /**
- * A wacky, coming-apart version of a hexagonal blossom logo.
- * Five petals hanging on at odd angles, one petal mid-fall,
- * googly eyes, and a nervous sweat drop.
+ * A compact monochrome knot mark inspired by the app chrome around it.
  */
 interface Props {
   size?: number;
@@ -20,43 +18,20 @@ const { size = 48, class: className = "" } = Astro.props;
   fill="none"
   aria-hidden="true"
 >
-  <g class="wacky-logo-body">
-    <g transform="translate(60 58)" fill="currentColor">
-      <!-- five petals, each slightly off -->
-      <rect x="-8" y="-52" width="16" height="42" rx="8" transform="rotate(-7)"></rect>
-      <rect x="-8" y="-52" width="16" height="42" rx="8" transform="rotate(52)"></rect>
-      <rect x="-8" y="-52" width="16" height="40" rx="8" transform="rotate(128)"></rect>
-      <rect x="-8" y="-52" width="16" height="38" rx="8" transform="rotate(189)"></rect>
-      <rect x="-8" y="-52" width="16" height="42" rx="8" transform="rotate(297)"></rect>
-      <!-- hub -->
-      <circle r="15"></circle>
-      <!-- googly eyes -->
-      <circle cx="-6" cy="-3" r="5.5" fill="#fff"></circle>
-      <circle cx="6.5" cy="-2" r="5" fill="#fff"></circle>
-      <circle class="wacky-pupil-left" cx="-4.5" cy="-1.5" r="2.4" fill="currentColor"></circle>
-      <circle class="wacky-pupil-right" cx="8" cy="-4" r="2.2" fill="currentColor"></circle>
-      <!-- worried mouth -->
-      <path
-        d="M-5 7 Q0 4.5 5 7"
-        stroke="#fff"
-        stroke-width="2"
-        stroke-linecap="round"
-        fill="none"></path>
-    </g>
-    <!-- sweat drop -->
-    <path
-      class="wacky-sweat"
-      d="M97 22 q5 8 0 12 q-5 -4 0 -12Z"
-      fill="#9ad6f5"></path>
-  </g>
-  <!-- the sixth petal, mid-fall -->
-  <g class="wacky-petal-falling" fill="currentColor">
-    <rect x="86" y="88" width="14" height="34" rx="7" transform="rotate(38 93 105)"></rect>
-    <path
-      d="M76 92 l-7 -3 M78 101 l-8 1"
+  <g class="wacky-logo-body" fill="currentColor">
+    <rect x="50" y="12" width="20" height="48" rx="10"></rect>
+    <rect x="50" y="12" width="20" height="48" rx="10" transform="rotate(60 60 60)"></rect>
+    <rect x="50" y="12" width="20" height="48" rx="10" transform="rotate(120 60 60)"></rect>
+    <rect x="50" y="12" width="20" height="48" rx="10" transform="rotate(180 60 60)"></rect>
+    <rect x="50" y="12" width="20" height="48" rx="10" transform="rotate(240 60 60)"></rect>
+    <rect x="50" y="12" width="20" height="48" rx="10" transform="rotate(300 60 60)"></rect>
+    <circle cx="60" cy="60" r="14" fill="var(--canvas)"></circle>
+    <circle
+      cx="60"
+      cy="60"
+      r="8"
+      fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      opacity="0.35"></path>
+      stroke-width="7"></circle>
   </g>
 </svg>
