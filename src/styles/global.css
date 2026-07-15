@@ -414,6 +414,22 @@ button {
   color: var(--muted);
 }
 
+.incident-counter {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  background: var(--surface-raised);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--error-ink);
+}
+
+.incident-counter:empty {
+  display: none;
+}
+
 .share-button {
   display: inline-flex;
   align-items: center;

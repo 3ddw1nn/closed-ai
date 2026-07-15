@@ -5,6 +5,11 @@ import Sidebar from "@/components/Sidebar.astro";
 import Timeline from "@/components/Timeline.astro";
 import WackyLogo from "@/components/WackyLogo.astro";
 import Layout from "@/layouts/Layout.astro";
+import { timelineEvents } from "@/data/timeline";
+
+const latestIncidentDate = timelineEvents.reduce((latest, event) =>
+  event.date > latest.date ? event : latest,
+).date;
 ---
 
 <Layout>
@@ -17,6 +22,11 @@ import Layout from "@/layouts/Layout.astro";
           ClosedAI
         </a>
         <div class="header-actions">
+          <span
+            class="incident-counter"
+            data-incident-date={latestIncidentDate}
+            title="Days since the last OpenAI incident"
+          ></span>
           <span class="header-note">Not affiliated with OpenAI</span>
           <a
             class="share-button"
@@ -35,3 +45,19 @@ import Layout from "@/layouts/Layout.astro";
     </div>
   </div>
 </Layout>
+
+<script>
+  const counter = document.querySelector<HTMLElement>(".incident-counter");
+  const incidentDate = counter?.dataset.incidentDate;
+  if (counter && incidentDate) {
+    const msPerDay = 1000 * 60 * 60 * 24;
+    const days = Math.floor(
+      (Date.now() - new Date(`${incidentDate}T00:00:00Z`).getTime()) /
+        msPerDay,
+    );
+    counter.textContent =
+      days <= 0
+        ? "0 days since last incident"
+        : `${days} ${days === 1 ? "day" : "days"} since last incident`;
+  }
+</script>
