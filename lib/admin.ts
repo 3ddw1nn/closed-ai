@@ -115,9 +115,27 @@ const DEFAULT_AI_PROVIDER = (process.env.DRAFT_AI_PROVIDER ?? "gemini") as Param
 
 export const SELECTABLE_AI_PROVIDERS = ["gemini", "mistral", "groq", "cerebras", "openrouter"] as const;
 
+// Keep in sync with OPENROUTER_MODEL_OPTIONS in SecretMenu.astro — this is
+// the whitelist of specific OpenRouter models the admin panel can request,
+// so a client can't smuggle in a paid model on our API key.
+const OPENROUTER_FREE_MODELS = [
+  "meta-llama/llama-3.3-70b-instruct:free",
+  "google/gemma-2-9b-it:free",
+  "mistralai/mistral-7b-instruct:free",
+  "qwen/qwen-2.5-72b-instruct:free",
+  "deepseek/deepseek-r1:free",
+] as const;
+
 export function resolveAiProvider(requested: unknown): Parameters<typeof callAiJson>[0] {
-  if (typeof requested === "string" && (SELECTABLE_AI_PROVIDERS as readonly string[]).includes(requested)) {
+  if (typeof requested !== "string") return DEFAULT_AI_PROVIDER;
+  if ((SELECTABLE_AI_PROVIDERS as readonly string[]).includes(requested)) {
     return requested as (typeof SELECTABLE_AI_PROVIDERS)[number];
+  }
+  if (requested.startsWith("openrouter:")) {
+    const model = requested.slice("openrouter:".length);
+    if ((OPENROUTER_FREE_MODELS as readonly string[]).includes(model)) {
+      return requested as Parameters<typeof callAiJson>[0];
+    }
   }
   return DEFAULT_AI_PROVIDER;
 }
