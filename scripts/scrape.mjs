@@ -24,6 +24,7 @@ const BLOCKED_HOSTS = [
   "youtube.com",
   "linkedin.com",
   "pinterest.com",
+  "wftv.com",
 ];
 
 function isBlockedSource(url) {
