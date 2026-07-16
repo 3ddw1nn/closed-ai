@@ -50,13 +50,16 @@ The event page at `/events/my-new-incident/` is generated automatically.
 
 Press **Ctrl+Shift+C** anywhere on the site and enter the admin code to unlock:
 
-- **Run scraper now** — triggers `.github/workflows/scrape.yml` on demand (it also runs nightly at ~1am PST). It searches for recent OpenAI-controversy news via Firecrawl and stages raw candidates (title/url/source only, no auto-written summary) in `public/pending.json`. Nothing is added to `timeline.ts` automatically — the panel lets you copy a pre-filled snippet to paste in and finish by hand, same as "Add an event" above.
-- **Delete** — a trash icon appears on every timeline card and article page. Deleting removes the entry from `timeline.ts` via a direct commit (GitHub Contents API) and the site redeploys ~1-2 minutes later. Reachable via `git revert` if you delete the wrong thing.
+- **Run scraper now** — triggers `.github/workflows/scrape.yml` on demand (it also runs nightly at ~1am PST). It searches for recent OpenAI-controversy news via Firecrawl (social platforms like Facebook/Instagram/X/TikTok/Reddit/YouTube/LinkedIn are filtered out — news/blog sources only) and stages raw candidates (title/url/source) in `public/pending.json`.
+- **Draft with AI** — per pending candidate, scrapes the full source page and drafts a complete article (title, summary, multi-paragraph body, category) in the site's voice using a free-tier LLM (see provider table below). The draft opens in an editable form — nothing is written to the repo yet.
+- **Publish** — commits the (possibly edited) draft to `timeline.ts` and `stories.ts` via the GitHub Contents API and clears it from `pending.json`. The site redeploys ~1-2 minutes later.
+- **Delete** — a trash icon appears on every timeline card and article page. Deleting removes the entry from `timeline.ts` via a direct commit and the site redeploys ~1-2 minutes later. Reachable via `git revert` if you delete the wrong thing.
 
 Required secrets (set these yourself, values are not in the repo):
 
 | Name | Where | Purpose |
 | --- | --- | --- |
-| `ADMIN_CODE` | Vercel project env var | The code checked by `/api/verify-code`, `/api/scrape-trigger`, `/api/delete-article` |
+| `ADMIN_CODE` | Vercel project env var | The code checked by every `/api/*` admin endpoint |
 | `GH_ADMIN_TOKEN` | Vercel project env var | Fine-grained GitHub PAT scoped to this repo, `contents:write` + `actions:write` |
-| `FIRECRAWL_API_KEY` | GitHub Actions repo secret | Used by `scripts/scrape.mjs` to search for candidate news |
+| `FIRECRAWL_API_KEY` | Vercel project env var **and** GitHub Actions repo secret | Search (nightly scrape) and full-page scrape (AI drafting) |
+| `GEMINI_API_KEY` | Vercel project env var | Default free-tier model for "Draft with AI" (`gemini-flash-latest`). See [`coding-playbook/free-ai-tools-setup.md`](coding-playbook/free-ai-tools-setup.md) — `MISTRAL_API_KEY` / `GROQ_API_KEY` / `CEREBRAS_API_KEY` / `OPENROUTER_API_KEY` are also supported; set `DRAFT_AI_PROVIDER` to switch (`gemini` \| `mistral` \| `groq` \| `cerebras` \| `openrouter`) |

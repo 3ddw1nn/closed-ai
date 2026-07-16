@@ -13,6 +13,24 @@ if (!FIRECRAWL_API_KEY) {
 const QUERY =
   "OpenAI (lawsuit OR controversy OR backlash OR investigation OR data breach OR safety incident OR outage OR fired OR sues OR fined OR regulator)";
 
+const BLOCKED_HOSTS = [
+  "facebook.com",
+  "instagram.com",
+  "twitter.com",
+  "x.com",
+  "tiktok.com",
+  "threads.net",
+  "reddit.com",
+  "youtube.com",
+  "linkedin.com",
+  "pinterest.com",
+];
+
+function isBlockedSource(url) {
+  const host = new URL(url).hostname.replace(/^www\./, "");
+  return BLOCKED_HOSTS.some((blocked) => host === blocked || host.endsWith(`.${blocked}`));
+}
+
 const PENDING_PATH = new URL("../public/pending.json", import.meta.url);
 const TIMELINE_PATH = new URL("../src/data/timeline.ts", import.meta.url);
 
@@ -55,7 +73,7 @@ async function main() {
   const [results, seen] = await Promise.all([search(), knownUrls()]);
 
   const candidates = results
-    .filter((r) => r.url && !seen.has(r.url))
+    .filter((r) => r.url && !seen.has(r.url) && !isBlockedSource(r.url))
     .map((r) => ({
       title: r.title ?? "",
       url: r.url,

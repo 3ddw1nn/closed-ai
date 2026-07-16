@@ -1076,8 +1076,13 @@ html.admin-mode .delete-icon-btn {
   padding: 0.85rem 1.2rem;
   color: var(--muted);
   font-size: 0.95rem;
-  cursor: not-allowed;
-  user-select: none;
+  transition:
+    border-color 0.15s ease,
+    background 0.15s ease;
+}
+
+.composer-bar:focus-within {
+  border-color: var(--ink-soft);
 }
 
 .composer-bar .composer-plus {
@@ -1085,8 +1090,21 @@ html.admin-mode .delete-icon-btn {
   line-height: 1;
 }
 
-.composer-bar .composer-placeholder {
+.composer-input {
   flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  outline: none;
+}
+
+.composer-input::placeholder {
+  color: var(--muted);
+}
+
+.composer-input:disabled {
+  color: var(--muted);
 }
 
 .composer-send {
@@ -1094,9 +1112,13 @@ html.admin-mode .delete-icon-btn {
   place-items: center;
   width: 2rem;
   height: 2rem;
+  border: none;
   border-radius: 999px;
   background: #ffffff;
   color: var(--muted);
+  font: inherit;
+  cursor: pointer;
+  flex-shrink: 0;
 }
 
 .composer-note {
@@ -1104,6 +1126,25 @@ html.admin-mode .delete-icon-btn {
   font-size: 0.72rem;
   color: var(--muted);
   margin: 0.6rem 0 0;
+}
+
+.composer-bar.is-blocked {
+  border-color: var(--error-border);
+  background: var(--error-bg);
+  animation: composer-shake 0.3s ease;
+}
+
+@keyframes composer-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-4px);
+  }
+  75% {
+    transform: translateX(4px);
+  }
 }
 
 .social-links {

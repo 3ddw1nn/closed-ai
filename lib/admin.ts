@@ -1,6 +1,8 @@
 // Shared helpers for the /api/* admin functions. Lives outside api/ so
 // Vercel doesn't turn it into its own route.
 
+import { callAiJson } from "./ai-providers.js";
+
 const GITHUB_API = "https://api.github.com";
 const REPO = "3ddw1nn/closed-ai";
 
@@ -57,6 +59,111 @@ export async function putFile(path: string, content: string, sha: string, messag
   if (!res.ok) {
     throw new Error(`GitHub putFile failed: ${res.status} ${await res.text()}`);
   }
+}
+
+const CATEGORIES = ["Legal", "Quality", "Reliability", "Safety", "Policy"] as const;
+
+export type DraftedArticle = {
+  date: string;
+  period: string;
+  slug: string;
+  prompt: string;
+  title: string;
+  summary: string;
+  body: string[];
+  aftermath?: string;
+  category: (typeof CATEGORIES)[number];
+};
+
+export async function firecrawlScrape(url: string): Promise<string> {
+  const res = await fetch("https://api.firecrawl.dev/v1/scrape", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${process.env.FIRECRAWL_API_KEY}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ url, formats: ["markdown"] }),
+  });
+  if (!res.ok) {
+    throw new Error(`Firecrawl scrape failed: ${res.status} ${await res.text()}`);
+  }
+  const json = await res.json();
+  return (json.data?.markdown ?? "").slice(0, 12000);
+}
+
+const DRAFT_SYSTEM_PROMPT = `You write entries for ClosedAI, a satirical but factually-sourced timeline of OpenAI controversies. Voice: dry, specific, a little cutting, never cartoonish — the jokes come from precise details and irony, not exaggeration. Every factual claim must be grounded in the provided source text; never invent facts, quotes, or numbers not present in the source.
+
+Example of the house voice (for calibration only, don't reuse the content):
+"A Redis race condition let users see strangers' chat titles and, for 1.2% of Plus subscribers, names, emails, and partial card data. The company built on 'aligning AI with humans' got misaligned with its own cache."
+
+Return ONLY valid JSON, no markdown fences, no commentary, matching exactly this shape:
+{
+  "date": "ISO date YYYY-MM-DD the incident/news occurred or was reported",
+  "period": "Human readable date, e.g. 'Jul 16, 2026'",
+  "slug": "kebab-case, url-safe, 2-5 words",
+  "prompt": "A short, snarky fake chat-bubble question a user might ask about this",
+  "title": "Satirical headline for the incident",
+  "summary": "1-2 sentence dry, specific summary for the card view",
+  "body": ["2-4 paragraphs of long-form body copy, matching the house voice, may include inline <a href> links to the source"],
+  "aftermath": "optional 1-sentence 'where it stands now' closer, omit if not applicable",
+  "category": "one of: Legal, Quality, Reliability, Safety, Policy"
+}`;
+
+const DEFAULT_AI_PROVIDER = (process.env.DRAFT_AI_PROVIDER ?? "gemini") as Parameters<
+  typeof callAiJson
+>[0];
+
+export async function draftArticle(candidate: {
+  title: string;
+  url: string;
+  source: string;
+  snippet: string;
+}, sourceText: string): Promise<DraftedArticle> {
+  const input = `Candidate headline: ${candidate.title}\nSource: ${candidate.source} (${candidate.url})\nSearch snippet: ${candidate.snippet}\n\nFull source content:\n${sourceText || "(source page could not be fetched — use only the headline and snippet above, be conservative)"}`;
+  const result = await callAiJson(DEFAULT_AI_PROVIDER, DRAFT_SYSTEM_PROMPT, input);
+  return result as DraftedArticle;
+}
+
+function timelineEntrySource(article: DraftedArticle, sourceTitle: string, sourceUrl: string): string {
+  return `  {
+    date: ${JSON.stringify(article.date)},
+    period: ${JSON.stringify(article.period)},
+    slug: ${JSON.stringify(article.slug)},
+    prompt: ${JSON.stringify(article.prompt)},
+    title: ${JSON.stringify(article.title)},
+    summary: ${JSON.stringify(article.summary)},
+    sources: [{ title: ${JSON.stringify(sourceTitle)}, url: ${JSON.stringify(sourceUrl)} }],
+    category: ${JSON.stringify(article.category)},
+  },`;
+}
+
+function storyEntrySource(article: DraftedArticle): string {
+  const body = article.body.map((p) => `      ${JSON.stringify(p)},`).join("\n");
+  const aftermath = article.aftermath ? `\n    aftermath: ${JSON.stringify(article.aftermath)},` : "";
+  return `  ${JSON.stringify(article.slug)}: {
+    body: [
+${body}
+    ],${aftermath}
+  },`;
+}
+
+export function appendTimelineEntry(source: string, article: DraftedArticle, sourceTitle: string, sourceUrl: string): string {
+  const marker = "\n];\n\nexport const categories";
+  const idx = source.indexOf(marker);
+  if (idx === -1) throw new Error("could not find timelineEvents array end");
+  return source.slice(0, idx) + "\n" + timelineEntrySource(article, sourceTitle, sourceUrl) + source.slice(idx);
+}
+
+export function appendStoryEntry(source: string, article: DraftedArticle): string {
+  const trimmed = source.trimEnd();
+  if (!trimmed.endsWith("};")) throw new Error("unexpected stories.ts format");
+  const idx = trimmed.length - 2;
+  return trimmed.slice(0, idx) + storyEntrySource(article) + "\n" + trimmed.slice(idx) + "\n";
+}
+
+export function removePendingByUrl(pendingJson: string, url: string): string {
+  const items = JSON.parse(pendingJson) as Array<{ url: string }>;
+  return JSON.stringify(items.filter((item) => item.url !== url), null, 2) + "\n";
 }
 
 /**

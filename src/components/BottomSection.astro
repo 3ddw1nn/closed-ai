@@ -30,15 +30,20 @@ import WackyLogo from "./WackyLogo.astro";
   </div>
 
   <div class="composer">
-    <div
+    <form
       class="composer-bar"
       title="You've reached your message limit. Upgrade to Grief Pro."
     >
       <span class="composer-plus" aria-hidden="true">＋</span>
-      <span class="composer-placeholder">Message ClosedAI…</span>
-      <span class="composer-send" aria-hidden="true">↑</span>
-    </div>
-    <p class="composer-note">
+      <input
+        type="text"
+        class="composer-input"
+        placeholder="Message ClosedAI…"
+        autocomplete="off"
+      />
+      <button type="submit" class="composer-send" aria-label="Send">↑</button>
+    </form>
+    <p class="composer-note" data-composer-note>
       ClosedAI can make mistakes. Check important info. (See above.)
     </p>
   </div>
@@ -86,5 +91,29 @@ import WackyLogo from "./WackyLogo.astro";
         label.textContent = "⟳ Regenerate company";
       }, 900);
     }, 900);
+  });
+
+  const composerForm = document.querySelector(".composer-bar");
+  const composerInput = document.querySelector(
+    ".composer-input",
+  ) as HTMLInputElement | null;
+  const composerNote = document.querySelector("[data-composer-note]");
+  const originalNote = composerNote?.textContent ?? "";
+  const blockedNote = "You've reached your message limit. Upgrade to Grief Pro.";
+
+  composerForm?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (!composerInput || composerInput.disabled) return;
+
+    composerInput.disabled = true;
+    composerForm.classList.add("is-blocked");
+    if (composerNote) composerNote.textContent = blockedNote;
+
+    setTimeout(() => {
+      composerForm.classList.remove("is-blocked");
+      if (composerNote) composerNote.textContent = originalNote;
+      composerInput.value = "";
+      composerInput.disabled = false;
+    }, 1800);
   });
 </script>
