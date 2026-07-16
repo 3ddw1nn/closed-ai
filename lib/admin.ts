@@ -113,14 +113,23 @@ const DEFAULT_AI_PROVIDER = (process.env.DRAFT_AI_PROVIDER ?? "gemini") as Param
   typeof callAiJson
 >[0];
 
+export const SELECTABLE_AI_PROVIDERS = ["gemini", "mistral", "groq", "cerebras", "openrouter"] as const;
+
+export function resolveAiProvider(requested: unknown): Parameters<typeof callAiJson>[0] {
+  if (typeof requested === "string" && (SELECTABLE_AI_PROVIDERS as readonly string[]).includes(requested)) {
+    return requested as (typeof SELECTABLE_AI_PROVIDERS)[number];
+  }
+  return DEFAULT_AI_PROVIDER;
+}
+
 export async function draftArticle(candidate: {
   title: string;
   url: string;
   source: string;
   snippet: string;
-}, sourceText: string): Promise<DraftedArticle> {
+}, sourceText: string, provider: Parameters<typeof callAiJson>[0] = DEFAULT_AI_PROVIDER): Promise<DraftedArticle> {
   const input = `Candidate headline: ${candidate.title}\nSource: ${candidate.source} (${candidate.url})\nSearch snippet: ${candidate.snippet}\n\nFull source content:\n${sourceText || "(source page could not be fetched — use only the headline and snippet above, be conservative)"}`;
-  const result = await callAiJson(DEFAULT_AI_PROVIDER, DRAFT_SYSTEM_PROMPT, input);
+  const result = await callAiJson(provider, DRAFT_SYSTEM_PROMPT, input);
   return result as DraftedArticle;
 }
 

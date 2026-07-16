@@ -1,9 +1,9 @@
-import { checkCode, firecrawlScrape, draftArticle } from "../lib/admin.js";
+import { checkCode, firecrawlScrape, draftArticle, resolveAiProvider } from "../lib/admin.js";
 
 export default async function handler(req: any, res: any) {
   if (req.method !== "POST") return res.status(405).end();
 
-  const { code, candidate } = req.body ?? {};
+  const { code, candidate, provider } = req.body ?? {};
   if (!checkCode(code)) {
     return res.status(401).json({ ok: false, error: "bad code" });
   }
@@ -18,7 +18,7 @@ export default async function handler(req: any, res: any) {
     } catch {
       // fall back to just the headline/snippet already in the candidate
     }
-    const article = await draftArticle(candidate, sourceText);
+    const article = await draftArticle(candidate, sourceText, resolveAiProvider(provider));
     return res.status(200).json({ ok: true, article });
   } catch (err) {
     return res.status(500).json({ ok: false, error: String(err) });
