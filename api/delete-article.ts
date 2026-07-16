@@ -1,4 +1,4 @@
-import { checkCode, getFile, putFile, removeObjectBySlug } from "../lib/admin";
+import { checkCode, getFile, putFile, removeObjectBySlug } from "../lib/admin.js";
 
 const TIMELINE_PATH = "src/data/timeline.ts";
 

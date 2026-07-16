@@ -1,4 +1,4 @@
-import { checkCode } from "../lib/admin";
+import { checkCode } from "../lib/admin.js";
 
 export default function handler(req: any, res: any) {
   if (req.method !== "POST") return res.status(405).end();

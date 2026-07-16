@@ -1,4 +1,4 @@
-import { checkCode, dispatchWorkflow } from "../lib/admin";
+import { checkCode, dispatchWorkflow } from "../lib/admin.js";
 
 export default async function handler(req: any, res: any) {
   if (req.method !== "POST") return res.status(405).end();
