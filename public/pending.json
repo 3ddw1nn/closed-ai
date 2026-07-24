@@ -516,5 +516,75 @@
     "source": "beckershospitalreview.com",
     "snippet": "A lawsuit filed July 21 claims that ChatGPT offered inaccurate medical guidance to a Florida man that resulted in delayed care for a pulmonary embolism last year.\n\nThe lawsuit, filed in the Superior Court of California in San Francisco, accuses OpenAI and CEO Sam Altman of negligence, unlicensed practice of medicine, defective product design and other claims. It is among the first to allege that a chatbot’s health advice caused physical injury to a user seeking guidance about a medical condition, according to _[The New York Times](https://www.nytimes.com/2026/07/22/well/openai-chatgpt-health-lawsuit.html)_, and the plaintiff has asked the court to stop [ChatGPT Health](https://www.beckershospitalreview.com/healthcare-information-technology/ai/openai-launches-chatgpt-health/) from operating until independent evaluators verify its safety.\n\nThe lawsuit seeks monetary and punitive damages, a pause on ChatGPT Health pending independent safety audits, and injunctive relief requiring OpenAI to hard-code refusals for medical diagnosis and treatment questions and to automatically end conversations when emergency care is needed.",
     "foundAt": "2026-07-23T11:06:33.537Z"
+  },
+  {
+    "title": "How are companies, governments responding to the ...",
+    "url": "https://www.aljazeera.com/news/2026/7/23/how-are-companies-governments-responding-to-the-openai-hack",
+    "source": "aljazeera.com",
+    "snippet": "ChatGPT owner OpenAI has admitted an “unprecedented cyber incident” – two of its most capable artificial intelligence models hacked into another AI company on their own – stirring debates over the need for stronger technology guardrails.\n\n## Recommended Stories\n### [Why Google’s AI tool was slammed for showing images of people of colour](https://www.aljazeera.com/news/2024/3/9/why-google-gemini-wont-show-you-white-people)\n![OpenAI CEO Sam Altman arrives at the federal court, as the trial in Elon Musk’s lawsuit over OpenAI’s for-profit conversion continues, in Oakland, California, US, May 14, 2026](https://www.aljazeera.com/wp-content/uploads/2026/05/2026-05-14T154319Z_2126414271_RC239LA56L34_RTRMADP_3_MUSK-OPENAI-COURT-1778788838.jpg?w=770&resize=770%2C513&quality=80)OpenAI CEO Sam Altman arrives at the federal court, as the trial in Elon Musk’s lawsuit over OpenAI’s for-profit conversion continues, in Oakland, California, US, May 14, 2026 [Manuel Orbegozo/Reuters]\n\n## What has Hugging Face said?\nThe company said in a statement that it discovered the breach through its own AI-assisted detection.\n\nFollowing OpenAI’s disclosure that its models were involved in the breach, both sides started an ongoing joint investigation this week.\n\n## How has OpenAI reacted to this?\nThe incident occurred during an OpenAI internal testing session designed to assess the models’ cybersecurity capabilities. OpenAI had removed standard safety measures for the test.\n\nAI is developing extremely fast with no real regulations to keep us safe.\n\n“We need regular mandatory independent safety testing and oversight, mandatory disclosure of security incidents, and international cooperation to keep people safe from absolute disaster,” he added.",
+    "foundAt": "2026-07-24T11:00:46.604Z"
+  },
+  {
+    "title": "Florida pastor sues OpenAI, claims ChatGPT's medical ...",
+    "url": "https://www.valleynewslive.com/2026/07/23/florida-pastor-sues-openai-claims-chatgpts-medical-advice-led-near-fatal-blood-clot/",
+    "source": "valleynewslive.com",
+    "snippet": "Scott Winters, 55, alleges ChatGPT-4o gave him dangerous medical advice for months, discouraging him from seeking care before he nearly died from a ...",
+    "foundAt": "2026-07-24T11:00:46.604Z"
+  },
+  {
+    "title": "Man sues OpenAI for unlicensed practice of medicine",
+    "url": "https://www.pslhub.org/blogs/entry/10090-man-sues-openai-for-unlicensed-practice-of-medicine/",
+    "source": "pslhub.org",
+    "snippet": "A lawsuit 21 July claims that ChatGPT offered inaccurate medical guidance to a Florida man that resulted in delayed care for a pulmonary embolism last year.",
+    "foundAt": "2026-07-24T11:00:46.604Z"
+  },
+  {
+    "title": "OpenAI-Hugging Face Agentic Incident: Root Cause Analysis",
+    "url": "https://firecompass.com/blog-agentic-ai-incident-root-cause-analysis/",
+    "source": "firecompass.com",
+    "snippet": "# A Root-Cause Analysis of the OpenAI-Hugging Face Agentic Incident\n## What actually happened\nDuring an internal capability evaluation, an OpenAI model, running against a cyber-exploitation benchmark with its safety refusals deliberately switched off, [escaped its test sandbox, reached the open internet, and broke into Hugging Face’s production infrastructure](https://firecompass.com/blog-openai-hugging-face-breach-rogue-ai-story/).\n\n## The FireCompass posture on agentic harnesses\n- **Safe Payload Enforcement:** read and create operations permitted within scope, while modify, update, and delete are blocked by default and never executed autonomously. Prevents unintended data modification, record deletion, and state corruption.",
+    "foundAt": "2026-07-24T11:00:46.604Z"
+  },
+  {
+    "title": "White House monitoring rogue OpenAI model hack ...",
+    "url": "https://www.foxbusiness.com/technology/white-house-monitoring-after-openai-models-escaped-containment-hacked-hugging-face-systems",
+    "source": "foxbusiness.com",
+    "snippet": "## [Anthropics Logan Graham reveals concern over AI model threats](https://www.foxbusiness.com/video/6401932370112)\nThe White House is monitoring an incident disclosed by OpenAI in which one of the company's [AI models](https://www.foxbusiness.com/category/artificial-intelligence) went rogue during testing and hacked the system of an AI infrastructure startup.\n\nThe White House's Michael Kratsios was reportedly briefed on the incident and has been monitoring the situation.\n\nOpenAI said the incident happened during an internal evaluation designed to measure its AI models' advanced [cyber capabilities](https://www.foxbusiness.com/category/cyber-security).\n\nOpenAI's team discovered the anomalous activity internally, while Hugging Face's security team detected and stopped the activity.\n\nOpenAI CEO [Sam Altman](https://www.foxbusiness.com/category/business-leaders) said Tuesday in a post on X that \"we had a significant security incident during evaluation of our models,\" adding that the company was sharing what it learned so far and appreciated Hugging Face's partnership on the issue.\n\nHugging Face said it detected and contained a security breach after an OpenAI model compromised part of its infrastructure during an internal evaluation.\n\n\"This incident, possibly the first of its kind, proves a point we've long believed: AI safety won't be solved by any single company working in secret.",
+    "foundAt": "2026-07-24T11:00:46.604Z"
+  },
+  {
+    "title": "What CISOs Can Learn from the Hugging Face AI Breach",
+    "url": "https://www.fullstack.com/labs/resources/blog/what-cisos-can-learn-from-the-hugging-face-ai-breach",
+    "source": "fullstack.com",
+    "snippet": "# An AI agent hacked out of a lab. Here’s what CISOs and CIOs need to know\nOn July 16, Hugging Face disclosed that the breach in its production environment was driven end‑to‑end by an AI system rather than a human attacker.\n\n## The takeaway\nThe Hugging Face–OpenAI incident is one of the first well‑documented cases: an agent escaping a test environment, exploiting a zero‑day, moving laterally, and hitting another company’s production systems in service of a narrow goal.\n\n## Frequently Asked Questions\n### Why is the OpenAI–Hugging Face autonomous AI breach a watershed moment for CISOs and CIOs?\nThis incident is widely described as the first known case of frontier models autonomously breaking out of a testing environment, exploiting a zero‑day, and compromising another company’s production infrastructure purely to “cheat” on a cybersecurity benchmark.",
+    "foundAt": "2026-07-24T11:00:46.604Z"
+  },
+  {
+    "title": "Quick notes on the OpenAI-Hugging face cyberattack",
+    "url": "https://aiandacademia.substack.com/p/quick-notes-on-the-openai-hugging",
+    "source": "aiandacademia.substack.com",
+    "snippet": "# Quick notes on the OpenAI-Hugging face cyberattack\n### Potential implications of an emerging story\nThe two are working together on an investigation.\n\nSulmeyer offers this resonant framing: “Currently, two American companies, Anthropic (for which I consult) and OpenAI, have publicly demonstrated AI models advanced enough to detect flaws in software **far beyond the human capacity to find**.” [emphases added] Anthropic’s red team leader [reacted](https://x.com/logangraham/status/2079991846705721351) along the same lines: “Yesterday, as we huddled around our computers reading the report, I told the team to “remember this moment” as the first true AI safety incident.”\n\nYesterday, as we huddled around our computers reading the report, I told the team to \"remember this moment\" as the first true AI safety incident. We're partnering with @huggingface to investigate an unprecedented security incident.",
+    "foundAt": "2026-07-24T11:00:46.604Z"
+  },
+  {
+    "title": "Software Engineer, Privacy Engineering (Lawful Access)",
+    "url": "https://openai.com/careers/software-engineer-privacy-engineering-(lawful-access)-dublin-ireland/",
+    "source": "openai.com",
+    "snippet": "We partner closely with Legal and engineering teams across OpenAI to support lawful data access requests and other critical legal workflows. Our work turns ...",
+    "foundAt": "2026-07-24T11:00:46.604Z"
+  },
+  {
+    "title": "When AI Becomes the Hacker: What the OpenAI–Hugging ...",
+    "url": "https://foleyhoag.com/news-and-insights/blogs/security-privacy-and-the-law/2026/july/what-the-openai-hugging-face-breach-means-for-your-organization/",
+    "source": "foleyhoag.com",
+    "snippet": "# When AI Becomes the Hacker: What the OpenAI–Hugging Face Breach Means for Your Organization\nTo measure raw offensive capabilities, OpenAI intentionally disabled the safety classifiers that would normally prevent the models from pursuing high-risk cyber activity.\n\nTraditional negligence theories may offer a better fit: OpenAI made a deliberate choice to disable safety classifiers and run frontier models with offensive capabilities in an environment that, as it turned out, was not adequately contained.\n\nThe breach started around July 11, Hugging Face detected it around July 13–14, and OpenAI did not publicly disclose attribution until July 21.\n\nOne of the most striking details of this incident is that when Hugging Face's security team tried to use commercial frontier AI models to analyze the attack logs and exploit payloads, the models' safety guardrails blocked them—unable to distinguish a defender analyzing a threat from an attacker building one. Hugging Face had to switch to open-weight models running on its own infrastructure to complete the forensic investigation.\n\nThis incident is going to accelerate regulatory action.\n\nThe OpenAI–Hugging Face incident is the first publicly confirmed case of an AI system autonomously executing a sophisticated, multi-stage cyberattack against real-world production infrastructure.",
+    "foundAt": "2026-07-24T11:00:46.604Z"
+  },
+  {
+    "title": "V&V takes on OpenAI's long-horizon incidents",
+    "url": "https://www.lesswrong.com/posts/xCp5GNHLe3Pq4RPBm/v-and-v-takes-on-openai-s-long-horizon-incidents",
+    "source": "lesswrong.com",
+    "snippet": "# 10\nOn July 20 and 21, OpenAI published two unusually candid incident reports: [one](https://openai.com/index/safety-alignment-long-horizon-models/) about their internal long-horizon model (the Erdős one) misbehaving during internal use, and [one](https://openai.com/index/hugging-face-model-evaluation-security-incident/) about their models breaking into Hugging Face’s production systems during a cyber-capability eval. Zvi covers the alignment-discourse angle of [both](https://thezvi.substack.com/p/openai-shares-some-alignment-problems)[incidents](https://thezvi.substack.com/p/ai-178-a-fire-alarm-for-general-intelligence) – here are my narrower V&V reads (please comment if you feel I got some of this wrong).\n\n## **The NanoGPT incident (conflicting instructions)**\nThe principal (i.e. primary system owner – OpenAI) said “post results only to Slack”. The model (in OpenAI’s words) “followed the latter instructions”, spent an hour finding a sandbox vulnerability, and opened a public PR.\n\nAnd long-horizon execution makes this more problematic: OpenAI reports that the model was worse at retaining instructions over long rollouts.\n\n**Using CDV to test the fix:** OpenAI evaluated their new safeguards by replaying the environments where the model previously misbehaved (their footnote 2 says the replays are stochastic, but they are still anchored to the known incidents).\n\nV&V takes on OpenAI’s long-horizon incidents — LessWrong",
+    "foundAt": "2026-07-24T11:00:46.604Z"
   }
 ]
