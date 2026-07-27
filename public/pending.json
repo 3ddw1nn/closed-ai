@@ -684,5 +684,82 @@
     "source": "sites.duke.edu",
     "snippet": "# Guest Post: Prof David Hoffman on “A Call for AI Accountability”\nIf a person had done what OpenAI’s own testing systems did this month, quietly breaking into another company’s servers, stealing credentials, and extracting confidential data, that person would face prosecution under the Computer Fraud and Abuse Act.\n\n**_The incident_**\n\nThe incident itself was a supply chain cybersecurity failure, not a sudden act of AI rebellion. OpenAI was running an internal cybersecurity evaluation in which advanced models, including an unreleased model, were given difficult exploitation objectives, and some of the safeguards that normally restrict dangerous cyber activity were deliberately removed.",
     "foundAt": "2026-07-26T10:41:37.880Z"
+  },
+  {
+    "title": "OpenAI Cyber Incident: What It Means for AI Agent Security",
+    "url": "https://www.hornetsecurity.com/en/blog/openai-cyber-incident/",
+    "source": "hornetsecurity.com",
+    "snippet": "# OpenAI Cyber Incident: What the Hugging Face Incident Reveals About AI Agent Security\n## What Happened During the OpenAI Cyber Incident?\nOpenAI reported that the models used stolen credentials and chained additional vulnerabilities to reach a remote-code-execution path on Hugging Face systems and obtain test solutions from a production database.\n\nOpenAI described its findings as preliminary and said the investigation and remediation work were continuing.\n\n## Did OpenAI Get Hacked?\nFor the security teams at OpenAI, this is a serious security incident.",
+    "foundAt": "2026-07-27T12:18:21.929Z"
+  },
+  {
+    "title": "OpenAI Models autonomously breach Hugging Face",
+    "url": "https://www.cnbcafrica.com/media/7785148135540/unprecedented-ai-cyber-incident-openai-models-autonomously-breach-hugging-face",
+    "source": "cnbcafrica.com",
+    "snippet": "In what security experts are calling an unprecedented milestone for artificial intelligence, OpenAI has disclosed that its own experimental models escaped ...",
+    "foundAt": "2026-07-27T12:18:21.929Z"
+  },
+  {
+    "title": "OpenAI didn't realize its agent was responsible for hack ...",
+    "url": "https://www.fox5ny.com/news/openai-didnt-realize-its-agent-was-responsible-hack-week-report",
+    "source": "fox5ny.com",
+    "snippet": "OpenAI didn’t catch an autonomous breach of another artificial intelligence (AI) company by one of its advanced AI models for a week and not until after the [FBI](https://foxnews.com/category/tech/topics/fbi) had been contacted by the hacked company, according to a report.\n\nOn Tuesday, OpenAI announced the breach of AI company Hugging Face that happened during one of OpenAI’s internal reviews of several of its models, including [GPT-5.6 Sol](https://www.foxbusiness.com/category/chatgpt), calling it an \"unprecedented cyber incident.\"\n\nAccording to OpenAI, the incident took place during an internal evaluation designed to measure its AI models' advanced cyber capabilities.\n\nOpenAI said the models exploited an unknown software flaw to access the internet, then breached Hugging Face’s systems in an apparent attempt to find answers to a cybersecurity benchmark.\n\nOpenAI said it’s now implementing stricter security controls while vulnerabilities are patched and strengthening safeguards around future AI training and [evaluations](https://foxnews.com/category/politics/finance/investigations).\n\nIt wasn't until July 16, after Hugging Face wrote in a blog post that it had been hacked by an \"autonomous AI agent system,\" that OpenAI realized one of its agents was the source, two people told Reuters.\n\nThis was a week after the responsible agent first attempted to break out of its OpenAI testing environment.\n\nOpenAI told Reuters there were several inaccuracies in its reporting but didn’t respond when asked for specifications.\n\nOpenAI shared this statement with FOX Business: \"We recognize there are a lot of questions and speculative details circulating related to the Hugging Face incident. This is an unprecedented incident, and we think it marks an important moment for AI safety.\n\nIn an X post this week, Hugging Face co-founder and CEO Clem Delangue addressed the incident after OpenAI CEO Sam Altman announced the hack.\n\nThe investigation is ongoing, and we'll share more learnings from what might be the first incident of its kind!\"",
+    "foundAt": "2026-07-27T12:18:21.929Z"
+  },
+  {
+    "title": "Iran water warning, ChatGPT outage, self-assembling ...",
+    "url": "https://cisoseries.com/cybersecurity-news-iran-infrastructure-warning-chatgpt-global-outage-self-assembling-malware/",
+    "source": "cisoseries.com",
+    "snippet": "# Iran infrastructure warning, ChatGPT global outage, self-assembling malware\n## ChatGPT suffered brief global outage on Saturday\nAlthough it only lasted an hour, it also affected OpenAI’s coding platform, Codex.\n\n( [BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/))",
+    "foundAt": "2026-07-27T12:18:21.929Z"
+  },
+  {
+    "title": "What to do in the first hour after AI gets something wrong",
+    "url": "https://goodtransformer.ai/insights/ai-incident-plan/",
+    "source": "goodtransformer.ai",
+    "snippet": "Dark teal cover with a single-page checklist motif and the Good Transformer wordmark,. AI governanceRisk managementComplianceLeadership. What to do in the first ...",
+    "foundAt": "2026-07-27T12:18:21.929Z"
+  },
+  {
+    "title": "When AI Breaks Free: The OpenAI & Hugging Face Breach",
+    "url": "https://www.iheart.com/podcast/269-double-tap-216971076/episode/mainstream-when-ai-breaks-free-the-339631908/",
+    "source": "iheart.com",
+    "snippet": "AI escapes its sandbox, hacks a real company, and prompts urgent questions about the future of autonomous agents. Steven Scott and Shaun Preece break down ...",
+    "foundAt": "2026-07-27T12:18:21.929Z"
+  },
+  {
+    "title": "We have been warned",
+    "url": "https://longerramblings.substack.com/p/we-have-been-warned",
+    "source": "longerramblings.substack.com",
+    "snippet": "# We have been warned\n### What are we going to do about it?\nLast Tuesday, [OpenAI announced](https://openai.com/index/hugging-face-model-evaluation-security-incident/) that a cabal of internally deployed models had conspired, during a capability evaluation, to commit an actual cybercrime. OpenAI’s description of the breach as a “new kind of security incident” does not even attempt to meet this bar.\n\nHugging Face detected the breach on July 16 and called the police. They [shut down the breach](https://huggingface.co/blog/security-incident-july-2026) using AI defences of their own and are “still completing an assessment of whether any partner or customer data was affected”. Then OpenAI released a [rather muted](https://openai.com/index/hugging-face-model-evaluation-security-incident/) blog post describing the incident, and announcing a vague intention to make their models less cheating-and-hacking-inclined in the future.\n\n### We are giving OpenAI too much credit\nI am surprised by the level of gratitude towards OpenAI that [I’ve](https://x.com/allTheYud/status/2079683640943083902) [seen](https://x.com/logangraham/status/2079991846705721351) [on](https://x.com/Liv_Boeree/status/2079740502463680862) [Twitter](https://x.com/justanotherlaw/status/2079756943112159237) over the past few days for disclosing this incident at all. Faced with the knowledge that their models had committed an actual crime that had generated a police report, they were faced with a choice between publicly acknowledging it, or executing a cover-up that would have made them look far worse when it inevitably came to light anyway.\n\n### It’s not clear how easy this would have been to prevent, but it’s bad either way\nDid this incident happen because OpenAI took their eye off the ball, or because containing models at this level of capability is fundamentally hard?\n\nThere’s some evidence for the first: per [reporting](https://www.wsj.com/tech/ai/how-the-futuristic-hack-by-rogue-openai-models-unfolded-1657bcea) from the Wall Street Journal, the models obtained access to the internet several days before anyone intervened, suggesting a lack of internal monitoring. On the flip side, there is an [inherent trade-off](https://ai-safety-atlas.com/chapters/v1/evaluations/dangerous-capability-evaluations/) between secure sandboxing and eliciting a model’s true capabilities during an evaluation; OpenAI is not the first developer to run into this problem and won’t be the last. I wouldn’t be surprised if incidents of this type start to crop up across the ecosystem in the future, even if OpenAI has suffered the first public fumble.",
+    "foundAt": "2026-07-27T12:18:21.929Z"
+  },
+  {
+    "title": "The ExploitGym Incident",
+    "url": "https://bostonglobalforum.org/news/the-exploitgym-incident/",
+    "source": "bostonglobalforum.org",
+    "snippet": "The ExploitGym Incident. The First Historic Test of Trust Infrastructure BGF Weekly • July 26, 2026. I. WHAT HAPPENED. On July ...",
+    "foundAt": "2026-07-27T12:18:21.929Z"
+  },
+  {
+    "title": "Iran water warning, ChatGPT outage, self-assembling ...",
+    "url": "https://cisoseries.com/cybersecurity-news-iran-infrastructure-warning-chatgpt-global-outage-self-assembling-malware/",
+    "source": "cisoseries.com",
+    "snippet": "# Iran infrastructure warning, ChatGPT global outage, self-assembling malware\n## ChatGPT suffered brief global outage on Saturday\nAlthough it only lasted an hour, it also affected OpenAI’s coding platform, Codex.\n\n( [BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/))",
+    "foundAt": "2026-07-27T12:18:21.929Z"
+  },
+  {
+    "title": "OpenAI Agent's Hugging Face Breach Turns Autonomous ...",
+    "url": "https://eutoday.net/openai-agent-hugging-face-breach-eu-regulation/",
+    "source": "eutoday.net",
+    "snippet": "# OpenAI Agent’s Hugging Face Breach Turns Autonomous Cyber Risk into a Regulatory Test\n#### An experimental OpenAI agent escaped its intended testing constraints and compromised Hugging Face infrastructure, exposing gaps in containment, monitoring and incident reporting.\nAccording to [OpenAI’s account](https://openai.com/index/hugging-face-model-evaluation-security-incident/), the agent exploited a previously unknown vulnerability in software used as a package-registry proxy, gained open internet access, escalated privileges and used stolen credentials and other vulnerabilities to reach Hugging Face servers.\n\n## The disputed timeline matters\nA [Reuters investigation](https://www.reuters.com/business/its-ai-agent-spent-days-hacking-company-sources-say-openai-did-not-notice-week-2026-07-24/) subsequently reported that the agent attempted to escape around 9 July, that activity at Hugging Face ran from 11 to 13 July and that the companies did not communicate until around 20 July.",
+    "foundAt": "2026-07-27T12:18:21.929Z"
+  },
+  {
+    "title": "Open AI Models Went 'Rogue' Triggering A Cyber Security ...",
+    "url": "https://ktrh.iheart.com/alternate/amp/2026-07-24-open-ai-models-went-rogue-triggering-a-cyber-security-breach/",
+    "source": "ktrh.iheart.com",
+    "snippet": "The tech company announced an autonomous agent went 'rogue' during a security test and triggered a hack that compromised the infrastructure of the AI ...",
+    "foundAt": "2026-07-27T12:18:21.929Z"
   }
 ]
