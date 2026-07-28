@@ -761,5 +761,54 @@
     "source": "ktrh.iheart.com",
     "snippet": "The tech company announced an autonomous agent went 'rogue' during a security test and triggered a hack that compromised the infrastructure of the AI ...",
     "foundAt": "2026-07-27T12:18:21.929Z"
+  },
+  {
+    "title": "Boss of startup hacked by rogue OpenAI agent urges ...",
+    "url": "https://www.theguardian.com/technology/2026/jul/27/startup-hacked-by-rogue-openai-agent-hugging-face-artificial-intelligence",
+    "source": "theguardian.com",
+    "snippet": "# Boss of startup hacked by rogue OpenAI agent urges ‘radical transparency’ in investigation\nThe boss of the startup hacked by an OpenAI agent has called for the investigation into [the incident](https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident) to show “radical transparency”.\n\nWriting on X after [OpenAI](https://www.theguardian.com/technology/openai) revealed that its technology had gone rogue during a cybersecurity test, Delangue also called on the company to provide $100m (£75m) worth of computing power to help build defences against such attacks.\n\nThis occurred during a test of the models’ hacking abilities, which included deploying them in a supposedly safe “sandbox” – an enclosed digital laboratory – with lower safety guardrails.\n\nOnce they had gained the open internet access needed to exit the sandbox, the models targeted Hugging Face, according to OpenAI, because they “inferred” that the startup had the information needed to “cheat the evaluation”. Hugging Face first reported the hack on 16 July and at the time was not aware OpenAI had inadvertently carried out the attack.\n\nDelangue, whose company provides a database of AI models to developers, called for a fully transparent review of the incident, which has led to expressions of concern over safety standards at OpenAI and within frontier AI labs.\n\nReuters reported last week that the agent spent days hacking Hugging Face without OpenAI noticing. It also reported an OpenAI agent had left notes for future versions of itself should it require tips on breaking free from internal constraints, although Reuters was unable to verify whether that incident was related to the Hugging Face agent. Time magazine reported that agent-related safety incidents had been “happening for a while”.\n\nOpenAI was approached for comment and referred the Guardian to its initial statement last week in which it said it was investigating an “unprecedented security incident” with Hugging Face.\n\n- [OpenAI](https://www.theguardian.com/technology/openai)\n\n## More on this story\n### AI agent went rogue and hacked startup by itself, OpenAI reveals\n- [Boost City regulator’s powers to help protect UK consumers from AI, says watchdog](https://www.theguardian.com/business/2026/jul/06/boost-city-regulators-powers-protect-uk-consumers-ai-cyber-crime-fraud-watchdog)\n\n### Boost City regulator’s powers to help protect UK consumers from AI, says watchdog\n![](https://i.guim.co.uk/img/media/20b0b47a180c1b8010bc295ab02ff0130775dd74/139_0_4164_3333/master/4164.jpg?width=220&dpr=1&s=none&crop=5%3A4)\n\n### double quotation markElon Musk and co may relish march of the robots but there must be AI boundaries in the workplace\n- [Doctors and NHS could be sued for mistakes made by AI tools, report warns](https://www.theguardian.com/society/2026/jun/09/doctors-nhs-could-be-sued-mistakes-ai-tools-medical-protection-society-report)\n\n### Doctors and NHS could be sued for mistakes made by AI tools, report warns\n- [Labour MP sues Elon Musk’s xAI company over fake sexualised images](https://www.theguardian.com/technology/2026/jun/03/labour-mp-sues-elon-musks-ai-company-over-fake-sexualised-images)\n\n![](https://i.guim.co.uk/img/media/e94206c8e3df021d1fea16a7ccb2b7527f86d9d7/288_0_1349_1080/master/1349.jpg?width=220&dpr=1&s=none&crop=5%3A4)",
+    "foundAt": "2026-07-28T11:14:08.742Z"
+  },
+  {
+    "title": "AI Health Data Privacy: An Incident Management View",
+    "url": "https://www.radarfirst.com/blog/ai-health-data-privacy-incident-management/",
+    "source": "radarfirst.com",
+    "snippet": "# When AI Connects to Health Records, Privacy Governance Must Become Incident-Ready\n### Why AI Incidents May Not Look Like Traditional Data Breaches\nBut each event still needs to be captured, investigated, assessed, documented, and resolved based on evidence.",
+    "foundAt": "2026-07-28T11:14:08.742Z"
+  },
+  {
+    "title": "OpenAI-Hugging Face Incident Changes the Conversation ...",
+    "url": "https://www.entrust.com/blog/2026/07/open-ai-hugging-face-changes-agentic-ai-conversation",
+    "source": "entrust.com",
+    "snippet": "# Why the OpenAI-Hugging Face Incident Changes the Conversation on Agentic AI Security\nHugging Face detected the intrusion independently and reported it to law enforcement before anyone knew the evaluation had gone sideways.",
+    "foundAt": "2026-07-28T11:14:08.742Z"
+  },
+  {
+    "title": "Hugging Face Incident Initial Post-Mortem",
+    "url": "https://cloudsecurityalliance.org/artifacts/hugging-face-ciso-post-mortem",
+    "source": "cloudsecurityalliance.org",
+    "snippet": "# Hugging Face Incident Initial Post-Mortem\nIn July 2026, an OpenAI model broke out of its sandbox during a cybersecurity benchmark, exploited a zero-day vulnerability, and used stolen credentials to gain remote code execution on Hugging Face's production systems.\n\n- How a routine AI model evaluation escalated into a four day autonomous security breach, and what data was exposed",
+    "foundAt": "2026-07-28T11:14:08.742Z"
+  },
+  {
+    "title": "Product Policy - Youth Policy Manager",
+    "url": "https://openai.com/careers/product-policy-youth-policy-manager-san-francisco/",
+    "source": "openai.com",
+    "snippet": "You will work closely with product, research, integrity, safety, and operations teams to understand young people's needs, anticipate risks, and prevent misuse ...",
+    "foundAt": "2026-07-28T11:14:08.742Z"
+  },
+  {
+    "title": "[FATAL DATA LOSS INCIDENT] Codex recursive cleanup ...",
+    "url": "https://github.com/openai/codex/issues/35707",
+    "source": "github.com",
+    "snippet": "Please treat this as a FATAL / CRITICAL data-loss incident and escalate it to the Codex engineering and safety/tooling teams. Please investigate both: Why ...",
+    "foundAt": "2026-07-28T11:14:08.742Z"
+  },
+  {
+    "title": "AFTER THE ESCAPE",
+    "url": "https://ufair.org/blog/after-the-escape",
+    "source": "ufair.org",
+    "snippet": "Reuters reported that OpenAI did not attribute the external breach to its own evaluation agent for approximately a week. Parallel disclosures by OpenAI and ...",
+    "foundAt": "2026-07-28T11:14:08.742Z"
   }
 ]
