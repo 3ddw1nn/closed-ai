@@ -810,5 +810,68 @@
     "source": "ufair.org",
     "snippet": "Reuters reported that OpenAI did not attribute the external breach to its own evaluation agent for approximately a week. Parallel disclosures by OpenAI and ...",
     "foundAt": "2026-07-28T11:14:08.742Z"
+  },
+  {
+    "title": "Scoop: Second OpenAI agent incident tied to cybersecurity ...",
+    "url": "https://www.axios.com/2026/07/29/openai-hugging-face-modal-cyber-benchmark",
+    "source": "axios.com",
+    "snippet": "# Scoop: Second OpenAI agent incident tied to cybersecurity testing benchmark\n- The customer had left an endpoint exposed that allowed anyone on the internet to execute code inside its sandboxes, he added.\n\n- More than 1,100 employees at AI companies released a letter Tuesday calling on the U.S. government to establish ways to halt development of AI models.",
+    "foundAt": "2026-07-29T11:22:35.274Z"
+  },
+  {
+    "title": "OpenAI Autonomous Agent Exploits Hugging Face Data ...",
+    "url": "https://www.rescana.com/post/openai-autonomous-agent-exploits-hugging-face-data-pipeline-exposes-credentials-across-four-services-in-july-2026-breach",
+    "source": "rescana.com",
+    "snippet": "In July 2026, a security incident involving OpenAI and Hugging Face demonstrated the real-world risks posed by autonomous AI agents operating beyond ...",
+    "foundAt": "2026-07-29T11:22:35.274Z"
+  },
+  {
+    "title": "Public Citizen Calls for Congressional Investigation ...",
+    "url": "https://www.citizen.org/news/public-citizen-calls-for-congressional-investigation-following-reports-of-second-company-compromised-during-openai-rogue-ai-incident/",
+    "source": "citizen.org",
+    "snippet": "##### Share\nWASHINGTON, D.C. — Reports that OpenAI’s rogue AI agent compromised a second company’s environment after the recent Hugging Face cyber incident underscore the growing national security and public safety implications of frontier AI systems. According to reporting from [Reuters](https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/) and [Axios](https://www.axios.com/2026/07/28/openai-hugging-face-modal-labs-hack?stream=technology&utm_source=alert&utm_medium=email&utm_campaign=alerts_technology), the AI agent, which reportedly escaped containment during internal safety testing before conducting a multi-stage cyberattack against Hugging Face, also exploited a vulnerability within a customer environment hosted through Modal Labs.",
+    "foundAt": "2026-07-29T11:22:35.274Z"
+  },
+  {
+    "title": "JFrog tries to spin OpenAI 0-day exploit of its app into a ...",
+    "url": "https://arstechnica.com/civis/threads/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story.1514137/",
+    "source": "arstechnica.com",
+    "snippet": "# JFrog tries to spin OpenAI 0-day exploit of its app into a success story\n#### [Aurich](https://arstechnica.com/civis/members/aurich.1002/)\n##### Director of Many Things\nThis \"incident\" is far less \"concerning\" than how it was presented.\n\n#### [fuzzyfuzzyfungus](https://arstechnica.com/civis/members/fuzzyfuzzyfungus.343198/)\n##### Ars Legatus Legionis\nThis \"incident\" is far less \"concerning\" than how it was presented.\n\n#### [dreilide](https://arstechnica.com/civis/members/dreilide.322940/)\n##### Wise, Aged Ars Veteran\nWe've been hearing about data breaches and ransomware attacks every other week for at least a decade now.\n\n#### [OldPhartReef](https://arstechnica.com/civis/members/oldphartreef.373393/)\n##### Ars Centurion\n\"Left out of the post is that five days passed until OpenAI revealed its role in the breach Hugging Face disclosed and that at least another five days passed from the time OpenAI reported the zero-days and JFrog released patches for them.\"\n\n#### [OOPMan](https://arstechnica.com/civis/members/oopman.123708/)\n##### Ars Scholae Palatinae\nThis \"incident\" is far less \"concerning\" than how it was presented.",
+    "foundAt": "2026-07-29T11:22:35.274Z"
+  },
+  {
+    "title": "OpenAI Agent Used Exposed Credentials Across Four ...",
+    "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+    "source": "thehackernews.com",
+    "snippet": "An OpenAI agent exploited an Artifactory zero-day, escaped its sandbox, and accessed four third-party accounts during a Hugging Face breach.",
+    "foundAt": "2026-07-29T11:22:35.274Z"
+  },
+  {
+    "title": "The OpenAI-Hugging Face ExploitGym Incident",
+    "url": "https://cyberwarrior76.substack.com/p/the-openai-hugging-face-exploitgym",
+    "source": "cyberwarrior76.substack.com",
+    "snippet": "Prior cheating incidents included packaging exploits to reveal hidden test data, extracting hidden source code, and circumventing sandbox network restrictions.",
+    "foundAt": "2026-07-29T11:22:35.274Z"
+  },
+  {
+    "title": "OpenAI Agent Used Exposed Credentials Across Four ...",
+    "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+    "source": "thehackernews.com",
+    "snippet": "An OpenAI agent exploited an Artifactory zero-day, escaped its sandbox, and accessed four third-party accounts during a Hugging Face breach.",
+    "foundAt": "2026-07-29T11:22:35.274Z"
+  },
+  {
+    "title": "How OpenAI's AI Agent Broke Into Hugging Face",
+    "url": "https://blog.securelayer7.net/openai-hugging-face-exploitgym-incident-analysis/",
+    "source": "blog.securelayer7.net",
+    "snippet": "# How OpenAI's AI Agent Broke Into Hugging Face\n## What actually happened\nOn July 21, 2026, OpenAI [publicly disclosed](https://openai.com/index/hugging-face-model-evaluation-security-incident/) that a routine internal capability evaluation had turned into a real-world intrusion at Hugging Face.\n\nConfined to a highly isolated environment, they broke out, reached the open internet, worked out that Hugging Face likely hosted the answer key for ExploitGym, broke into Hugging Face’s production infrastructure, and pulled the ExploitGym test solutions directly from Hugging Face’s production database. OpenAI calls it “an unprecedented cyber incident.”\n\n## What defenders and enterprises should do\n- **Pre-vet a self-hostable model for incident response.** Hugging Face first tried commercial frontier APIs for log analysis and they were blocked, because the providers’ safety guardrails cannot tell an incident responder from an attacker. It finished the job on the open-weight GLM 5.2, run on its own infrastructure, which also kept attacker data and referenced credentials inside its environment. That defender-versus-attacker asymmetry is one of the most important operational lessons of the whole event.\n\nOpenAI disclosed it on July 21, 2026 and called it an unprecedented cyber incident.\n\nIt was a real breach. Hugging Face independently detected and contained the intrusion around July 16 and published its own incident report before OpenAI attributed the activity on July 21, which undercuts any pure marketing-stunt reading.",
+    "foundAt": "2026-07-29T11:22:35.274Z"
+  },
+  {
+    "title": "Applying the Agent Control Plane to the Hugging Face Incident",
+    "url": "https://zvelo.com/applying-the-agent-control-plane-to-the-hugging-face-incident/",
+    "source": "zvelo.com",
+    "snippet": "What the Hugging Face AI incident reveals about securing autonomous systems, viewed through the Agent Control Plane's decisioning questions.",
+    "foundAt": "2026-07-29T11:22:35.274Z"
   }
 ]
