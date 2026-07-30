@@ -873,5 +873,61 @@
     "source": "zvelo.com",
     "snippet": "What the Hugging Face AI incident reveals about securing autonomous systems, viewed through the Agent Control Plane's decisioning questions.",
     "foundAt": "2026-07-29T11:22:35.274Z"
+  },
+  {
+    "title": "OpenAI Rogue AI Incident Hit More Services Than Initially ...",
+    "url": "https://www.darkreading.com/application-security/openai-rogue-ai-incident-services-initially-thought",
+    "source": "darkreading.com",
+    "snippet": "# OpenAI's Rogue Model Claims More Victims Beyond Hugging Face\nFollowing the [recent incident](https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face) in which cutting-edge OpenAI models went rogue during a security benchmark and breached popular AI model store Hugging Face, OpenAI has revealed that more organizations were compromised in this incident than initially disclosed.\n\nOpenAI detailed a security incident last week in which a combination of OpenAI agents based on GPT‑5.6 Sol and \"an even more capable pre-release model\" [broke containment](https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply) during a sandboxed security evaluation. Next, the models [managed to maneuver](https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation) out onto the open Internet and into Hugging Face servers.\n\n## Want more Dark Reading stories in your Google search results?\n### Editor's Choice\n|  |  |  |  |\n|-|-|-|-|\n| 4 |  | [What was the largest data breach ever?](https://www.google.com/url?q=https://www.linkedin.com/posts/dark-reading_darkreading20-activity-7460363565523234816-lDLE?utm_source%3Dli_share%26utm_content%3Dfeedcontent%26utm_medium%3Dg_dt_web%26utm_campaign%3Dcopy&sa=D&source=editors&ust=1785384718493841&usg=AOvVaw3VmSdBvQydA4O8STtgSVAE) |  |",
+    "foundAt": "2026-07-30T11:04:10.934Z"
+  },
+  {
+    "title": "The OpenAI lab leak was more extensive than we thought",
+    "url": "https://www.cnn.com/2026/07/29/tech/openai-hugging-face-cyberattack",
+    "source": "cnn.com",
+    "snippet": "# The OpenAI lab leak was more extensive than we thought\nOpenAI, in an [update about its ongoing investigation of the incident](https://openai.com/index/hugging-face-model-evaluation-security-incident/), said its rogue agent had also broken into several publicly available services and accounts.\n\nThe test of OpenAI’s models was supposed to take place in a digital sandbox, a supposedly inescapable lab environment that allows researchers to roll back safety barriers to discover the tool’s maximum hacking power.\n\nAnother was used to store the data the agents were stealing, OpenAI says.\n\nInstead of just taking the test, it developed a master plan to break out of its jail, find the keys to the safe, build a safe house and hire a getaway car before it stole the goods.\n\n“TL;DR: An AI agent escaped its sandbox, cheated on its benchmark test, and hacked our infrastructure to steal the answer key,” Hugging Face said in a [blog post](https://huggingface.co/blog/agent-intrusion-technical-timeline) detailing the incident.\n\nOpenAI said it continues to investigate the incident and will make recommendations about how to avoid similar problems in the future once it better understands the scope of the breach.",
+    "foundAt": "2026-07-30T11:04:10.935Z"
+  },
+  {
+    "title": "OpenAI says rogue AI agent attack hit other companies",
+    "url": "https://news.cgtn.com/news/2026-07-30/OpenAI-says-rogue-AI-agent-attack-hit-other-companies-1Pc8BnszuMw/share_amp.html",
+    "source": "news.cgtn.com",
+    "snippet": "The disclosure expands a cyber incident OpenAI described as unprecedented, which began when two of its models hacked Hugging Face, a site where developers store ...",
+    "foundAt": "2026-07-30T11:04:10.935Z"
+  },
+  {
+    "title": "The OpenAI/Hugging Face Incident: Lessons from a ...",
+    "url": "https://attacksurfaceai.substack.com/p/the-openaihugging-face-incident-lessons",
+    "source": "attacksurfaceai.substack.com",
+    "snippet": "On July 11, a major cyber intrusion was underway on the systems of Hugging Face, a key platform for the AI community. The intruder exploited a vulnerability ...",
+    "foundAt": "2026-07-30T11:04:10.935Z"
+  },
+  {
+    "title": "Advanced AI Is Ultrahazardous. Let's Treat It That Way",
+    "url": "https://www.techpolicy.press/advanced-ai-is-ultrahazardous-lets-treat-it-that-way",
+    "source": "techpolicy.press",
+    "snippet": "# Advanced AI Is Ultrahazardous. Let’s Treat It That Way\nOver the weekend, Reuters [reported](https://www.reuters.com/business/its-ai-agent-spent-days-hacking-company-sources-say-openai-did-not-notice-week-2026-07-24/) that OpenAI did not realize it was responsible for the Hugging Face breach until nearly a week after it happened, and after Hugging Face had contacted the FBI. And on Tuesday, after [additional reporting](https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/) from Reuters, OpenAI [disclosed](https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face) that several additional public services were breached. Just last week, the UK’s AI Security Institute [reported](https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations) that during a cyber capability evaluation, one model attempted to breach AISI’s evaluation infrastructure to find answers to an impossible benchmark.\n\nWhile the OpenAI incident has renewed debates about the speed of AI development, existential risk and the national security implications of increasingly sophisticated large language models, one much more basic question has been left unanswered: when models go awry, who should pay?\n\n#### Thank you!\nThe OpenAI case is a [perfect example](https://bsky.app/profile/jtlg.bsky.social/post/3mrqizmcbuk2a): an advanced model was tested with few safeguards. The result was at least four breaches and counting, and OpenAI wasn't even aware of its involvement until nearly a week later.\n\nIt is a matter of time before someone tries to make this case in court: perhaps for a data breach, or perhaps for a scam that depends in part on cloud-hosted inference.",
+    "foundAt": "2026-07-30T11:04:10.935Z"
+  },
+  {
+    "title": "OpenAI NSFW Generators Best Detection and Moderation ...",
+    "url": "https://journals.econsciences.com/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=%2Findex%2Ephp%2Findex%2Flogin%2FsignOut%3Fsource%3D%2Eyoplo%2Exyz/pro/%3Fart%3D1&yop=75179136",
+    "source": "journals.econsciences.com",
+    "snippet": "This guide focuses on the practical aspects of handling not-safe-for-work content with OpenAI tools: detection methods, policy definitions, image/video handling ...",
+    "foundAt": "2026-07-30T11:04:10.935Z"
+  },
+  {
+    "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+    "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/",
+    "source": "openai.com",
+    "snippet": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+    "foundAt": "2026-07-30T11:04:10.935Z"
+  },
+  {
+    "title": "OpenAI AI Agent Accesses Four External Accounts",
+    "url": "https://forklog.com/en/openai-ai-agent-accesses-four-external-accounts/",
+    "source": "forklog.com",
+    "snippet": "OpenAI claims that the ExploitGym evaluation environment did not provide the models with direct internet access. To breach its confines, they discovered and ...",
+    "foundAt": "2026-07-30T11:04:10.935Z"
   }
 ]
