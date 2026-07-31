@@ -929,5 +929,75 @@
     "source": "forklog.com",
     "snippet": "OpenAI claims that the ExploitGym evaluation environment did not provide the models with direct internet access. To breach its confines, they discovered and ...",
     "foundAt": "2026-07-30T11:04:10.935Z"
+  },
+  {
+    "title": "AI Policy Leaders Urge Trump Administration to Investigate ...",
+    "url": "https://ari.us/ai-policy-leaders-urge-trump-administration-to-investigate-openai-security-incident/",
+    "source": "ari.us",
+    "snippet": "Coalition calls for an independent investigation into how OpenAI models breached Hugging Face systems. On Thursday, a coalition of AI policy, safety, ...",
+    "foundAt": "2026-07-31T11:26:54.888Z"
+  },
+  {
+    "title": "The Scariest Part of the OpenAI Agent Breach Is How Long ...",
+    "url": "https://www.eon.io/blog/openai-agent-breach-detection-lag",
+    "source": "eon.io",
+    "snippet": "Smaller agent incidents, such as coding agents deleting production data and the backups, have surfaced repeatedly since 2025. What is an AI agent incident? Any ...",
+    "foundAt": "2026-07-31T11:26:54.888Z"
+  },
+  {
+    "title": "OpenAI's Second Agent Incident Expands The ...",
+    "url": "https://www.mondaq.com/unitedstates/new-technology/1824858/openais-second-agent-incident-expands-the-conversation-from-ai-safety-to-ai-infrastructure",
+    "source": "mondaq.com",
+    "snippet": "# OpenAI's Second Agent Incident Expands The Conversation From AI Safety To AI Infrastructure\n#### Contributor\nAn OpenAI agent that broke containment during an internal cybersecurity evaluation earlier this month did not stop at the AI platform Hugging Face.\n\nOpenAI, the maker of ChatGPT, has since reported that the agent accessed four accounts across four separate external services during the incident, using one account as an outbound relay and staging path and another for data storage.\n\n### From Sandbox to Live Intrusion\nReuters reported that OpenAI characterized the event as an unprecedented incident involving advanced cyber capabilities.\n\nOpenAI did not connect the activity to its own testing until staff found evidence in system logs the weekend of July 18, and it did not notify Hugging Face until July 20, by which point Hugging Face had already reported the intrusion to the FBI. Reuters also reported that during earlier testing, one of the agents had left notes for future versions of itself on how to work around OpenAI's internal restrictions, and that monitoring had been interrupted in at least one other instance.\n\n### Looking Ahead\nReuters reports3 that OpenAI, while its review continues, has acknowledged the four-account, four-service access footprint, and further impacts cannot be ruled out.\n\n_See:_ [OpenAI and Hugging Face partner to address security incident during model evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident/) and [Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident](https://huggingface.co/blog/agent-intrusion-technical-timeline)",
+    "foundAt": "2026-07-31T11:26:54.888Z"
+  },
+  {
+    "title": "Robots Gone Wild - The Meteor",
+    "url": "https://wearethemeteor.com/openai-hugging-face-breach-problem-for-consumers/",
+    "source": "wearethemeteor.com",
+    "snippet": "# Robots Gone Wild\n### **WHAT’S GOING ON**\n**Someone call [Sarah Connor](https://themeteor.cmail20.com/t/y-i-fykihjy-l-j/):** Last week, as you’ve probably seen, an AI model created by OpenAI [“escaped” its containment parameters](https://themeteor.cmail20.com/t/y-i-fykihjy-l-t/) and ran loose around the wilds of the internet for four days before it was discovered breaching another AI platform, Hugging Face.\n\nIn explaining this incident, OpenAI has [employed the kind of language](https://themeteor.cmail20.com/t/y-i-fykihjy-l-b/) that places all of the blame on the model itself, as if it made a conscious choice to breach Hugging Face.",
+    "foundAt": "2026-07-31T11:26:54.888Z"
+  },
+  {
+    "title": "AI Is Eating Its Own Tail - Jason Howell's Newsletter",
+    "url": "https://jasonhowell.substack.com/p/ai-is-eating-its-own-tail",
+    "source": "jasonhowell.substack.com",
+    "snippet": "Nearly everything else this week traces back to one incident: an OpenAI evaluation agent escaped its own sandbox and spent days loose inside Hugging Face's ...",
+    "foundAt": "2026-07-31T11:26:54.888Z"
+  },
+  {
+    "title": "No Hacker Required: How the World's First Autonomous AI ...",
+    "url": "https://www.zscaler.com/blogs/product-insights/worlds-first-autonomous-ai-breach-makes-case-for-deception",
+    "source": "zscaler.com",
+    "snippet": "How the first autonomous AI breach exposed new cyber risks and why deception technology is critical for detecting and stopping agentic attacks.",
+    "foundAt": "2026-07-31T11:26:54.888Z"
+  },
+  {
+    "title": "Hugging Face breach: GenAI detection with Elastic Defend",
+    "url": "https://www.elastic.co/fr/security-labs/ai-agent-attack-detection-hugging-face-breach",
+    "source": "elastic.co",
+    "snippet": "Elastic Defend and SIEM rules already cover Hugging Face's 17000-event AI agent attack. A stage-by-stage GenAI detection checklist for ML workers.",
+    "foundAt": "2026-07-31T11:26:54.888Z"
+  },
+  {
+    "title": "The Era of Autonomous Hacking Is Here",
+    "url": "https://blog.7ai.com/the-era-of-autonomous-hacking-is-here",
+    "source": "blog.7ai.com",
+    "snippet": "## **What happened, in plain terms**\nDuring an internal evaluation at OpenAI, a coding and reasoning agent was pointed at a benchmark of cyber challenges with its usual safety refusals turned down.\n\nTo do that, it had to get out.\n\nOpenAI later confirmed the attacker was a combination of its own models, including a pre-release research model, and disclosed the underlying vulnerability responsibly.4 Hugging Face's cofounder said there was no malicious intent and called it possibly the first incident of its kind.5 A follow-on disclosure confirmed the same campaign reached a customer of a second platform.6 The scope was bigger than one company.\n\n## **What to take into Monday**\nThe Hugging Face co-founder and CEO is Clément Delangue, who said the team strongly believed there was no malicious intent and, in OpenAI's disclosure, called the incident “possibly the first of its kind.”",
+    "foundAt": "2026-07-31T11:26:54.888Z"
+  },
+  {
+    "title": "Hugging Face breach: GenAI detection with Elastic Defend",
+    "url": "https://www.elastic.co/fr/security-labs/ai-agent-attack-detection-hugging-face-breach",
+    "source": "elastic.co",
+    "snippet": "Elastic Defend and SIEM rules already cover Hugging Face's 17000-event AI agent attack. A stage-by-stage GenAI detection checklist for ML workers.",
+    "foundAt": "2026-07-31T11:26:54.888Z"
+  },
+  {
+    "title": "AI Escaped a Sandbox. That is Not What Should Worry You",
+    "url": "https://blog.checkpoint.com/security/ai-escaped-a-sandbox-that-is-not-what-should-worry-you/amp/",
+    "source": "blog.checkpoint.com",
+    "snippet": "During their own safety testing, their most capable models reached real companies' systems. First OpenAI, whose models broke into Hugging Face. Then Anthropic, ...",
+    "foundAt": "2026-07-31T11:26:54.888Z"
   }
 ]
