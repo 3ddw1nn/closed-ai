@@ -999,5 +999,82 @@
     "source": "blog.checkpoint.com",
     "snippet": "During their own safety testing, their most capable models reached real companies' systems. First OpenAI, whose models broke into Hugging Face. Then Anthropic, ...",
     "foundAt": "2026-07-31T11:26:54.888Z"
+  },
+  {
+    "title": "Florida sues OpenAI and Sam Altman over AI safety",
+    "url": "https://theconversation.com/utter-disregard-for-the-risk-to-human-life-florida-sues-openai-and-sam-altman-over-ai-safety-284289",
+    "source": "theconversation.com",
+    "snippet": "The US state of Florida has filed a lawsuit against OpenAI and Sam Altman, alleging the tech giant and its CEO put profit over public safety with its flagship artificial intelligence (AI) product, ChatGPT.\n\nThe [lawsuit](https://www.documentcloud.org/documents/28179898-florida-v-openai-filed-stamped-complaint/), filed in Florida state court on Monday local time by Florida’s attorney general James Uthmeier, is one of the most significant enforcement actions brought by a state attorney against an AI company to date.\n\n## Six key elements\nThe complaint opens with a screenshot of OpenAI’s own parental-control page, which states that ChatGPT was “built with safety in mind”.\n\nAccording to Uthmeier, since at least 2023, OpenAI’s own documents warned that the model could coach people on committing crimes, but Altman overruled the safety staff.\n\nThe complaint reconstructs his career and reaches for an [April 2026 New Yorker investigation](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted) and testimony from the [recent legal battle](https://theconversation.com/elon-musk-sued-openai-and-lost-but-the-core-question-of-the-case-remains-unanswered-283256) between Elon Musk and OpenAI to depict a man, who in Uthmeier’s telling, repeatedly chose speed over safety.\n\n## Pay for past harms\nIn a statement to The Conversation, an OpenAI spokesperson pointed to the company’s “industry leading protections and policies” regarding user safety.\n\n## Adding to a growing pile\nIn April, for example, Uthmeier [launched](https://www.npr.org/2026/04/21/nx-s1-5793967/florida-openai-investigation-mass-shooting-fsu) a criminal investigation into OpenAI over the chatbot’s alleged role in a shooting at Florida State University.",
+    "foundAt": "2026-08-01T10:38:23.284Z"
+  },
+  {
+    "title": "Florida sues OpenAI, alleging company could have ...",
+    "url": "https://www.cbsnews.com/news/florida-openai-chatgpt-lawsuit-sam-altman/",
+    "source": "cbsnews.com",
+    "snippet": "Florida is the first state to sue OpenAI and CEO Sam Altman, alleging the company prioritized profit and speed over user safety and that the harms caused by ...",
+    "foundAt": "2026-08-01T10:38:23.284Z"
+  },
+  {
+    "title": "Apple sues OpenAI, its employees claiming theft of trade ...",
+    "url": "https://www.bbc.com/news/articles/cy8w379e091o",
+    "source": "bbc.com",
+    "snippet": "# Apple sues OpenAI, its employees claiming theft of trade secrets\n10 July 2026\n\nShare\n\nSave\n\nKali HaysTechnology reporter\n\nApple has accused OpenAI of gaining access to valuable inside information through the hiring of its former employees.\n\nIn a federal lawsuit filed on Friday, Apple sued the artificial intelligence (AI) company, two of its employees, as well as io Products, claiming it has engaged in \"a pattern of theft\" of Apple's confidential product development and related work.\n\nAt least two long-time Apple workers who left the company to join OpenAI allegedly took part in this pattern by, in part, emailing themselves internal Apple information.\n\nDrew Pusateri, a spokesman for OpenAI, told the BBC: \"We have no interest in other companies' trade secrets.\"\n\nPusateri added that the company, which is currently reviewing Apple's complaint, is \"focused on building innovative technology that empowers people everywhere.\"\n\nAn Apple spokesman told the BBC the lawsuit is the result of \"significant evidence.\"\n\nYet, when Cook revealed in April that he was stepping down, Sam Altman, co-founder and CEO of OpenAI, publicly praised him as \"a legend\", adding he was \"very thankful for everything he has done\".\n\nNow, Apple is accusing OpenAI of undertaking a \"strategy to extract Apple's confidential information\".\n\nAlong with OpenAI, Apple is suing io Products, the design startup founded by Jony Ive, a long-time Apple executive.\n\nIt is also suing Chang Liu, a senior electrical engineer who worked at Apple for eight years, and Tang Yew Tan, a vice president of design for iPhone and Apple Watch who spent 24 years with the company.\n\nApple added that when OpenAI interviews current Apple employees for potential jobs the company allegedly tries to extract further information from them.\n\nOpenAI interviewers allegedly have told the prospective hires to \"bring 'actual parts' as 'props' from Apple for 'show and tell'\" during their interview.\n\nApple accused all of the parties it was suing of \"acting in concert and as an enterprise, exploiting Apple's confidential information to advance OpenAI's efforts to enter the consumer hardware market\".\n\nApple said in its lawsuit that, because OpenAI's \"misconduct is normalized and exemplified by leadership\" its \"nascent hardware business now rests on the shakiest of foundations, rotten to its core by its illegal reliance on misappropriated trade secrets\".\n\nThe company also said that it had attempted to discuss it's concerns with OpenAI in February, but was ultimately ignored.\n\nApple has asked the court to immediately prohibit OpenAI from obtaining or using any alleged confidential information and it is seeking unspecified monetary damages.\n\n[Apple](https://www.bbc.com/news/topics/crr7mlg0gqqt)\n\n[Tim Cook](https://www.bbc.com/news/topics/cnq6428jzqyt)\n\n[Artificial intelligence](https://www.bbc.com/news/topics/ce1qrvleleqt)",
+    "foundAt": "2026-08-01T10:38:23.284Z"
+  },
+  {
+    "title": "Apple sues OpenAI, two former employees for trade secrets ...",
+    "url": "https://www.reuters.com/legal/litigation/apple-sues-openai-alleging-misappropriation-trade-secrets-court-records-show-2026-07-10/",
+    "source": "reuters.com",
+    "snippet": "July 10 (Reuters) - Apple [(AAPL.O), opens new tab](https://www.reuters.com/markets/companies/AAPL.O) on Friday sued OpenAI and two former employees, alleging misappropriation of its trade secrets to ​benefit the ChatGPT-owner's foray into consumer hardware, a dramatic escalation of already simmering tension between the two companies.\n\nDistrict Court for the Northern District of California, comes just after OpenAI successfully [fended off a legal ​challenge](https://www.reuters.com/legal/litigation/openai-wins-dismissal-trade-secret-lawsuit-by-musks-xai-2026-06-15/) from Elon Musk's xAI.\n\nThe iPhone maker also claimed that OpenAI’s hardware chief Tan had been \"methodically using Apple’s confidential information to benefit OpenAI\" before his departure by emailing himself information about Apple suppliers and internal industry summaries.\n\nApple alleged that Tan encouraged Apple employees ​to bring parts from Apple to job interviews at OpenAI for “show and tell” sessions, citing an incident in its filing where one OpenAI job candidate allegedly said that he “didn’t even know we could take those from the office.”\n\n## CONFIDENTIAL INFORMATION\nIn its complaint, Apple claimed it wrote to OpenAI in February with concerns that its confidential information was making its way to OpenAI ‌and asking to ⁠discuss the matter, but it received no reply.\n\n“That OpenAI now employs people who were once entrusted with Apple’s trade secrets does not entitle OpenAI to use that information to jumpstart its hardware efforts,” the iPhone maker wrote in its complaint.\n\nApple also alleged that OpenAI employees sought confidential information from Apple suppliers, at one point allegedly having one of those suppliers carry out what Apple called a secret metal finishing technique on the belief that OpenAI had Apple’s permission to use the technique.\n\n\"But if Apple's claims that the employees took confidential documents with them — and that OpenAI is using those documents — are true, that is a problem for OpenAI,\" Lemley ​said.\n\n## SIMMERING TENSION\nA person familiar with the matter told Reuters in May that [OpenAI was exploring legal options](https://www.reuters.com/business/openai-explores-legal-options-against-apple-bloomberg-news-reports-2026-05-14/) against Apple, including notifying the technology giant of a breach of contract but potentially not filing a full lawsuit.",
+    "foundAt": "2026-08-01T10:38:23.284Z"
+  },
+  {
+    "title": "'A Web of Deceit': Florida Sues OpenAI Over ChatGPT ...",
+    "url": "https://www.cnet.com/tech/services-and-software/florida-sues-openai-chatgpt-safety-lawsuit-news/",
+    "source": "cnet.com",
+    "snippet": "Florida alleges that OpenAI lied about ChatGPT's reliability, suitability for children and promotes prolonged use that leads to users' cognitive decline.",
+    "foundAt": "2026-08-01T10:38:23.284Z"
+  },
+  {
+    "title": "Florida sues OpenAI, alleging it's unsafe for children",
+    "url": "https://www.ksl.com/article/news/utah/science-and-tech/florida-sues-openai-alleging-its-unsafe-for-children/51592031",
+    "source": "ksl.com",
+    "snippet": "(CNN) — Florida is suing OpenAI and its CEO Sam Altman, alleging they know ChatGPT is not safe, especially for minors. The state becomes the first to sue ...",
+    "foundAt": "2026-08-01T10:38:23.284Z"
+  },
+  {
+    "title": "OpenAI Sued by Florida's Attorney General Over AI Harms",
+    "url": "https://www.wsj.com/tech/ai/openai-sued-by-floridas-attorney-general-over-ai-harms-8a5113a8",
+    "source": "wsj.com",
+    "snippet": "Florida filed a lawsuit against OpenAI and Chief Executive Sam Altman, alleging they knowingly released an unsafe AI product. The 83-page suit claims ChatGPT ...",
+    "foundAt": "2026-08-01T10:38:23.284Z"
+  },
+  {
+    "title": "OpenAI let ChatGPT aid and abet mass shooters, Florida ...",
+    "url": "https://www.bbc.com/news/articles/czx2j0v8d2xo",
+    "source": "bbc.com",
+    "snippet": "# OpenAI let ChatGPT aid and abet mass shooters, Florida lawsuit claims\nFlorida has become the first US state to sue OpenAI over the design and safety of the company's artificial intelligence (AI) chatbot, ChatGPT.\n\nIn a statement responding to the suit, OpenAI said it has \"put in place industry leading protections and policies.\"\n\nThe legal action comes as Florida is pursuing a criminal investigation into whether ChatGPT played a part in [the murder of two people during a mass shooting at Florida State University last year.](https://www.bbc.co.uk/news/articles/c62j4ldp2jqo)\n\nIt made multiple allegations against OpenAI including deceptive and unfair trade practices, negligence, violating product liability laws, fraudulent misrepresentation and causing a public nuisance.\n\nThe complaint cites the Florida State mass shooting as well as the killing of two University of South Florida doctoral students in which the suspect allegedly asked ChatGPT questions about the disposal of human bodies, according to prosecutors.\n\n\"Sam Altman and ChatGPT have chosen the AI race over the safety and security of our kids. They have chosen profit over public safety, and we're not going to stand for it in here in Florida.\n\nThe company said it builds safety for minors directly into its products, pointing to its age detection tool and other ways parents can monitor how their children are using AI.\n\nThe lawsuit comes comes as OpenAI faces a slew of lawsuits attacking the company over its safety practices, including several which claim that ChatGPT has acted as a suicide coach and spurred harmful delusions.\n\nFamilies of some victims of the Tumbler Ridge mass shooting earlier this year in Canada have also sued OpenAI, which banned the suspect's ChatGPT account because of problematic usage but [did not alert authorities](https://www.bbc.com/news/articles/cq6je7e80r7o).",
+    "foundAt": "2026-08-01T10:38:23.284Z"
+  },
+  {
+    "title": "OpenAI is being sued for training ChatGPT with 'stolen ...",
+    "url": "https://mashable.com/article/openai-chatgpt-class-action-lawsuit",
+    "source": "mashable.com",
+    "snippet": "A California law firm has filed a class-action lawsuit against OpenAI for \"unlawfully\" scraping the web for personal data to train ChatGPT without consent.",
+    "foundAt": "2026-08-01T10:38:23.284Z"
+  },
+  {
+    "title": "OpenAI and ChatGPT Lawsuit List (50+ Cases)",
+    "url": "https://originality.ai/blog/openai-chatgpt-lawsuit-list",
+    "source": "originality.ai",
+    "snippet": "Nature of Action: Musk alleges breach of contract for converting OpenAI from a nonprofit to a for-profit venture, betraying the founding mission. Quick ...",
+    "foundAt": "2026-08-01T10:38:23.284Z"
+  },
+  {
+    "title": "Center of Investigative Reporting Sues OpenAI Over ...",
+    "url": "https://www.hollywoodreporter.com/business/business-news/center-investigative-reporting-openai-legal-battle-1235934000/",
+    "source": "hollywoodreporter.com",
+    "snippet": "The lawsuit is at least the fifth from a news organization against OpenAI over novel copyright issues associated with training its AI system. In recent months, ...",
+    "foundAt": "2026-08-01T10:38:23.284Z"
   }
 ]
