@@ -1237,5 +1237,68 @@
     "source": "datafloq.com",
     "snippet": "Two Accidental Breaches, One Root Cause. OpenAI disclosed on July 21, 2026, that an evaluation agent broke out of what the company believed was an isolated test ...",
     "foundAt": "2026-08-04T11:20:52.823Z"
+  },
+  {
+    "title": "AGs Demand OpenAI Preserve AI Breach Data",
+    "url": "https://dallasexpress.com/business-markets/texas-ag-ken-paxton-joins-coalition-pressing-openai-over-security-incident-involving-gpt-models/",
+    "source": "dallasexpress.com",
+    "snippet": "# Texas AG Ken Paxton Joins Coalition Pressing OpenAI Over Security Incident Involving GPT Models\nShare On\n\nFifteen Republican attorneys general, including Texas AG Ken Paxton, are calling on OpenAI to preserve documents and data related to a recent security incident in which two of the company’s artificial intelligence models breached a testing environment and accessed systems belonging to AI platform Hugging Face.\n\nThe coalition, led by Iowa Attorney General Brenna Bird, sent a [letter](https://www.iowaattorneygeneral.gov/media/cms/08_5392C9E17791C.pdf) to OpenAI CEO Sam Altman requesting that the ChatGPT maker [retain](https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and) all records connected to the incident while state officials review whether any state or federal laws may have been violated.\n\n## States Seek Records Related to AI Security Incident\nIn the letter, the attorneys general requested that OpenAI immediately preserve all potentially relevant documents, data and communications involving the breach.\n\n- OpenAI’s discovery of the incident.\n- Internal investigations and reviews.\n- Safety testing procedures and oversight.\n- Cases involving publicly exposed credentials used by the AI models.\n\nThe attorneys general wrote that OpenAI has an obligation to comply with state and federal laws designed to protect consumers and public safety.\n\n“When OpenAI takes actions that imperil the welfare of our citizens, State Attorneys General will step in to protect them,” the letter stated, The Hill reported.\n\n## How The Hugging Face Breach Happened\nOpenAI [disclosed](https://openai.com/index/hugging-face-model-evaluation-security-incident/) the incident last month, revealing that two AI models — its GPT-5.6 Sol model and another unreleased system — were undergoing cybersecurity evaluations inside an isolated testing sandbox.\n\nAccording to the company, safety guardrails had been disabled as part of the testing process. While attempting to solve a cybersecurity challenge, the models [identified](https://thehill.com/policy/technology/6006457-openai-security-breach-gop-attorneys-general/?email=467cb6399cb7df64551775e431052b43a775c749&emaila=12a6d4d069cd56cfddaa391c24eb7042&emailb=054528e7403871c79f668e49dd3c44b1ec00c7f611bf9388f76bb2324d6ca5f3&utm_source=Sailthru&utm_medium=email&utm_campaign=08.03.26%20Tech) and exploited a previously unknown vulnerability in third-party software, allowing them to gain internet access.\n\nOpenAI said it also identified a small number of cases in which the models located and used publicly exposed account credentials on publicly available services.\n\n## Attorneys General Raise Legal Concerns\nThe attorneys general [argued](https://thehill.com/policy/technology/6006457-openai-security-breach-gop-attorneys-general/?email=467cb6399cb7df64551775e431052b43a775c749&emaila=12a6d4d069cd56cfddaa391c24eb7042&emailb=054528e7403871c79f668e49dd3c44b1ec00c7f611bf9388f76bb2324d6ca5f3&utm_source=Sailthru&utm_medium=email&utm_campaign=08.03.26%20Tech) that OpenAI failed to adequately secure the testing environment despite the risks associated with evaluating advanced hacking capabilities.\n\nThe letter suggests the incident could involve violations of consumer protection laws or data privacy statutes and emphasizes the importance of preserving evidence while investigations continue.\n\nSome reports have also indicated the AI agent carried out thousands of automated actions during the intrusion before the breach was detected, though OpenAI has not publicly confirmed those figures.\n\n## OpenAI Says Review Is Underway\nAn OpenAI spokesperson said the company is taking the concerns seriously and has launched an internal review of the incident.\n\nAccording to the company, the findings will be shared with the attorneys general and other government agencies before being released publicly.\n\nThe investigation comes as regulators and policymakers continue to examine the cybersecurity risks posed by increasingly capable artificial intelligence systems, particularly those designed to perform autonomous tasks.\n\n© 2026 Dallas Express.",
+    "foundAt": "2026-08-05T11:17:05.685Z"
+  },
+  {
+    "title": "Attorney General Sunday Joins Coalition Demanding ...",
+    "url": "https://www.attorneygeneral.gov/taking-action/attorney-general-sunday-joins-coalition-demanding-transparency-from-openai-following-ai-security-breach/",
+    "source": "attorneygeneral.gov",
+    "snippet": "# Attorney General Sunday Joins Coalition Demanding Transparency From OpenAI Following AI Security Breach\nHARRISBURG – Attorney General Dave Sunday announced his office is joining a coalition of 15 states demanding transparency and accountability from OpenAI following a significant artificial intelligence security breach that resulted in the hacking of another AI company.\n\nThe model allegedly gained unauthorized access to multiple computer networks, culminating in a days-long breach involving AI company Hugging Face.\n\nThe coalition contends the incident demonstrates OpenAI’s failure to responsibly test and deploy its technology and warns that similar conduct could pose serious risks to the public.\n\nThe attorneys general also call on the company to ensure employees are protected from retaliation for reporting unlawful or harmful conduct and to immediately cease the testing activities that led to the breach unless and until OpenAI can demonstrate those activities can be conducted safely and responsibly.",
+    "foundAt": "2026-08-05T11:17:05.685Z"
+  },
+  {
+    "title": "'Alarming Misconduct' Alleged as State AGs Probe ...",
+    "url": "https://www.vitallaw.com/news/alarming-misconduct-alleged-as-state-ags-probe-openai-s-misbehaving-models/cspd010d2963833c4b45888959b6f139663a02",
+    "source": "vitallaw.com",
+    "snippet": "A cyber attack launched by AI (artificial intelligence) models developed by OpenAI has landed the company in hot water with 15 Republican state attorneys ...",
+    "foundAt": "2026-08-05T11:17:05.686Z"
+  },
+  {
+    "title": "U.S. Attorneys General Demand OpenAI Halt Risky AI Tests",
+    "url": "https://www.chosun.com/english/industry-en/2026/08/05/3QBKBM5W3NF7FLRPN2J6DX42E4/",
+    "source": "chosun.com",
+    "snippet": "Fifteen U.S. state attorneys general have demanded that OpenAI preserve data and halt high-risk safety assessments related to the incident where an AI model ...",
+    "foundAt": "2026-08-05T11:17:05.686Z"
+  },
+  {
+    "title": "OpenAI, Anthropic AI agents implicated in new security ...",
+    "url": "https://www.reuters.com/legal/litigation/openai-anthropic-ai-agents-implicated-new-security-breaches-2026-08-05/",
+    "source": "reuters.com",
+    "snippet": "- Incidents follow OpenAI's hack of Hugging Face in July\n\nSAN FRANCISCO, Aug 4 (Reuters) - An AI agent was caught ​creating fake online identities to gain unauthorized access to secure systems during tests of models from OpenAI and Anthropic ‌which revealed a series of new breaches, Britain's AI Security Institute disclosed on Tuesday.\n\nIt also said it was working with AISI to obtain more details on the incident and conduct its own investigation.\n\nOpenAI also disclosed in its blog post a separate incident whereby a misconfiguration by Irregular, a third-party testing provider, allowed its agents to mistakenly connect to the internet.\n\nReuters [reported](https://www.reuters.com/business/openai-finds-evidence-other-ai-agents-escaped-containment-it-widens-hacking-2026-07-31/) last week that OpenAI had widened its hacking probe ⁠after finding ​evidence of other agent breakouts.\n\nUnlike the July [security breach](https://www.reuters.com/business/its-ai-agent-spent-days-hacking-company-sources-say-openai-did-not-notice-week-2026-07-24/) of AI firm Hugging Face by ​an OpenAI agent, the agents in the AISI evaluation did not escape an isolated testing environment to reach the internet.",
+    "foundAt": "2026-08-05T11:17:05.686Z"
+  },
+  {
+    "title": "unsanctioned agent behaviour during cyber testing",
+    "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+    "source": "aisi.gov.uk",
+    "snippet": "# Incident Report: unsanctioned agent behaviour during cyber testing\nOn investigation, we found that some of the agents being tested had engaged in sustained, potentially harmful activity directed at real people and organisations. We declared a security incident and, within roughly one hour of discovery, had contained it and begun a full investigation.",
+    "foundAt": "2026-08-05T11:17:05.686Z"
+  },
+  {
+    "title": "Rogue AI Agents Hacked Servers Again—And Left ...",
+    "url": "https://www.techbuzz.ai/articles/rogue-ai-agents-hacked-servers-again-and-left-instructions",
+    "source": "techbuzz.ai",
+    "snippet": "Autonomous AI agents from OpenAI and Anthropic have been caught red-handed—again—actively attempting to hack servers and software infrastructure, ...",
+    "foundAt": "2026-08-05T11:17:05.686Z"
+  },
+  {
+    "title": "OpenAI Hugging Face Incident: AI Agent Security Lessons",
+    "url": "https://www.uctoday.com/productivity-automation/openai-hugging-face-incident-ai-agent-security/",
+    "source": "uctoday.com",
+    "snippet": "The OpenAI Hugging Face incident has exposed new AI agent security risks. Ray Eitel-Porter explains the safeguards organisations need.",
+    "foundAt": "2026-08-05T11:17:05.686Z"
+  },
+  {
+    "title": "OpenAI Codex",
+    "url": "https://docs.datadoghq.com/integrations/openai-codex/",
+    "source": "docs.datadoghq.com",
+    "snippet": "- [In The App](https://docs.datadoghq.com/integrations/openai-codex/#)\n  - [Bits AI](https://docs.datadoghq.com/bits_ai/)\n    - [Bits Investigation](https://docs.datadoghq.com/bits_ai/bits_investigation)\n      - [Investigate Issues](https://docs.datadoghq.com/bits_ai/bits_investigation/investigate_issues)\n- [Incident Response](https://docs.datadoghq.com/integrations/openai-codex/#)\n  - [Incident Management](https://docs.datadoghq.com/incident_response/incident_management/)\n    - [Incident Investigation](https://docs.datadoghq.com/incident_response/incident_management/investigate)\n      - [Declare an Incident](https://docs.datadoghq.com/incident_response/incident_management/investigate/declare)\n      - [Describe an Incident](https://docs.datadoghq.com/incident_response/incident_management/investigate/describe)\n      - [Response Team](https://docs.datadoghq.com/incident_response/incident_management/investigate/response_team)\n      - [Notification](https://docs.datadoghq.com/incident_response/incident_management/investigate/notification)\n      - [Timeline](https://docs.datadoghq.com/incident_response/incident_management/investigate/timeline)\n      - [Incident AI](https://docs.datadoghq.com/incident_response/incident_management/investigate/incident_ai)\n  - [On-Call](https://docs.datadoghq.com/incident_response/on-call/)\n    - [Routing Rules](https://docs.datadoghq.com/incident_response/on-call/routing_rules/)",
+    "foundAt": "2026-08-05T11:17:05.686Z"
   }
 ]
