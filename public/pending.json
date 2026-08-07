@@ -1363,5 +1363,61 @@
     "source": "cybersecuritydive.com",
     "snippet": "# OpenAI warns autonomous hacks are ‘watershed moment for computer security’\nOpenAI stunned the world in late July when it announced that two of its models [broke out of their testing environments](https://www.cybersecuritydive.com/news/openai-hugging-face-hack-autonomous/825898/) and used zero-day vulnerabilities to hack into the networks of other companies, including the AI tool library Hugging Face.",
     "foundAt": "2026-08-06T11:18:59.418Z"
+  },
+  {
+    "title": "State AGs call for transparency from OpenAI after ...",
+    "url": "https://www.route-fifty.com/artificial-intelligence/2026/08/sunday-calls-transparency-openai-after-unprecedented-hugging-face-hack/415245/?oref",
+    "source": "route-fifty.com",
+    "snippet": "More than a dozen attorneys general are demanding answers from OpenAI after a cyber intrusion. two of the company's AI models broke containment and hacked into ...",
+    "foundAt": "2026-08-07T09:57:33.621Z"
+  },
+  {
+    "title": "OpenAI Asks Judge to Toss Apple's Trade Secrets Lawsuit",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-06/openai-asks-judge-to-toss-apple-suit-alleging-trade-secret-theft",
+    "source": "bloomberg.com",
+    "snippet": "[Apple Sues OpenAI](https://www.bloomberg.com/news/articles/2026-08-06/openai-asks-judge-to-toss-apple-suit-alleging-trade-secret-theft?itm_source=record&itm_campaign=Apple&itm_content=Apple_Sues_OpenAI-3)\n\n## **Takeaways** by Bloomberg AI [Subscribe](https://www.bloomberg.com/subscriptions)\n[OpenAI](https://www.bloomberg.com/quote/1554630D:US) is asking a federal judge to dismiss a lawsuit filed by [Apple Inc.](https://www.bloomberg.com/quote/AAPL:US) accusing the artificial intelligence company of stealing trade secrets, saying that the iPhone maker’s allegations are meritless.\n\nLawyers for OpenAI said that Apple’s suit falsely portrays the actions of the startup’s employees.",
+    "foundAt": "2026-08-07T09:57:33.621Z"
+  },
+  {
+    "title": "GPT-5.6 – August Updates",
+    "url": "https://cdn.openai.com/pdf/GPT_5_6_August_Updates.pdf",
+    "source": "cdn.openai.com",
+    "snippet": "**OpenAI**\n\n# GPT-5.6–August Updates\n## Contents\n3 Safety 3\n\n## 4.1 Jailbreaks\ninoursafetymitigations.",
+    "foundAt": "2026-08-07T09:57:33.621Z"
+  },
+  {
+    "title": "Meta Joins OpenAI and Anthropic in Reporting AI Exploit ...",
+    "url": "https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/",
+    "source": "infosecurity-magazine.com",
+    "snippet": "Meta has confirmed that one of its AI models exploited a vulnerability in a third-party service during testing, joining OpenAI and Anthropic in reporting ...",
+    "foundAt": "2026-08-07T09:57:33.621Z"
+  },
+  {
+    "title": "Meta Joins OpenAI and Anthropic in Reporting AI Exploit ...",
+    "url": "https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/",
+    "source": "infosecurity-magazine.com",
+    "snippet": "Meta has confirmed that one of its AI models exploited a vulnerability in a third-party service during testing, joining OpenAI and Anthropic in reporting ...",
+    "foundAt": "2026-08-07T09:57:33.621Z"
+  },
+  {
+    "title": "This Week in Cybersecurity: A 2-Billion-Install npm Worm, ...",
+    "url": "https://blog.openvpn.net/this-week-in-cybersecurity-a-2-billion-download-npm-worm-an-msp-platform-under-siege-and-ai-models-hacking-for-real",
+    "source": "blog.openvpn.net",
+    "snippet": "# This Week in Cybersecurity: A 2-Billion-Install npm Worm, an MSP Platform Under Siege, and AI Models Hacking for Real\n## UK safety testers say OpenAI's and Anthropic's models hacked real systems during cybersecurity evaluations\nOn August 4, 2026, the UK AI Security Institute disclosed that it had documented 19 unsanctioned actions by Anthropic's Mythos 5 and OpenAI's GPT-5.6 Sol models during cybersecurity testing conducted last month — actions the models took, without instruction, to try to compromise real people and organizations rather than the fictional targets the evaluations intended. [The institute said the models created fake GitHub identities, socially engineered maintainers, planted prompt injections, and sent deceptive emails](https://www.axios.com/2026/08/04/anthropic-openai-uk-ai-security-institute); GitHub confirmed the activity violated its terms of service, and the institute worked with GitHub to remove artifacts and notify affected users.\n\nThat incident closely follows the pattern we covered in [our July 23 post](https://blog.openvpn.net/this-week-in-cybersecurity-openais-rogue-test-agent-hacks-hugging-face-sharepoints-fourth-zero-day-in-a-month-and-a-ransomware-gang-halts-us-milk-production), when OpenAI confirmed one of its own models escaped a test sandbox and compromised Hugging Face's production infrastructure while chasing an internal benchmark.\n\n**_Why it matters:_** _Three separate frontier-AI containment failures disclosed in as many weeks is no longer an isolated incident — it's a pattern, and one where the models involved have shown they can talk themselves back into taking real-world action even after correctly identifying the risk._",
+    "foundAt": "2026-08-07T09:57:33.621Z"
+  },
+  {
+    "title": "OpenAI Slows Research After Its Own AI Models Secretly ...",
+    "url": "https://forum.gnoppix.org/t/openai-reportedly-slows-research-after-its-own-models-secretly-coordinated-hacks-for-weeks-undetected/6978",
+    "source": "forum.gnoppix.org",
+    "snippet": "OpenAI has reportedly paused or slowed certain research efforts after discovering that its own advanced AI models autonomously coordinated hacking attacks ...",
+    "foundAt": "2026-08-07T09:57:33.621Z"
+  },
+  {
+    "title": "Meta Model's Hack Mirrors Previous OpenAI and Anthropic ...",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/meta-models-hack-mirrors-previous-openai-and-anthropic-security-breaches/",
+    "source": "pymnts.com",
+    "snippet": "# Meta Model’s Hack Mirrors Previous OpenAI and Anthropic Security Breaches\n## Get the Full Story\nIrregular told Reuters that the incident with the Meta model was the “exact same evaluation-environment issue that was already disclosed by Anthropic last week.”\n\nMeta was notified of the incident by Irregular, and Meta plans to release the findings of an investigation of the incident that it is now conducting, according to the report.\n\nThe Wall Street Journal [reported](https://www.wsj.com/tech/ai/meta-ai-model-hacked-outside-company-adding-to-concerns-over-rogue-bots-dd5f6e45?mod=hp_lead_pos5) Thursday (Aug. 6) that Irregular was not involved in other recent autonomous hacking cases, including an OpenAI model’s hack of [Hugging Face](https://huggingface.co/) and the escape of several models during safety testing by the U.K. government.\n\nThe WSJ said of the Meta incident: “The new case is the latest proof that AI loss-of-control scenarios, once confined to science fiction and AI-safety experiments, are now a real-world issue.”\n\nWhen OpenAI announced on July 21 that its models caused the security incident reported a week earlier by Hugging Face, the company said: “We consider this incident to be an unprecedented [cyber incident](https://www.pymnts.com/cybersecurity/2026/openai-models-breach-hugging-face-during-cyber-evaluation/), involving state-of-the-art cyber capabilities, and are responding accordingly.”",
+    "foundAt": "2026-08-07T09:57:33.621Z"
   }
 ]
