@@ -1482,5 +1482,40 @@
     "source": "smallbiztrends.com",
     "snippet": "Small Business Trends helps entrepreneurs, business owners, influencers and experts by covering tech products, small business news, and movers and shakers.",
     "foundAt": "2026-08-08T09:33:22.818Z"
+  },
+  {
+    "title": "Pa. attorney general joins states seeking answers from ...",
+    "url": "https://fox56.com/news/local/pa-attorney-general-joins-states-seeking-answers-from-openai-after-ai-security-breach",
+    "source": "fox56.com",
+    "snippet": "# Pa. attorney general joins states seeking answers from OpenAI after AI security breach\n![AI data breach graphic.png](https://fox56.com/resources/media2/16x9/1672/1174/0x1/80/06a8052e-2577-4771-9011-f1f4a8f2bb7a-AIdatabreachgraphic.png)\n\n#### topics:\nAccording to the coalition, the model operated without sufficient safeguards and allegedly gained unauthorized access to multiple computer networks, leading to a days-long breach involving AI company Hugging Face.\n\nThe coalition argues the incident raises concerns about how advanced AI systems are tested and deployed and says similar incidents could pose risks to consumers and critical infrastructure.\n\n\"Artificial intelligence is advancing at a remarkable pace, but innovation cannot come at the expense of public safety,\" Sunday said in a statement.\n\nThe coalition contends OpenAI's actions may have violated state and federal consumer protection and data privacy laws. The attorneys general are demanding that the company preserve documents, data and communications related to the incident, protect employees who report potential misconduct from retaliation, and halt the testing activities that allegedly led to the breach until they can be conducted safely.",
+    "foundAt": "2026-08-09T09:35:04.573Z"
+  },
+  {
+    "title": "Meta AI breaches external firm during security testing ...",
+    "url": "https://www.npr.org/2026/08/08/nx-s1-5924878/meta-ai-breaches-external-firm-during-security-testing-sandbox-error",
+    "source": "npr.org",
+    "snippet": "**It becomes the third company to announced such a security breach.**",
+    "foundAt": "2026-08-09T09:35:04.573Z"
+  },
+  {
+    "title": "Cyber execs on the AI Hugging Face hack",
+    "url": "https://www.cnbc.com/2026/08/08/hugging-face-ai-hack-cybersecurity-black-hat.html",
+    "source": "cnbc.com",
+    "snippet": "The breach [sent shockwaves](https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html) across tech and signaled that the moment cybersecurity experts had warned about since [Anthropic’s Mythos](https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html) debut had finally arrived.\n\n## The quest for solutions\nHugging Face had to turn to an open-weight model to suss out the OpenAI agent attack.",
+    "foundAt": "2026-08-09T09:35:04.573Z"
+  },
+  {
+    "title": "Ukraine war latest: 'Massive' strike on Odesa - as ... - Sky News",
+    "url": "https://news.sky.com/story/ukraine-war-latest-russia-putin-zelenskyy-12541713",
+    "source": "news.sky.com",
+    "snippet": "Russian missiles and drones have rained down on Kharkiv and Odesa overnight, as Ukraine suffers a shortage of air defence munitions. Meanwhile, Sky News investigates the causes and consequences of ...",
+    "foundAt": "2026-08-09T09:35:04.573Z"
+  },
+  {
+    "title": "Statistics — GDPR Enforcement Tracker",
+    "url": "https://www.enforcementtracker.com/statistics",
+    "source": "enforcementtracker.com",
+    "snippet": "Statistics, charts and trend analysis of GDPR enforcement actions across the EU/EEA. Country comparison, sector breakdown, year-over-year heatmap.",
+    "foundAt": "2026-08-09T09:35:04.573Z"
   }
 ]
