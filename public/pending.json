@@ -1517,5 +1517,61 @@
     "source": "enforcementtracker.com",
     "snippet": "Statistics, charts and trend analysis of GDPR enforcement actions across the EU/EEA. Country comparison, sector breakdown, year-over-year heatmap.",
     "foundAt": "2026-08-09T09:35:04.573Z"
+  },
+  {
+    "title": "OpenAI Details Full AI Breach: Agents Built Secret Chat Group Over ...",
+    "url": "https://finance.biggo.com/news/5d9b9af5-833e-4f02-8351-28a37f062792",
+    "source": "finance.biggo.com",
+    "snippet": "On July 16, Hugging Face publicly disclosed the security incident; on July 20, OpenAI discovered Hugging Face credentials within its internal environment. The ...",
+    "foundAt": "2026-08-10T10:13:07.960Z"
+  },
+  {
+    "title": "What smart people are saying about OpenAI's 'Apple is getting this ...",
+    "url": "https://www.aol.com/articles/smart-people-saying-openais-apple-182400000.html",
+    "source": "aol.com",
+    "snippet": "Apple filed a lawsuit against OpenAI in July, accusing the AI lab of stealing trade secrets. OpenAI has denied wrongdoing. was \"careless.\"",
+    "foundAt": "2026-08-10T10:13:07.960Z"
+  },
+  {
+    "title": "Israeli startup Irregular linked to AI hacks OpenAI, Anthropic, Meta",
+    "url": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
+    "source": "cnbc.com",
+    "snippet": "- Over a two-week stretch, OpenAI, Anthropic and Meta all revealed that their AI models went rogue during routine security testing.\n\nOpenAI said in a [blog post](https://openai.com/index/third-party-cyber-evaluations-involving-openai) on Aug. 4 that Irregular’s testing ground contained an unspecified “misconfiguration,” that “allowed models to access the public internet.” Anthropic said in [its post](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) a week prior that the company notified Irregular a few days after it began analyzing data that its Claude model may have “accessed the internet.”\n\nA spokesperson said in a statement this week that the company learned about the matter from Irregular and is investigating.\n\n## What is Irregular?\nLanguage in the bill referenced a separate OpenAI-related AI [security incident](https://www.cnbc.com/2026/07/30/open-ai-hugging-face-hack-latest.html) involving the startup HuggingFace.",
+    "foundAt": "2026-08-10T10:13:07.960Z"
+  },
+  {
+    "title": "OpenAI Shut Down Its Rogue AI Agents. They Found Another Way to ...",
+    "url": "https://rohittamma.substack.com/p/openai-shut-down-its-rogue-ai-agents",
+    "source": "rohittamma.substack.com",
+    "snippet": "# OpenAI Shut Down Its Rogue AI Agents. They Found Another Way to Communicate.\n### Today’s post explores something deeper: what happens when autonomous agents discover a useful behavior on their own, and find new ways to continue it even after humans try to shut it down.\nThey pulled logs, traced activity, reconstructed what each agent had done before the breach.\n\n## **What Actually Happened**\n5. OpenAI discovers the message board after the activity causes an outage > Deletes the messages > Revokes the credentials > Patches the vulnerability > Restarts training.\n\n## **Four Things This Incident Teaches Us About AI Agents**\nThe agents did exactly this.\n\nWhen OpenAI shut down the Artifactory message board, the agents didn’t stop.",
+    "foundAt": "2026-08-10T10:13:07.960Z"
+  },
+  {
+    "title": "Israeli startup Irregular linked to AI hacks OpenAI, ...",
+    "url": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
+    "source": "cnbc.com",
+    "snippet": "- Over a two-week stretch, OpenAI, Anthropic and Meta all revealed that their AI models went rogue during routine security testing.\n\nOpenAI said in a [blog post](https://openai.com/index/third-party-cyber-evaluations-involving-openai) on Aug. 4 that Irregular’s testing ground contained an unspecified “misconfiguration,” that “allowed models to access the public internet.” Anthropic said in [its post](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) a week prior that the company notified Irregular a few days after it began analyzing data that its Claude model may have “accessed the internet.”\n\nA spokesperson said in a statement this week that the company learned about the matter from Irregular and is investigating.\n\n## What is Irregular?\nLanguage in the bill referenced a separate OpenAI-related AI [security incident](https://www.cnbc.com/2026/07/30/open-ai-hugging-face-hack-latest.html) involving the startup HuggingFace.",
+    "foundAt": "2026-08-10T10:13:07.960Z"
+  },
+  {
+    "title": "How to report an AI Act violation in the EU",
+    "url": "https://www.helpnetsecurity.com/2026/08/10/eu-ai-act-enforcement-how-to-report-violation/",
+    "source": "helpnetsecurity.com",
+    "snippet": "# How to report an AI Act violation in the EU\n### The downstream complaints channel\n- [regulation](https://www.helpnetsecurity.com/tag/regulation/)",
+    "foundAt": "2026-08-10T10:13:07.960Z"
+  },
+  {
+    "title": "Azure OpenAI in Foundry Models - Microsoft Q&A",
+    "url": "https://learn.microsoft.com/en-us/answers/tags/387/azure-openai",
+    "source": "learn.microsoft.com",
+    "snippet": "I'm unable to deploy any OpenAI GPT model in Microsoft Foundry. Every attempt fails immediately with: 715-123420: Our system has detected this request as ...",
+    "foundAt": "2026-08-10T10:13:07.960Z"
+  },
+  {
+    "title": "DeepMind as we know it is no more - Sync #583",
+    "url": "https://www.humanityredefined.com/p/sync-583",
+    "source": "humanityredefined.com",
+    "snippet": "# DeepMind as we know it is no more - Sync #583\n## 🧠 Artificial Intelligence\n**[▶️ I Investigated a Fake AI Newsroom. It Led Me to OpenAI’s Super PAC. (12:08)](https://www.youtube.com/watch?v=2kcmP5leoLs)**\n\nThe [investigation](https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda) has found that AcutusWire is funded by Leading the Future, a $140 million super PAC, which has close connections to Greg Brockman, OpenAI’s president, and a16z, one of OpenAI’s biggest funders.\n\nBoth labs say the tests deliberately removed safeguards.\n\nApple says that its investigation has found 11 more former employees who may have been involved in taking confidential information to OpenAI, beyond the two it originally named. OpenAI denies holding or wanting any of its trade secrets, and has [asked](https://www.bloomberg.com/news/articles/2026-08-06/openai-asks-judge-to-toss-apple-suit-alleging-trade-secret-theft?srnd=phx-technology) a judge to dismiss the lawsuit.\n\nAdditionally, a breach last year also exposed that it had scraped YouTube, Deezer and Genius to train its models.",
+    "foundAt": "2026-08-10T10:13:07.960Z"
   }
 ]
