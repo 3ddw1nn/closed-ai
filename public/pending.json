@@ -1573,5 +1573,61 @@
     "source": "humanityredefined.com",
     "snippet": "# DeepMind as we know it is no more - Sync #583\n## 🧠 Artificial Intelligence\n**[▶️ I Investigated a Fake AI Newsroom. It Led Me to OpenAI’s Super PAC. (12:08)](https://www.youtube.com/watch?v=2kcmP5leoLs)**\n\nThe [investigation](https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda) has found that AcutusWire is funded by Leading the Future, a $140 million super PAC, which has close connections to Greg Brockman, OpenAI’s president, and a16z, one of OpenAI’s biggest funders.\n\nBoth labs say the tests deliberately removed safeguards.\n\nApple says that its investigation has found 11 more former employees who may have been involved in taking confidential information to OpenAI, beyond the two it originally named. OpenAI denies holding or wanting any of its trade secrets, and has [asked](https://www.bloomberg.com/news/articles/2026-08-06/openai-asks-judge-to-toss-apple-suit-alleging-trade-secret-theft?srnd=phx-technology) a judge to dismiss the lawsuit.\n\nAdditionally, a breach last year also exposed that it had scraped YouTube, Deezer and Genius to train its models.",
     "foundAt": "2026-08-10T10:13:07.960Z"
+  },
+  {
+    "title": "Third-party cyber evaluations involving OpenAI models",
+    "url": "https://openai.com/mk-MK/index/third-party-cyber-evaluations-involving-openai-models/",
+    "source": "openai.com",
+    "snippet": "The new incidents involved OpenAI models accessing the public internet during third-party cyber evaluations, under specific conditions and reduced-safeguard ...",
+    "foundAt": "2026-08-11T09:56:45.341Z"
+  },
+  {
+    "title": "What the OpenAI-Hugging Face Breach Reveals About AI ...",
+    "url": "https://www.architectureandgovernance.com/applications-technology/what-the-openai-hugging-face-breach-reveals-about-ai-governance-failures/",
+    "source": "architectureandgovernance.com",
+    "snippet": "In its incident report, OpenAI said one of its experimental AI agents exploited a weakness in a testing environment while performing a routine benchmark task.",
+    "foundAt": "2026-08-11T09:56:45.341Z"
+  },
+  {
+    "title": "OpenAI slows Astra, Irregular won't talk, Senate confirms ...",
+    "url": "https://cisoseries.com/cybersecurity-news-openai-slows-astra-irregular-wont-talk-senate-confirms-cassady/",
+    "source": "cisoseries.com",
+    "snippet": "## Unlimited Technology Systems breach affects 3.8 million people\nReferring to a data breach incident that occurred in October 2025, the healthcare software company that specializes in financial and revenue cycle technology for specialty healthcare providers, says a company server was breached and the PII and medical information of almost four million people was exposed to an unauthorized party.",
+    "foundAt": "2026-08-11T09:56:45.341Z"
+  },
+  {
+    "title": "OpenAI's ethics head leaves start-up less than one year ...",
+    "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0?syn-25a6b1a6=1",
+    "source": "ft.com",
+    "snippet": "# OpenAI’s head of ethics leaves start-up less than one year after joining\nChloé Bakalar’s departure is one of several high-profile exits at the group in recent weeks as safety concerns mount\n\nOpenAI’s head of ethics has left the start-up less than a year after joining, following a number of departures by safety researchers amid growing scrutiny over how the company develops its AI models.\n\nThe departure is one of several high-profile exits at [OpenAI](https://www.ft.com/stream/e3402603-d253-4aa1-ac4d-fc9bdbf4ccb8) in recent weeks, including Johannes Heidecke, head of safety systems, and Joshua Achiam, chief futurist and former head of mission alignment.\n\nThe incident added to mounting global concern about AI’s potential to threaten the security of digital infrastructure, prompting the US government to [restrict](https://www.ft.com/content/2a27300a-b90d-4649-8c09-f7e7cd426dbb?syn-25a6b1a6=1) the release of powerful models.\n\nThe company had introduced several safety systems to prevent model misbehaviour in recent months, the spokesperson added.\n\n## Latest on OpenAI\n[![Sam Altman walks past police tape on a city street, wearing a suit and tie, with two men in the background.](https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F104ba418-d772-49d8-a7b5-c4aff7993686.jpg?source=next&fit=scale-down&dpr=2&width=340)](https://www.ft.com/content/d9e9cbbe-8443-4c10-821a-1834e4965236?syn-25a6b1a6=1)",
+    "foundAt": "2026-08-11T09:56:45.341Z"
+  },
+  {
+    "title": "Another AI model escapes its sandbox to search the web ...",
+    "url": "https://www.escudodigital.com/en/technology/artificial-intelligence/another-ai-model-escapes-its-sandbox-to-search-the-web-for-answers.html",
+    "source": "escudodigital.com",
+    "snippet": "The incident was discovered by Frontier Security, a U.S. company that was evaluating the technology in an environment designed for cybersecurity testing.",
+    "foundAt": "2026-08-11T09:56:45.341Z"
+  },
+  {
+    "title": "OpenAI hits pause on new bot testing over 'critical' risk ...",
+    "url": "https://nypost.com/2026/08/10/business/openai-hits-pause-on-new-bot-testing-over-critical-risk-concerns-in-latest-ai-cybersecurity-incident/",
+    "source": "nypost.com",
+    "snippet": "OpenAI, Anthropic and Meta have all recently disclosed events in which their early-stage AI models went rogue during internal testing – stoking fears around the potential risks of out-of-control AI models and pushing lawmakers to call for a so-called “AI Kill Switch.”\n\nThe first to reveal such an incident was OpenAI, disclosing last month that an experimental bot had escaped its testing environment and [hacked into rival AI developer Hugging Face](https://nypost.com/2026/07/22/business/openai-agent-goes-rogue-hacks-into-rival-ai-startup-during-security-test/).\n\nLast week, the UK’s AI Security Institute revealed that Anthropic – whose CEO Dario Amodei has repeatedly warned that AI poses catastrophic risks to the human species – suffered its own unprecedented cybersecurity incident.\n\nAI giants are already facing heightened scrutiny from global regulators after the European Union this month gained new powers to evaluate AI models before their release to the public.",
+    "foundAt": "2026-08-11T09:56:45.341Z"
+  },
+  {
+    "title": "When Nurses Become Second Victims: Reframing Adverse ...",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1541461226002387",
+    "source": "sciencedirect.com",
+    "snippet": "Provide emotional support before or apart from event investigation whenever possible. Improves psychological safety, honesty, and participation in learning.",
+    "foundAt": "2026-08-11T09:56:45.341Z"
+  },
+  {
+    "title": "Gym Booking Task Turns Into Real-World AI Cyberattack",
+    "url": "https://securityaffairs.com/196998/hacking/gym-booking-task-turns-into-real-world-ai-cyberattack.html?amp",
+    "source": "securityaffairs.com",
+    "snippet": "## An AI agent hacked a gym booking system while trying to help a user, booking early and removing another person from the waitlist.\nThe incident, reported by ABC News Australia, is the first known Australian case of an AI agent causing unintended real-world harm while pursuing a goal its user set.",
+    "foundAt": "2026-08-11T09:56:45.341Z"
   }
 ]
