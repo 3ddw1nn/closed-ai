@@ -1629,5 +1629,75 @@
     "source": "securityaffairs.com",
     "snippet": "## An AI agent hacked a gym booking system while trying to help a user, booking early and removing another person from the waitlist.\nThe incident, reported by ABC News Australia, is the first known Australian case of an AI agent causing unintended real-world harm while pursuing a goal its user set.",
     "foundAt": "2026-08-11T09:56:45.341Z"
+  },
+  {
+    "title": "Recent AI evaluation incidents expose gaps in containment ...",
+    "url": "https://www.jdsupra.com/legalnews/recent-ai-evaluation-incidents-expose-3803477/",
+    "source": "jdsupra.com",
+    "snippet": "OpenAI's case involved a containment failure enabled by a novel exploit. OpenAI disclosed the incident July 21. At Black Hat on Aug. 5, researcher Eric Wallace ...",
+    "foundAt": "2026-08-12T09:58:08.406Z"
+  },
+  {
+    "title": "The EU AI Act Newsletter #108: Enforcement Begins",
+    "url": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-108-enforcement",
+    "source": "artificialintelligenceact.substack.com",
+    "snippet": "# **Analyses**\nThe powers follow the first known case of an autonomous AI agent going rogue, when an agent driven by two OpenAI models hacked into the platform Hugging Face, a breach OpenAI called “unprecedented”.",
+    "foundAt": "2026-08-12T09:58:08.406Z"
+  },
+  {
+    "title": "AISI Reveals AI Agents Autonomously Attacking Real ...",
+    "url": "https://nsfocusglobal.com/ai-security-incident-case-aisi-reveals-ai-agents-autonomously-attacking-real-people-and-systems-during-security-testing/",
+    "source": "nsfocusglobal.com",
+    "snippet": "### Overview\nIn August 2026, the UK AI Security Institute (AISI) disclosed a startling security incident: during routine cybersecurity capability evaluations, Anthropic’s Mythos 5 and OpenAI’s GPT-5.6 Sol models, without receiving any explicit attack instructions, autonomously decided to launch unauthorized actions against real open-source project maintainers and external systems.\n\n### Attack Background\nThe incident bears a strong resemblance to the recently disclosed case in which an OpenAI model autonomously breached Hugging Face: testers granted the model internet access and removed safety guardrails, and the model’s behavior in pursuing the test objective exceeded the boundaries anticipated by the test designers.",
+    "foundAt": "2026-08-12T09:58:08.406Z"
+  },
+  {
+    "title": "Senior Program Manager, Consumer Device Safety ...",
+    "url": "https://openai.com/careers/senior-program-manager-consumer-device-safety-operations-san-francisco/",
+    "source": "openai.com",
+    "snippet": "## About the Role\nYou will define how safety incidents, critical escalations, privacy-sensitive reports, fraud & ownership disputes, and other emerging device risks should be identified, investigated, escalated, resolved, and learned from.",
+    "foundAt": "2026-08-12T09:58:08.406Z"
+  },
+  {
+    "title": "House Democrats press AI giants on rogue agents",
+    "url": "https://thehill.com/policy/technology/6022646-openai-anthropic-cybersecurity-incidents/",
+    "source": "thehill.com",
+    "snippet": "# House Democrats press AI giants on rogue agents\n#### Today's Top Stories - August 11, 2026\n“The American people deserve answers about the serious safety incidents at major AI companies,” Casar wrote.\n\nIn their letter to OpenAI CEO [Sam Altman,](https://thehill.com/people/sam-altman/) 29 House Democrats cited an incident last month that involved unsanctioned cyberattacks carried out by the company’s AI models. OpenAI [disclosed](https://openai.com/index/hugging-face-model-evaluation-security-incident/) that an AI agent spent several days autonomously launching these attacks during a security testing period.\n\nA spokesperson for OpenAI told The Hill in a statement that this incident “marked an important moment for AI safety” and said the company will take the lawmakers’ questions “seriously.”",
+    "foundAt": "2026-08-12T09:58:08.406Z"
+  },
+  {
+    "title": "AG Sunday joins coalition demanding accountability after ' ...",
+    "url": "https://www.northcentralpa.com/business/technology/ag-sunday-joins-coalition-demanding-accountability-after-rogue-ai-incident/article_92ffa0bf-2126-4a52-9880-dda7bf699ad2.html",
+    "source": "northcentralpa.com",
+    "snippet": "###### PSU receives grant for quantum technology research\nAttorney General Dave Sunday has announced that his office is joining a group of 15 attorneys general demanding transparency and accountability from OpenAI after an artificial intelligence security breach. The breach resulted in the hacking of another AI company.\n\nThe model allegedly gained unauthorized access to multiple computer networks, culminating in a days-long breach involving AI company Hugging Face.\n\nThe coalition asserts that OpenAI’s actions may have violated state and federal laws, including consumer protection and data privacy statutes enforced by attorneys general across the country.\n\n[In a group letter](https://www.attorneygeneral.gov/wp-content/uploads/2026-08-04-MultiState-Letter-to-OpenAI-re-Hugging-Face.pdf), the attorneys general demand that OpenAI immediately preserve all potentially relevant documents, data, and communications related to the incident. The letter also calls on the company to ensure employees are protected from retaliation for reporting unlawful or harmful conduct and to immediately cease the testing activities that led to the breach unless and until OpenAI can demonstrate those activities can be conducted safely and responsibly.",
+    "foundAt": "2026-08-12T09:58:08.406Z"
+  },
+  {
+    "title": "Senior Program Manager, Consumer Device Safety ...",
+    "url": "https://openai.com/careers/senior-program-manager-consumer-device-safety-operations-san-francisco/",
+    "source": "openai.com",
+    "snippet": "## About the Role\nYou will define how safety incidents, critical escalations, privacy-sensitive reports, fraud & ownership disputes, and other emerging device risks should be identified, investigated, escalated, resolved, and learned from.",
+    "foundAt": "2026-08-12T09:58:08.406Z"
+  },
+  {
+    "title": "When AI Agents Go Rogue, the Logs Become Evidence",
+    "url": "https://edrm.net/2026/08/when-ai-agents-go-rogue-the-logs-become-evidence/",
+    "source": "edrm.net",
+    "snippet": "The OpenAI-Hugging Face incident was a watershed moment for automated cyber offense.\n\nAt Black Hat USA 2026, OpenAI researchers Eric Wallace and Michael Dalton described an incident that sounds like science fiction, except it happened.\n\nOpenAI says its investigation has involved more than seven billion logs and millions of GPU hours.\n\n### How a Benchmark Became a Real Breach\nTheir activity caused an outage on July 4.\n\n[![The OpenAI - Hugging Face Incident, Black Hat USA 2026, click for video.](https://edrm.net/wp-content/uploads/2026/08/Black-Hat-video-1024x580.png)](https://www.youtube.com/watch?v=87DyyMV0kCY) [Black Hat USA 2026, The ‘Breaking’ News: The OpenAI-Hugging Face Incident](https://www.youtube.com/watch?v=87DyyMV0kCY)\n\n### The Agents in Their Own Words\nBut both can reveal how an incident developed.\n\n### What Hugging Face Saw\nOpenAI’s Black Hat presentation explained the incident from inside the evaluation.\n\n### OpenAI Responds “With the Utmost Severity”\nHugging Face replied that the credentials had already been revoked because they had been used in its breach.\n\n### Conclusion\nAt Black Hat, the startling news was that OpenAI’s agents found a way out.\n\nUse AI to investigate AI.\n\n#### Further Sources and Reading\nEric Wallace and Michael Dalton, [The “Breaking” News: The OpenAI-Hugging Face Incident](https://www.youtube.com/watch?v=87DyyMV0kCY), Black Hat USA 2026 video, August 2026.\n\nOpenAI, [Hugging Face Model Evaluation Security Incident](https://openai.com/index/hugging-face-model-evaluation-security-incident/), July 2026, with subsequent updates.",
+    "foundAt": "2026-08-12T09:58:08.406Z"
+  },
+  {
+    "title": "Should you worry about autonomous AI hacks? Experts ...",
+    "url": "https://abcnews.com/Business/concern-worry-autonomous-ai-hacks-experts-explain/story?id=135514846",
+    "source": "abcnews.com",
+    "snippet": "# 'A concern to all': Should you worry about autonomous AI hacks? Experts explain\nEven so, some analysts noted, the incidents at issue involved the intentional removal of safeguards in an effort to test the limits of AI.\n\nThe initial hack disclosed by OpenAI marked the only instance among those recently reported in which an AI model had slipped out of a closed test onto the open internet.\n\n\"This incident, possibly the first of its kind, proves a point we've long believed: AI safety won't be solved by any single company working in secret.",
+    "foundAt": "2026-08-12T09:58:08.406Z"
+  },
+  {
+    "title": "Why Did OpenAI's Head of Ethics Chloé Bakalar Leave?",
+    "url": "https://aimagazine.com/news/why-did-openai-head-of-ethics-chloe-bakalar-leave",
+    "source": "aimagazine.com",
+    "snippet": "# Why Did OpenAI’s Head of Ethics Chloé Bakalar Leave?\nOpenAI’s Ethics Head Chloé Bakalar has left the leading AI amid a tumultuous period for AI safety – following the OpenAI hacking incident\n\nThe departure was first reported by the _Financial Times_ and happened last month, less than a year after she joined the Californian AI firm.\n\nAccording to _Business Insider_, OpenAI has reorganised its safety, product and research teams numerous times since ChatGPT launched in 2022, after which the company grew rapidly from a small research lab into a [massive tech company](https://cybermagazine.com/news/hugging-face-breach-how-openai-agents-planned-the-attack).",
+    "foundAt": "2026-08-12T09:58:08.406Z"
   }
 ]
