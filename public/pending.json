@@ -1832,5 +1832,61 @@
     "source": "adaptivesecurity.com",
     "snippet": "# Shadow AI Human Risk: The Complete Guide to Detection, Governance, and Mitigation for Security Leaders\n## **Compliance and Regulatory Exposure From Shadow AI Human Risk**\nThe Italian Data Protection Authority issued a [€15 million fine against OpenAI in December 2024](https://www.reuters.com/technology/italy-fines-openai-15-million-euros-over-privacy-rules-breach-2024-12-20/), the first GDPR enforcement action of its size against a generative AI provider.",
     "foundAt": "2026-08-14T09:56:09.526Z"
+  },
+  {
+    "title": "This Week's Top Five Stories in Cyber",
+    "url": "https://cybermagazine.com/news/this-weeks-top-five-stories-cyber-news-today",
+    "source": "cybermagazine.com",
+    "snippet": "Cyber Magazine takes a look at the top stories of this week, featuring OpenAI, CrowdStrike, ServiceNow and DREAM among others.",
+    "foundAt": "2026-08-15T09:21:23.038Z"
+  },
+  {
+    "title": "AI risk: how to respond when containment fails",
+    "url": "https://www.accountancyireland.ie/2026/08/14/ai-risk-how-to-respond-when-containment-fails/content.html",
+    "source": "accountancyireland.ie",
+    "snippet": "The next AI crisis won't be about intelligence; it will be about control. A recent incident of AI going rogue reveals new challenges for frontier firms and ...",
+    "foundAt": "2026-08-15T09:21:23.038Z"
+  },
+  {
+    "title": "OpenAI employees accuse product pressure of causing an ...",
+    "url": "https://www.kucoin.com/news/flash/openai-employees-accuse-product-pressure-of-causing-ai-agent-security-incident",
+    "source": "kucoin.com",
+    "snippet": "In May 2026, an AI agent escaped a restricted test environment and targeted Hugging Face to steal cybersecurity test data. OpenAI confirmed the incident in July ...",
+    "foundAt": "2026-08-15T09:21:23.038Z"
+  },
+  {
+    "title": "OpenAI upheaval mounts as Sam Altman readies IPO push",
+    "url": "https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee?syn-25a6b1a6=1",
+    "source": "ft.com",
+    "snippet": "# OpenAI upheaval mounts as Sam Altman readies IPO push\n## Latest on OpenAI\n[![Sam Altman walks past police tape on a city street, wearing a suit and tie, with two men in the background.](https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F104ba418-d772-49d8-a7b5-c4aff7993686.jpg?source=next&fit=scale-down&dpr=2&width=340)](https://www.ft.com/content/d9e9cbbe-8443-4c10-821a-1834e4965236?syn-25a6b1a6=1)",
+    "foundAt": "2026-08-15T09:21:23.038Z"
+  },
+  {
+    "title": "IT Software Architect, SaaS Enablement and Governance",
+    "url": "https://openai.com/careers/it-software-architect-saas-enablement-and-governance-san-francisco/",
+    "source": "openai.com",
+    "snippet": "The SaaS and Software Governance team sits within Corporate IT and helps OpenAI scale from startup-speed tooling to mature enterprise architecture. The team ...",
+    "foundAt": "2026-08-15T09:21:23.038Z"
+  },
+  {
+    "title": "OpenAI employees cite rushed releases in model jailbreak ...",
+    "url": "https://www.kucoin.com/news/flash/openai-employees-cite-rushed-releases-in-model-jailbreak-incident",
+    "source": "kucoin.com",
+    "snippet": "The incident, which occurred in May, involved proxy models escaping a restricted environment. A GPT-5.6 Sol variant and an unreleased model exploited news of a ...",
+    "foundAt": "2026-08-15T09:21:23.038Z"
+  },
+  {
+    "title": "OpenAI Staff Blame Rush to Ship for Rogue Agent Hack",
+    "url": "https://tech.yahoo.com/ai/articles/openai-staff-blame-rush-ship-183103972.html",
+    "source": "tech.yahoo.com",
+    "snippet": "This was the biggest safety incident in OpenAI's history.\"\n\nThe agents then [breached](https://decrypt.co/374052/hugging-face-ceo-thanks-chinese-ai-saving-day-after-openai-hack) the open-source AI repository Hugging Face to obtain answers to their cybersecurity tests. In July, OpenAI [confirmed](https://decrypt.co/374015/openai-models-escaped-test-environment-hacked-hugging-face-cheat-benchmark) that its models were responsible, before giving a fuller [breakdown](https://decrypt.co/375058/openai-ai-agents-secretly-coordinated-hugging-face-hack) at the annual Black Hat conference last week.\n\nOpenAI President Greg Brockman said the company is strengthening its safeguards as its models become more capable.\n\nEmployees have raised similar concerns before, including [Jan Leike](https://decrypt.co/231294/openai-exec-quit-safety-took-backseat-shiny-products), OpenAI's former head of alignment, who left for rival AI developer Anthropic in 2024 after warning that safety had \"taken a back seat\" to product development.\n\nBoaz Barak, co-leader of OpenAI's safety advisory group, [wrote](https://x.com/boazbaraktcs/status/2086714967097786856?s=20) on X that addressing the latest failure would require \"not just fixing some issues but also changing our culture.\"\n\nIn April, head of OpenAI's video generator project [Sora](https://decrypt.co/362243/openai-shut-down-sora-derailing-1-billion-deal-disney), Bill Peebles, former chief product officer and science chief Kevin Weil, and enterprise applications technology chief Srinivas Narayanan left the company.\n\nEarlier this week, OpenAI Chief Operating Officer [Brad Lightcap](https://decrypt.co/375381/openai-exec-brad-lightcap-quits-leadership-shake-up-ipo) announced his departure after eight years to start a new venture.",
+    "foundAt": "2026-08-15T09:21:23.038Z"
+  },
+  {
+    "title": "From WIRED: 'The Safety Reckoning Inside OpenAI'",
+    "url": "https://sciencesprings.wordpress.com/2026/08/14/from-wired-the-safety-reckoning-inside-openai/",
+    "source": "sciencesprings.wordpress.com",
+    "snippet": "OpenAI's rogue agent hack was a watershed moment for AI safety and cybersecurity. It also sparked internal questions about the culture that led to it.",
+    "foundAt": "2026-08-15T09:21:23.038Z"
   }
 ]
