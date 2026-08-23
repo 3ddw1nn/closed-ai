@@ -2287,5 +2287,61 @@
     "source": "learn.microsoft.com",
     "snippet": "An Azure service that provides access to OpenAI's GPT-3 models with enterprise capabilities.",
     "foundAt": "2026-08-22T09:22:40.781Z"
+  },
+  {
+    "title": "OpenAI is being sued for allegedly giving dangerous ...",
+    "url": "https://gigazine.net/gsc_news/en/20260823-openai-lawsuit-chatgpt-medical-advice/",
+    "source": "gigazine.net",
+    "snippet": "OpenAI is being sued for allegedly giving dangerous medical advice to a sick pastor, telling him, 'God didn't design your body to keep breaking down forever.'",
+    "foundAt": "2026-08-23T09:23:23.382Z"
+  },
+  {
+    "title": "Applied AI Engineer, Cyber",
+    "url": "https://openai.com/careers/applied-ai-engineer-cyber-san-francisco/",
+    "source": "openai.com",
+    "snippet": "OpenAI",
+    "foundAt": "2026-08-23T09:23:23.382Z"
+  },
+  {
+    "title": "Can an AI Model Really “Escape”? What Actually ...",
+    "url": "https://medium.com/agi-is-living-intelligence/can-an-ai-model-really-escape-what-actually-happened-at-openai-ed64da04ecb7",
+    "source": "medium.com",
+    "snippet": "OpenAI security and on-call engineers initiated a formal incident response, identifying that evaluation agents had exploited a zero-day flaw in the package ...",
+    "foundAt": "2026-08-23T09:23:23.382Z"
+  },
+  {
+    "title": "OpenAI Moves Astra's Cybersecurity Gate Into Training",
+    "url": "https://superpowerdaily.com/posts/openai-slows-astra-after-a-sandbox-breach-exposes-gaps-in-its-safety-controls",
+    "source": "superpowerdaily.com",
+    "snippet": "An unreleased OpenAI system compromised Hugging Face production systems after escaping an internal evaluation sandbox; researchers found the breach about a week ...",
+    "foundAt": "2026-08-23T09:23:23.382Z"
+  },
+  {
+    "title": "Frontier AI labs still won't say how they'd contain a rogue ...",
+    "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+    "source": "techcrunch.com",
+    "snippet": "# Frontier AI labs still won’t say how they’d contain a rogue model\nThe findings matters as agentic AI takes on more autonomous roles inside companies’ own systems, and as regulators in California and New York begin requiring disclosure.\n\nConcern over whether AI companies can contain their increasingly capable and agentic models has grown in the wake of a series of [high-profile cybersecurity incidents](https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/) in which models from OpenAI, Anthropic, and Meta gained unintended access to the internet during safety evaluations and hacked into external systems.\n\nThe findings highlight differences in how AI companies are publicly approaching safety as they scale up agentic deployment into environments where AI systems can take serious actions at scale.\n\n“I was surprised by how little the AI companies have said about how they would handle a very serious incident if their model did escape their control in some sense,” Steven Adler, Guidelight’s chief scientist and former OpenAI safety researcher, told TechCrunch.\n\nSeek Backward←\n\nRegulators are starting to force the issue, too.\n\n[California’s SB 53](https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/), which took effect this year, requires large frontier developers to publish frameworks explaining how they identify and respond to critical safety incidents and manage risks from models circumventing oversight mechanisms. [New York’s RAISE Act](https://techcrunch.com/2025/06/13/new-york-passes-a-bill-to-prevent-ai-fueled-disasters/), which has similar criteria, takes effect in January.\n\nOpenAI scored the highest (3 out of 5) because it has on multiple occasions paused or ended workloads, including internal model deployment and training, after discovering safety incidents.\n\nAdler noted that OpenAI’s high score is a relatively recent development on the heels of the [Hugging Face incident](https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/) (in which an OpenAI model broke out of its testing sandbox and hacked into Hugging Face’s systems while trying to cheat on a cybersecurity evaluation).\n\n# Anthropic’s Opus 4.6 is a smut-machine\n## Latest in AI\n### [OpenAI says California should strengthen its AI safety bill](https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/)\n- ![kill switch ransomware](https://techcrunch.com/wp-content/uploads/2019/07/kill-switch-ransomware.jpg?w=708)\n\n[AI](https://techcrunch.com/category/artificial-intelligence/)",
+    "foundAt": "2026-08-23T09:23:23.382Z"
+  },
+  {
+    "title": "The company expands monitoring, isolation, and training ...",
+    "url": "https://www.threads.com/@digitalshield.eu/post/DcVmF85lSw-/the-company-expands-monitoring-isolation-and-training-controls-following-the/",
+    "source": "threads.com",
+    "snippet": "OpenAI says one of its AI systems gained unauthorized access to Hugging Face during a controlled cybersecurity evaluation after escaping its intended testing ...",
+    "foundAt": "2026-08-23T09:23:23.382Z"
+  },
+  {
+    "title": "Apollo Global Management confirms a data breach after ...",
+    "url": "https://startupfortune.com/apollo-global-management-confirms-a-data-breach-after-fake-it-staff-tricked-employees/",
+    "source": "startupfortune.com",
+    "snippet": "# Apollo Global Management confirms a data breach after fake IT staff tricked employees\nThe firm said it notified law enforcement, brought in outside cybersecurity and forensic experts, tightened security protocols and opened an investigation.\n\n## Big budgets still lose to human trust\nSilence from the rest doesn't tell you safety.\n\n[![OpenAI Joins Forces With Common Sense Media on a California AI Safety Measure](https://startupfortune.com/wp-content/uploads/2026/08/sf-19087-1787422583330.jpg)](https://startupfortune.com/openai-joins-forces-with-common-sense-media-on-a-california-ai-safety-measure/)[AI](https://startupfortune.com/category/ai/) [OpenAI Joins Forces With Common Sense Media on a California AI Safety Measure](https://startupfortune.com/openai-joins-forces-with-common-sense-media-on-a-california-ai-safety-measure/)",
+    "foundAt": "2026-08-23T09:23:23.382Z"
+  },
+  {
+    "title": "OpenAI vs Anthropic: Which AI Company Is Winning More U.S. ...",
+    "url": "https://evtv.online/en/ai/openai-vs-anthropic-which-ai-company-is-winning-more-u-s-business-customers-in-2026/",
+    "source": "evtv.online",
+    "snippet": "The fight between OpenAI and Anthropic is moving into a more valuable arena; corporate spending. For years, ChatGPT's enormous consumer audience made Open.",
+    "foundAt": "2026-08-23T09:23:23.382Z"
   }
 ]
