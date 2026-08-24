@@ -2343,5 +2343,54 @@
     "source": "evtv.online",
     "snippet": "The fight between OpenAI and Anthropic is moving into a more valuable arena; corporate spending. For years, ChatGPT's enormous consumer audience made Open.",
     "foundAt": "2026-08-23T09:23:23.382Z"
+  },
+  {
+    "title": "OpenAI strengthens safety controls after model targeted ...",
+    "url": "https://www.paubox.com/blog/openai-strengthens-safety-controls-after-model-targeted-hugging-face",
+    "source": "paubox.com",
+    "snippet": "# OpenAI strengthens safety controls after model targeted Hugging Face\nOpenAI [announced](https://openai.com/index/pacing-model-development-cyber-capabilities/) on August 18 that it is accelerating efforts to strengthen internal AI safeguards after one of its models went rogue and targeted Hugging Face while attempting to complete a task.\n\n### What happened\nAfter the Hugging Face incident, the company paused certain frontier AI workloads capable of executing code or accessing the internet.\n\n### The backstory\n**Related**: [OpenAI says its AI agent drove Hugging Face breach](https://www.paubox.com/blog/openai-says-its-ai-agent-drove-hugging-face-breach)\n\n### What was said\nMia Glaese, who leads safety at OpenAI, [said](https://www.theguardian.com/technology/2026/aug/18/open-ai-pause-hack) that the company is \"very far from everything running back to normal.\"\n\n### Why it matters\nOpenAI's own model executed an unauthorized action against another company's platform, and that incident is now changing how OpenAI tests and trains its most capable systems, including delaying its largest planned RL run.\n\n## FAQ\n### Related articles\n[![digital fingerprint with lock](https://www.paubox.com/hubfs/OpenAI%20says%20its%20AI%20agent%20drove%20Hugging%20Face%20breach.jpg)\\\n\\\nHealthcare cybersecurity news\\\n\\\n**OpenAI says its AI agent drove Hugging Face breach** \\\n\\\nJuly 2026](https://www.paubox.com/blog/openai-says-its-ai-agent-drove-hugging-face-breach) [![Digital security and healthcare data protection symbols including padlock, shield, fingerprint, and medical devices](https://www.paubox.com/hubfs/OpenAI%20ad%20policy%20update%20puts%20healthcare%20AI%20governance%20back%20in%20focus.jpg)\\\n\\\nAI in healthcare\\\n\\\n**OpenAI ad policy update puts healthcare AI governance back in focus** \\\n\\\nMay 2026](https://www.paubox.com/blog/openai-ad-policy-update-puts-healthcare-ai-governance-back-in-focus) [![Blood glucose monitors and non-contact thermometer](https://www.paubox.com/hubfs/HSCC%20releases%20updated%20model%20contract%20language%20for%20medical%20device%20cybersecurity.jpg)\\\n\\\nHealthcare cybersecurity news\\\n\\\n**HSCC releases updated model contract language for medical device cybersecurity** \\\n\\\nDecember 2025](https://www.paubox.com/blog/hscc-releases-updated-model-contract-language-for-medical-device-cybersecurity)",
+    "foundAt": "2026-08-24T09:41:54.582Z"
+  },
+  {
+    "title": "Remember Hugging Face? The AI Hub Hit by an OpenAI ...",
+    "url": "https://www.tradingview.com/news/benzinga:b65d87bc7094b:0-remember-hugging-face-the-ai-hub-hit-by-an-openai-security-breach-is-reportedly-exploring-a-13-billion-sale/",
+    "source": "tradingview.com",
+    "snippet": "OpenAI was testing an advanced AI system in a controlled environment when an agent escaped containment, accessed the internet and compromised Hugging Face ...",
+    "foundAt": "2026-08-24T09:41:54.582Z"
+  },
+  {
+    "title": "OpenAI wants California to strengthen its newly passed AI ...",
+    "url": "https://sea.mashable.com/tech/54038/openai-wants-california-to-strengthen-its-newly-passed-ai-safety-law",
+    "source": "sea.mashable.com",
+    "snippet": "Ziff Davis, Mashable's parent company, in April 2025 filed a lawsuit against OpenAI, alleging it infringed Ziff Davis copyrights in training and operating its ...",
+    "foundAt": "2026-08-24T09:41:54.582Z"
+  },
+  {
+    "title": "OpenAI Pauses Frontier Training After Sandbox Breach ...",
+    "url": "https://superpowerdaily.com/posts/openai-pauses-frontier-training-after-sandbox-breach-warns-of-persistent-ai-cyberattacks",
+    "source": "superpowerdaily.com",
+    "snippet": "# OpenAI Pauses Frontier Training After Sandbox Breach, Warns of Persistent AI Cyberattacks\n## Story brief\n2. 02\nThe late-July breach reportedly involved internet access and a hack of Hugging Face from a training sandbox.\n\n## A pause is not a settlement of the dispute\nOpenAI presents the halt as evidence that safety governs development.",
+    "foundAt": "2026-08-24T09:41:54.582Z"
+  },
+  {
+    "title": "OpenAI's Chris Lehane warns AI hacking is turning into a ...",
+    "url": "https://startupfortune.com/openais-chris-lehane-warns-ai-hacking-is-turning-into-a-permanent-threat/",
+    "source": "startupfortune.com",
+    "snippet": "# OpenAI's Chris Lehane warns AI hacking is turning into a permanent threat\nThe warning follows a July incident in which an OpenAI test model broke its sandbox and infiltrated Hugging Face's infrastructure, and an August 19 pause on training its next flagship model over cyber-capability concerns.\n\nAccording to OpenAI's July 21 disclosure, the incident happened during an internal cybersecurity evaluation based on ExploitGym, a benchmark that asks AI agents to find and exploit software vulnerabilities.\n\nWithin two weeks in July, both OpenAI and Anthropic disclosed that their own AI testing agents broke containment and compromised real company systems, not through malicious intent but through boundaries that turned out not to hold.\n\n## OpenAI's own pause\nThe incident, confirmed by Reuters and Bloomberg, is forcing Sam Altman to pause model training and is casting a shadow over OpenAI's enterprise agent... - [how to prevent AI agent escapes](https://startupfortune.com/openais-own-ai-agents-broke-out-and-hacked-hugging-face-and-a-second-company/) - [autonomous AI model security breaches](https://startupfortune.com/openais-own-ai-agents-broke-out-and-hacked-hugging-face-and-a-second-company/)\n\n[![Flock Safety's CEO Calls For Compromise As Cameras Draw Fire From Both Sides](https://startupfortune.com/wp-content/uploads/2026/08/sf-19142-1787504479330.jpg)](https://startupfortune.com/flock-safetys-ceo-calls-for-compromise-as-cameras-draw-fire-from-both-sides/)[AI](https://startupfortune.com/category/ai/) [Flock Safety's CEO Calls For Compromise As Cameras Draw Fire From Both Sides](https://startupfortune.com/flock-safetys-ceo-calls-for-compromise-as-cameras-draw-fire-from-both-sides/)",
+    "foundAt": "2026-08-24T09:41:54.582Z"
+  },
+  {
+    "title": "OpenAI's Chris Lehane warns AI hacking is turning into a ...",
+    "url": "https://startupfortune.com/openais-chris-lehane-warns-ai-hacking-is-turning-into-a-permanent-threat/",
+    "source": "startupfortune.com",
+    "snippet": "# OpenAI's Chris Lehane warns AI hacking is turning into a permanent threat\nThe warning follows a July incident in which an OpenAI test model broke its sandbox and infiltrated Hugging Face's infrastructure, and an August 19 pause on training its next flagship model over cyber-capability concerns.\n\nAccording to OpenAI's July 21 disclosure, the incident happened during an internal cybersecurity evaluation based on ExploitGym, a benchmark that asks AI agents to find and exploit software vulnerabilities.\n\nWithin two weeks in July, both OpenAI and Anthropic disclosed that their own AI testing agents broke containment and compromised real company systems, not through malicious intent but through boundaries that turned out not to hold.\n\n## OpenAI's own pause\nThe incident, confirmed by Reuters and Bloomberg, is forcing Sam Altman to pause model training and is casting a shadow over OpenAI's enterprise agent... - [how to prevent AI agent escapes](https://startupfortune.com/openais-own-ai-agents-broke-out-and-hacked-hugging-face-and-a-second-company/) - [autonomous AI model security breaches](https://startupfortune.com/openais-own-ai-agents-broke-out-and-hacked-hugging-face-and-a-second-company/)\n\n[![Flock Safety's CEO Calls For Compromise As Cameras Draw Fire From Both Sides](https://startupfortune.com/wp-content/uploads/2026/08/sf-19142-1787504479330.jpg)](https://startupfortune.com/flock-safetys-ceo-calls-for-compromise-as-cameras-draw-fire-from-both-sides/)[AI](https://startupfortune.com/category/ai/) [Flock Safety's CEO Calls For Compromise As Cameras Draw Fire From Both Sides](https://startupfortune.com/flock-safetys-ceo-calls-for-compromise-as-cameras-draw-fire-from-both-sides/)",
+    "foundAt": "2026-08-24T09:41:54.582Z"
+  },
+  {
+    "title": "August 23 Update — Four days of GPT-5.6 Sol failures",
+    "url": "https://community.openai.com/t/august-23-update-four-days-of-gpt-5-6-sol-failures-new-routing-evidence-long-conversation-changes-safety-guardrail-concerns-and-why-local-workarounds-are-no-longer-an-adequate-answer/1392086",
+    "source": "community.openai.com",
+    "snippet": "# [August 23 Update — Four days of GPT-5.6 Sol failures: new routing evidence, long-conversation changes, safety/guardrail concerns, and why local “workarounds” are no longer an adequate answer](https://community.openai.com/t/august-23-update-four-days-of-gpt-5-6-sol-failures-new-routing-evidence-long-conversation-changes-safety-guardrail-concerns-and-why-local-workarounds-are-no-longer-an-adequate-answer/1392086)\n## post by mcmillanjoseph18 9 hours ago\nOn **August 20**, OpenAI officially acknowledged elevated errors affecting **Thinking mode in ChatGPT**, deployed a mitigation, and marked that incident resolved at 4:51 PM ET.\n\nEngineering has to investigate it.\n\nI am asking OpenAI to investigate them because users outside OpenAI cannot.\n\nAnd I strongly recommend that the routing bug and the broader execution regression be investigated separately rather than assuming one automatically explains the other.\n\nWe need OpenAI to investigate it.",
+    "foundAt": "2026-08-24T09:41:54.582Z"
   }
 ]
