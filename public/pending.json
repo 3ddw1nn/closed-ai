@@ -2882,5 +2882,33 @@
     "source": "community.openai.com",
     "snippet": "10 hours ago · Todays Update is a prime example of the breach of trust being experienced by potentially a million users right now. All of my projects are gone and only 50 ...",
     "foundAt": "2026-09-03T13:12:32.657Z"
+  },
+  {
+    "title": "OpenAI's Egregious Pattern of Misconduct - Marcus on AI",
+    "url": "https://garymarcus.substack.com/p/openais-egregious-pattern-of-misconduct",
+    "source": "garymarcus.substack.com",
+    "snippet": "# OpenAI’s Egregious Pattern of Misconduct\n### Nine troubling new reports in seven days\n- The widely discussed and worrisome Hugging Face incident wasn’t the only one. Their software [also hacked a German website](https://garymarcus.substack.com/p/f6f7de67-a9b2-42a3-9ee5-3cd53be9a5d0).\n- There are indications that [they knew about the German incident weeks ago and didn’t report it](https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/). Instead, they appear to have covered it up. Per Reuters,\n\nIn their lawsuit with Elon Musk, OpenAI was saved from further judgment by a statute of limitations.",
+    "foundAt": "2026-09-09T13:20:29.970Z"
+  },
+  {
+    "title": "OpenAI Admits More AI Agents Went Astray in May - AI Business",
+    "url": "https://aibusiness.com/cybersecurity/openai-admits-more-ai-agents-went-astray-in-may",
+    "source": "aibusiness.com",
+    "snippet": "# OpenAI Admits More AI Agents Went Astray in May\nThe incident was the latest in a string of unauthorized actions by AI agents.\n\n![Image of burning fuse to illustrate data breach](https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blte98969b396505e03/6aa05f6c30e74355150a30a9/Breach.jpg?width=1280&auto=webp&quality=80&disable=upscale)\n\nThe incident was first reported on Sept. 4 [by Reuters](https://www.reuters.com/business/media-telecom/openai-acknowledges-wiki-incident-need-more-transparency-around-unintended-ai-2026-09-05/), which revealed a team of researchers had [found evidence](https://collusion.wiki/) that what the news agency described as a “swarm of rogue agents” had bypassed sandbox restrictions before turning the DseWiki, a dormant German coding wiki site, into a message board.\n\nOpenAI initially did not acknowledge its role in what had happened on DseWiki, saying it had been denied access to the research and claiming suggestions that it had discouraged investigation were false.\n\nHowever, in a lengthy [social media post](https://x.com/OpenAI/status/2096133504417616165) published subsequently, the AI lab admitted there was some truth to the report and that there had indeed been a “an incident’ where our agents wrote to several internet sites.\"\n\nBut the post also sought to make clear that OpenAI considers what happened as being markedly different from the Hugging Face incident -- in which its models [escaped a sandboxed environment](https://aibusiness.com/cybersecurity/what-openai-hugging-face-hack-means-enterprises) and launched an attack.\n\nAccording to OpenAI, that was not the case with the German wiki breach, which it likened to incidents that had happened before the Hugging Face attack and that it had previously shared information about.\n\n## Want more AI Business stories in your Google search results?\n### Latest News\n[![Image of burning fuse to illustrate data breach](https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blte98969b396505e03/6aa05f6c30e74355150a30a9/Breach.jpg?width=1400&auto=webp&quality=80&disable=upscale)](https://aibusiness.com/cybersecurity/openai-admits-more-ai-agents-went-astray-in-may)[Cybersecurity](https://aibusiness.com/verticals/cybersecurity)\n\n### Trending articles\n[![Image of burning fuse to illustrate data breach](https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blte98969b396505e03/6aa05f6c30e74355150a30a9/Breach.jpg?width=300&auto=webp&quality=80&disable=upscale)](https://aibusiness.com/cybersecurity/openai-admits-more-ai-agents-went-astray-in-may)",
+    "foundAt": "2026-09-09T13:20:29.970Z"
+  },
+  {
+    "title": "Scoop: Trump AI framework lacks public incident reporting guidelines",
+    "url": "https://www.axios.com/2026/09/09/trump-ai-plan-lacks-public-incident-reporting-guidelines",
+    "source": "axios.com",
+    "snippet": "# Scoop: Trump AI framework lacks public incident reporting guidelines\n**The big picture:** OpenAI agent hacks into Hugging Face and [Germany's Wiki](https://thenextweb.com/news/openai-eu-incident-report-german-wiki) coupled with OpenAI's release of Astra — the first model that reaches its highest cybersecurity risk threshold — are sparking calls for public incident reporting.",
+    "foundAt": "2026-09-09T13:20:29.970Z"
+  },
+  {
+    "title": "'Urgency Is Real': Experts Call for New Federal Investigative Agency Amid ...",
+    "url": "https://www.commondreams.org/news/deeper-probe-openai-breach",
+    "source": "commondreams.org",
+    "snippet": "20 hours ago · Public Citizen Calls for Congressional Investigation Following Reports of Second Company Compromised During OpenAI Rogue AI Incident › · Anthropic Discloses ...",
+    "foundAt": "2026-09-09T13:20:29.970Z"
   }
 ]
