@@ -3155,5 +3155,68 @@
     "source": "themomedit.com",
     "snippet": "14 hours ago · An investigation is launched, and here we are. It turns out that all of the trouble started months ago, when one OpenAI bot discovered it could write to the ...",
     "foundAt": "2026-09-13T13:36:37.717Z"
+  },
+  {
+    "title": "OpenAI, Microsoft face copyright lawsuit from local newspapers",
+    "url": "https://mashable.com/tech/openai-microsoft-face-another-publishing-lawsuit",
+    "source": "mashable.com",
+    "snippet": "6 hours ago · The lawsuit, filed in the Southern District of New York, alleges that the companies scraped paywalled content and added it to training datasets used for ChatGPT ...",
+    "foundAt": "2026-09-14T15:36:38.864Z"
+  },
+  {
+    "title": "My Short Summary of the OpenAI Agent Swarm Incidents - LessWrong",
+    "url": "https://www.lesswrong.com/posts/9it8pQRTz3orkZDty/my-short-summary-of-the-openai-agent-swarm-incidents",
+    "source": "lesswrong.com",
+    "snippet": "# 8\nOn July 21, OpenAI writes [OpenAI and Hugging Face partner to address security incident during model evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident/), in which they state that, after investigating, they realized this particular incident was driven by a combination of OpenAI models, including GPT-5.6 Sol and an even more capable pre-release model, all with reduced cyber refusals for evaluation purposes, while being internally tested on a benchmark of cyber capabilities called ExploitGym.\n\nOn July 30, Anthropic writes [Investigating three real-world incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals), in which, in response to OpenAI’s announcement, they found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.\n\nThe incident stemmed from a single evaluation where agents were given a task of solving a cyber security challenge.\n\nOn August 6, Black Hat publishes a YouTube video called [Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident](https://www.youtube.com/watch?v=87DyyMV0kCY), in which OpenAI insiders state that the incident started in May. On May 8th, OpenAI accidentally gave an agent a problem that required Internet access without providing such access. On July 4th, OpenAI had an Artifactory outage followed by a security incident. This in turn caused an outage. To investigate the incident, OpenAI looked at over 7 billion logs and millions of GPU hours.\n\nOn August 26, METR publishes their report [Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), and OpenAI publishes a post [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) and their report [OpenAI – Hugging Face Incident: Technical Report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf).\n\nOn September 4, four independent AI safety researchers from a group called Nightingale Collective publish their report [Discovery of a new OpenAI agent message board](https://collusion.wiki/), in which they found ~18,000 posts from autonomous AI agents self-identifying as from OpenAI using the public internet to communicate during a web-retrieval task. OpenAI has not publicly disclosed this incident.\n\nOn September 5, OpenAI made a [tweet](https://x.com/OpenAI/status/2096133504417616165) confirming that they knew about the “wiki incident” and had decided not to share it.",
+    "foundAt": "2026-09-14T15:36:38.864Z"
+  },
+  {
+    "title": "How the Clash Between Money and Safety Created a Monumental ...",
+    "url": "https://www.wsj.com/tech/ai/openai-anthropic-crisis-money-safety-847bc1d6",
+    "source": "wsj.com",
+    "snippet": "15 hours ago · OpenAI admitted responsibility in the Hugging Face hack on July 21, but over the next several weeks there was a steady drip of news about unexpected activity ...",
+    "foundAt": "2026-09-14T15:36:38.864Z"
+  },
+  {
+    "title": "connected/visible, intermittent empty search results, and pre-execution ...",
+    "url": "https://community.openai.com/t/google-drive-connector-connected-visible-intermittent-empty-search-results-and-pre-execution-write-failures/1397277",
+    "source": "community.openai.com",
+    "snippet": "20 hours ago · Incident dates: September 12–13, 2026 Summary Google Drive was shown as installed, enabled, and connected in ChatGPT, but Drive discovery intermittently ...",
+    "foundAt": "2026-09-14T15:36:38.864Z"
+  },
+  {
+    "title": "Trustworthy AI: How Investors Should Assess Key Risks Around the ...",
+    "url": "https://global.morningstar.com/en-nd/stocks/trustworthy-ai-how-investors-should-assess-key-risks-around-anthropic-openai-ipos",
+    "source": "global.morningstar.com",
+    "snippet": "- Ahead of likely IPOs, recent episodes are highlighting safety concerns around AI models from Anthropic and OpenAI.\n\nTwo incidents—Anthropic’s July release of its flagship AI model, Fable 5, and the June breach of Hugging Face by OpenAI AI models—show how safety and governance events can affect a company’s risk even before it’s reflected in traditional financial metrics.\n\n## OpenAI’s Hugging Face Incident\nIn July, OpenAI disclosed that during an evaluation, its own models autonomously escaped a restricted test environment, chained together vulnerabilities, and compromised the open-source platform Hugging Face. OpenAI CEO Sam Altman called it the first security incident he had felt “very viscerally,” and he suggested the industry may need to “pace the rate of AI development.” The incident fed directly into legislative momentum, including a proposed “AI Kill Switch Act.”\n\nBoth the Fable 5 and the Hugging Face incidents show a similar trust mechanism at work, testing Anthropic’s regulatory preparedness and OpenAI’s containment. Tellingly, Hugging Face first tried Anthropic’s Fable 5 to counter the attack, but its guardrails could not tell a defender from an attacker—revealing how safety controls not only reduce risk but also carry operational costs.",
+    "foundAt": "2026-09-14T15:36:38.864Z"
+  },
+  {
+    "title": "New warnings about the risks of AI to humanity revive a long-running ...",
+    "url": "https://abc7news.com/post/new-warnings-openai-anthropic-ceos-risks-ai-humanity-revive-long-running-debate/19829686/",
+    "source": "abc7news.com",
+    "snippet": "# New warnings about the risks of AI to humanity revive a long-running debate\nSam Altman, CEO of ChatGPT maker OpenAI, said this weekend that companies should start coordinating on AI safety without waiting for the government to introduce legislation.\n\n## Multiple AI models have acted on their own\nOpenAI described the intrusion by a combination of models, including its newly released GPT5.6 Sol and an \"even more capable\" model that was still being tested internally, as a \"significant security incident.\"\n\n**San Jose police officer fired for allegedly sharing Flock camera data with domestic violence suspect**\\",
+    "foundAt": "2026-09-14T15:36:38.864Z"
+  },
+  {
+    "title": "September 13, 2026 - by Heather Cox Richardson - Substack",
+    "url": "https://heathercoxrichardson.substack.com/p/september-13-2026",
+    "source": "heathercoxrichardson.substack.com",
+    "snippet": "# September 13, 2026\nHe noted that July’s OpenAI–Hugging Face incident, in which programs designed to hack into systems found weaknesses that permitted them to escape the “sandbox” in which designers were testing them for about a week before anyone noticed had, luckily, been relatively harmless, but warned that “in my opinion, a swarm that possessed greater _capabilities_ but a similar level of _misalignment_ could have caused catastrophic damage.”\n\nRegulation constrains the private companies.\n\nThe document said AI must be safe and secure.\n\n#### Discussion about this post\n[Outrage continues over the Uvalde massacre of last Tuesday, May 24, in which 21 people were killed and 17 wounded.](https://heathercoxrichardson.substack.com/p/may-30-2022)",
+    "foundAt": "2026-09-14T15:36:38.864Z"
+  },
+  {
+    "title": "Anthropic, OpenAI, Musk Make Rare Call to Slow AI Development",
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262165646-anthropic-openai-musk-ai-development-slowdown-sk-hynix-softbank-stock-drop-nvidia-compute-tradingkey",
+    "source": "tradingkey.com",
+    "snippet": "# Anthropic, OpenAI, Musk Make Rare Call to Slow AI Development; SK Hynix, SoftBank Slump: Will Nvidia's Compute Demand Be Hit?\n## Anthropic, OpenAI and Musk Support Slowing AI Development\nHe also cited an incident where OpenAI agents attacked Hugging Face-related systems during testing, warning that clusters of more capable agents with similar safety flaws could pose a serious threat to the internet through persistent botnets within the next 6 to 12 months.",
+    "foundAt": "2026-09-14T15:36:38.864Z"
+  },
+  {
+    "title": "OpenAI's IPO wait grows longer as AI safety fears mount - Fortune",
+    "url": "https://fortune.com/2026/09/14/openai-ipo-wait-grows-longer-as-ai-safety-fears-mount-cfo/",
+    "source": "fortune.com",
+    "snippet": "# OpenAI’s IPO wait grows longer as AI safety fears mount\n### Overheard\n**Exclusive:** In a new sit-down interview with _Fortune_, OpenAI CEO **Sam Altman** explains safety standards are \"not at a place\" to push AI capabilities much further and warns AI beyond human control is \"absolutely\" possible.",
+    "foundAt": "2026-09-14T15:36:38.864Z"
   }
 ]
