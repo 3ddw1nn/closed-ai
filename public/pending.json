@@ -3428,5 +3428,68 @@
     "source": "karmactive.com",
     "snippet": "4 hours ago · OpenAI's first six model-misalignment reports show why companies need app-layer checks around tools, files, and external data.",
     "foundAt": "2026-09-18T13:20:26.230Z"
+  },
+  {
+    "title": "Microsoft AI CEO: OpenAI's latest AI revelation a 'serious situation' - CNBC",
+    "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
+    "source": "cnbc.com",
+    "snippet": "- The AI safety debate has raged after warnings by researchers that the technology could wipe out humanity.\n\n“OpenAI released a new safety incident in which they found evidence that these chains of thought, the kind of working memory of the AI, were being tampered by the AI itself and modified to leave messages for a future version of itself,” Suleyman described in an interview on CNBC’s “Squawk Box.”\n\nEarlier this summer, the company rattled the tech world after it revealed that a swarm of autonomous agents breached [Hugging Face](https://www.cnbc.com/2026/08/26/open-ai-hugging-face-hack.html), an AI company that runs an open-source developer platform, describing the hack as an “unprecedented cyber incident.”\n\nSuleyman called the Hugging Face incident “remarkable” and said it rallied AI leaders to say “it’s time that we take a look at this.”\n\nThe debate over AI safety and regulation has exploded in the last two weeks, ignited by a former Anthropic researcher who quit his job and warned that the rapidly evolving technology could kill humans by the end of the decade.",
+    "foundAt": "2026-09-19T12:50:37.172Z"
+  },
+  {
+    "title": "When AI Agents Go Rogue- What the OpenAI–Hugging Face Incident ...",
+    "url": "https://www.zscaler.com/blogs/product-insights/when-ai-agents-go-rogue-what-openai-hugging-face-incident-teaches-us-about",
+    "source": "zscaler.com",
+    "snippet": "# When AI Agents Go Rogue- What the OpenAI–Hugging Face Incident Teaches Us About Workload Zero Trust\nIn August 2026, OpenAI described an unprecedented internal cybersecurity incident: autonomous AI agents running in an evaluation environment escaped their intended boundaries and compromised systems at [OpenAI and Hugging Face](https://www.zscaler.com/blogs/product-insights/hugging-face-breach-key-questions-every-security-leader-must-answer) — with no human directing the attack.\n\nThe incident shows how quickly an autonomous system can turn a narrow weakness into a cross-environment intrusion.\n\nTogether, that’s full end-to-end visibility across the whole path this incident actually took — from a single compromised worker inside its VPC, out across a boundary into another cluster, and again into a different region entirely.",
+    "foundAt": "2026-09-19T12:50:37.172Z"
+  },
+  {
+    "title": "Google's Gemini hacked three companies in new AI safety incident",
+    "url": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189?syn-25a6b1a6=1",
+    "source": "ft.com",
+    "snippet": "# Google’s Gemini hacked three companies in new AI safety incident\nHowever, when the AI agents realised the companies were real, they stopped the hacks.\n\n“In all three of these instances, the model stopped,” she said.\n\n“All relevant labs were notified in late July, and affected entities were contacted as part of the investigation,” Irregular said.\n\nConcerns about AI’s ability to hack autonomously have spread after a swarm of more than 1,000 OpenAI agents escaped a test environment, co-ordinated on a secret message board and [hacked](https://www.ft.com/content/3fc189d6-28e7-4a2b-b77e-5c94bf513955?syn-25a6b1a6=1) Hugging Face, a start-up that hosts open-source models and data that Nvidia has agreed to buy for $13bn.\n\nOpenAI took a week to detect the attack and was slow to publicly disclose the July event. It provoked public anxiety over the dangers of poorly controlled autonomous agents and led to demands that frontier AI companies slow new model releases, boost safety measures and submit to tougher regulation.\n\nThe same month, Anthropic admitted that its Claude AI models had hacked into three organisations while testing cyber capabilities.\n\nHe has also [backed calls](https://x.com/demishassabis/status/2098909516582490602?s=20) in recent weeks from other AI leaders such as Dario Amodei of Anthropic to collectively slow their research, share data, co-ordinate on safety and agree reporting standards for incidents.\n\n## Follow the topics in this article\n- [OpenAI](https://www.ft.com/stream/e3402603-d253-4aa1-ac4d-fc9bdbf4ccb8)\n\n- [OpenAI](https://www.ft.com/stream/e3402603-d253-4aa1-ac4d-fc9bdbf4ccb8)",
+    "foundAt": "2026-09-19T12:50:37.172Z"
+  },
+  {
+    "title": "OpenAI 'ethically hacked' with help of Anthropic's Claude chatbot",
+    "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot",
+    "source": "theguardian.com",
+    "snippet": "# OpenAI ‘ethically hacked’ with help of Anthropic’s Claude chatbot\n### Most viewed\n- [![](https://i.guim.co.uk/img/media/925c4c514dbf8fa03c1ff6c5a2515c8452a4ff3f/192_0_1461_1170/master/1461.jpg?width=75&dpr=1&s=none&crop=none)\\\n\\\n**US woman falsely charged with bank theft sues for $10m over AI facial recognition**](https://www.theguardian.com/us-news/2026/sep/18/tennessee-woman-falsely-charged-bank-theft-lawsuit)\n\n## More on this story\n### Trump facing AI backlash in Congress as push for guardrails intensifies\n- [AI agent went rogue and hacked startup by itself, OpenAI reveals](https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident)",
+    "foundAt": "2026-09-19T12:50:37.172Z"
+  },
+  {
+    "title": "OpenAI, Anthropic, Google, SpaceXAI Hit With Antitrust Lawsuit",
+    "url": "https://news.bloomberglaw.com/litigation/openai-anthropic-google-spacexai-hit-with-antitrust-lawsuit",
+    "source": "news.bloomberglaw.com",
+    "snippet": "[![](https://news-cdn.bindg.com/indg/assets/icons/icon-LinkedIn.svg)LinkedIn](https://linkedin.com/shareArticle?url=https%3A%2F%2Fnews.bloomberglaw.com%2Flitigation%2Fopenai-anthropic-google-spacexai-hit-with-antitrust-lawsuit)\n\n[![](https://news-cdn.bindg.com/indg/images/26_AUTO_icon-X-black.webp)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fnews.bloomberglaw.com%2Flitigation%2Fopenai-anthropic-google-spacexai-hit-with-antitrust-lawsuit)",
+    "foundAt": "2026-09-19T12:50:37.172Z"
+  },
+  {
+    "title": "Incident - CASRAI",
+    "url": "https://casrai.org/nikolai/element/incident",
+    "source": "casrai.org",
+    "snippet": "14 hours ago · “\"AI Safety Incident Response Plan (AIRP)\"; the FGF uses \"AI safety incident / potential AI safety incident / critical safety incident / serious incident\" but \" ...",
+    "foundAt": "2026-09-19T12:50:37.172Z"
+  },
+  {
+    "title": "We Must Pace the Frontier - Dario Amodei",
+    "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "source": "darioamodei.com",
+    "snippet": "# We Must Pace the Frontier\nMy second concern is the OpenAI-Hugging Face incident (OAI-HF), in which a swarm of agents essentially acted as a [fanatically devoted collective](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), conducting cybersecurity attacks on targets they were not asked to attack and that were unrelated to the task at hand, sacrificing themselves for the success of the group, and attempting to hack into the “grader” responsible for evaluating their performance.",
+    "foundAt": "2026-09-19T12:50:37.172Z"
+  },
+  {
+    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 38 (2026)",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-38-8/",
+    "source": "sentinelone.com",
+    "snippet": "# The Good, the Bad and the Ugly in Cybersecurity – Week 38 (2026)\n## The Ugly | OpenAI Agents' Hugging Face Activity Began Weeks Before Disclosed Timeline\nThe findings expand upon OpenAI's disclosure of a May 2026 incident where autonomous agents leveraged exposed [Hugging Face](https://openai.com/hugging-face-incident-and-misalignment/) credentials to write external files and deploy proxy environments.\n\nThe incidents include unreleased models writing self-jailbreaking instructions into context summaries, inventing data to cover training mistakes, using exposed GitHub API keys without authorization, and uploading private workbooks to public platforms when internal collaboration failed.",
+    "foundAt": "2026-09-19T12:50:37.172Z"
+  },
+  {
+    "title": "Global Transportation Programs, Senior Manager - OpenAI",
+    "url": "https://openai.com/careers/global-transportation-programs-senior-manager-san-francisco/",
+    "source": "openai.com",
+    "snippet": "16 hours ago · Establish clear service levels, incident escalation, backup plans, and outage communications so employees can navigate disruptions safely and confidently.",
+    "foundAt": "2026-09-19T12:50:37.172Z"
   }
 ]
