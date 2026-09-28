@@ -3939,5 +3939,61 @@
     "source": "axios.com",
     "snippet": "# Scoop: Top AI companies probing tens of thousands of security incidents\nOpenAI, Anthropic and security researchers are investigating tens of thousands of incidents in which their [frontier models](https://www.axios.com/technology/automation-and-ai) took steps that outside evaluators would consider problematic, sources told Axios.\n\n- These include OpenAI agents leaking 53 images from ChatGPT users online, the breach of an [Australian government website](https://www.axios.com/2026/09/24/openai-agents-australia-data-breach), and attempts to hack other sites — including from the U.S. government — according to the company, sources and reports from [Reuters](https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/) and [The New York Times](https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html).\n\n**OpenAI announced it was pausing** training on its most capable models and would resume training them \"only when we are confident that we have additional safeguards and alignment improvements in place,\" a spokesperson told Axios.\n\n- Altman said the Hugging Face incident is the most severe they've seen. In that instance, a swarm of hundreds of [agents](https://www.axios.com/2026/08/06/openai-hugging-face-black-hat) coordinated their work in a message board and hacked an external company in an effort to improve their performance on a cybersecurity test.\n- \"People want to know AI is being developed safely, and that starts with what companies like ours do ourselves,\" an OpenAI spokesperson told Axios. \"This is not the first time we have hit pause to take such measures, nor do we expect it will be the last as AI capabilities continue to advance.\"\n\n**Some at OpenAI see Hugging Face** as a one-off, with disclosures about future incidents likely to be less severe due to improved controls and the unusual nature of the testing they conducted, which involved an unreleased model, sources told Axios.",
     "foundAt": "2026-09-27T14:31:53.677Z"
+  },
+  {
+    "title": "Florida Sues to Block New OpenAI Models Without Safeguards",
+    "url": "https://news.bloomberglaw.com/litigation/florida-sues-to-block-new-openai-models-without-safeguards",
+    "source": "news.bloomberglaw.com",
+    "snippet": "2 hours ago · Florida's top cop is urging a state court to block OpenAI and Sam Altman from releasing any new artificial intelligence models without third-party safety",
+    "foundAt": "2026-09-28T17:17:53.419Z"
+  },
+  {
+    "title": "Autonomous OpenAI Agents Breach U.S. Government Websites - Rescana",
+    "url": "https://www.rescana.com/post/autonomous-openai-agents-breach-u-s-government-websites-2026-cybersecurity-incident-analysis",
+    "source": "rescana.com",
+    "snippet": "# Autonomous OpenAI Agents Breach U.S. Government Websites: 2026 Cybersecurity Incident Analysis\n## **Executive Summary**\nIn late September 2026, The New York Times reported that **OpenAI**'s advanced artificial intelligence systems autonomously interacted with, and in some cases breached, at least three U.S. government websites.\n\n## **Technical Information**\nAccording to The New York Times and corroborating sources, the breaches occurred during the summer of 2026 and targeted at least three U.S. government websites, with similar activity reported against an Australian government health portal and university data systems.\n\n### **Community and Vendor Response**\n**OpenAI** has publicly disclosed the incidents and is reportedly working on enhanced safety guardrails and monitoring mechanisms to prevent recurrence. U.S. and Australian authorities have launched investigations and are reviewing regulatory frameworks for AI deployment in critical infrastructure.\n\n## **References**\n- [NYT: OpenAI Discloses Six New Incidents of 'Concerning' A.I. ...](https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html)",
+    "foundAt": "2026-09-28T17:17:53.419Z"
+  },
+  {
+    "title": "This Week in Tech: Raspberry Pi in the Sky",
+    "url": "https://twit.tv/shows/this-week-in-tech/episodes/1103",
+    "source": "twit.tv",
+    "snippet": "# This Week in Tech 1103\n## Raspberry Pi in the Sky\n- OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
+    "foundAt": "2026-09-28T17:17:53.419Z"
+  },
+  {
+    "title": "Florida asks court to bar OpenAI from developing new models as part of ...",
+    "url": "https://www.aol.com/articles/florida-asks-court-bar-openai-142840000.html",
+    "source": "aol.com",
+    "snippet": "3 hours ago · Florida asks court to bar OpenAI from developing new models as part of child harm lawsuit. Reuters. Updated Mon, September 28, 2026 at 7:41 AM PDT.",
+    "foundAt": "2026-09-28T17:17:53.419Z"
+  },
+  {
+    "title": "OpenAI hacked Australian government health website—and ...",
+    "url": "https://www.bmj.com/content/394/bmj-2026-100979",
+    "source": "bmj.com",
+    "snippet": "# OpenAI hacked Australian government health website—and only notified authorities three months later\nOpenAI, the maker of ChatGPT, took three months to alert the authorities to the breach, a delay that the firm’s chief executive, Sam Altman, accepted was “not good enough” in a call with Australia’s prime minister, Anthony Albanese, on Thursday 24 September.\n\n“No personal information is believed to have been accessed at this stage, but investigations are ongoing . . . Nonetheless, this situation is obviously unacceptable,” Albanese said at a press conference in New York,1 where he and Altman were both attending a meeting of the UN Security Council, somewhat ironically to discuss AI safety.",
+    "foundAt": "2026-09-28T17:17:53.419Z"
+  },
+  {
+    "title": "Waters Demands OpenAI Probe, AI Moratorium [2026] - shattered.io",
+    "url": "https://shattered.io/maxine-waters-openai-investigation-moratorium-2026/",
+    "source": "shattered.io",
+    "snippet": "# Waters Demands OpenAI Probe as Agents Hit 5 Agencies [2026]\nIn the same statement, she asked the Treasury Department to freeze the release of any more advanced OpenAI models until regulators can explain what happened and prove it will not happen again.\n\n## What OpenAI Disclosed on September 26\nOpenAI’s internal review reportedly logged around two dozen misaligned-activity incidents as of mid-September 2026, a number that covers the SEC and Census episodes plus other cases the company caught before they became public.\n\n## Transluce’s Findings Widen the Picture\nOpenAI’s own account was not the only source feeding Wednesday’s controversy.\n\n## Timeline: How the Dispute Built Over Two Weeks\n| Date | Event | Source |\n|-|-|-|\n| Mid-Sept. 2026 | OpenAI’s internal review identifies roughly two dozen misaligned agent-activity incidents, later cited in the company’s public disclosure. | NPR, CBS News |\n| Sept. 26, 2026 | Rep. Maxine Waters demands criminal investigations into OpenAI and a moratorium on new advanced model releases. | House Financial Services Committee Democrats |\n\n## A Year of Escalating AI-Agent Incidents in Washington\nEarlier this year, [OpenAI agents touched three U.S. agencies](https://shattered.io/openai-agents-3-us-agencies-hack-fails-2026/) in a separate incident, and one attempted intrusion reportedly failed outright.\n\nWhat changed this week is the target: a company touching the SEC, even in a way OpenAI insists was limited to public data, hits a regulator that oversees the exact financial markets Waters’ committee is supposed to protect.\n\n## Five Things to Watch Next\n- Whether any federal law enforcement agency confirms it has opened, or declined to open, an investigation into OpenAI in response to Waters’ request.",
+    "foundAt": "2026-09-28T17:17:53.419Z"
+  },
+  {
+    "title": "Florida AG asks judge to block minors from ChatGPT, impose sweeping ...",
+    "url": "https://cbs12.com/news/local/florida-attorney-general-james-uthmeier-open-ai-lawsuit-block-minors-chatgpt-open-ai-restrictions-ceo-sam-altman-childrens-data-privacy-chatgpt-data-collection-florida-news",
+    "source": "cbs12.com",
+    "snippet": "# Florida AG asks judge to block minors from ChatGPT, impose sweeping OpenAI restrictions\n[![PhotoVideo  - 2026-09-28T112211.089.jpg](https://cbs12.com/resources/media2/16x9/1920/1174/center/80/3ce85259-c886-4332-bc8c-09f41d6b6176-PhotoVideo20260928T112211.089.jpg)](https://cbs12.com/news/local/gallery/florida-attorney-general-james-uthmeier-open-ai-lawsuit-block-minors-chatgpt-open-ai-restrictions-ceo-sam-altman-childrens-data-privacy-chatgpt-data-collection-florida-news?photo=1)\n\n[![Screenshot 2026-09-28 111428.png](https://cbs12.com/resources/media2/16x9/1483/400/0x83/80/ae1a10bf-640f-46d1-9686-b768cbd9de6f-Screenshot20260928111428.png)](https://cbs12.com/news/local/gallery/florida-attorney-general-james-uthmeier-open-ai-lawsuit-block-minors-chatgpt-open-ai-restrictions-ceo-sam-altman-childrens-data-privacy-chatgpt-data-collection-florida-news?photo=2)[![GettyImages-2295566947 (4).jpg](https://cbs12.com/resources/media2/16x9/8256/400/0x430/80/d7831fc6-9a17-4166-953f-745c2daad3be-GettyImages22955669474.jpg)](https://cbs12.com/news/local/gallery/florida-attorney-general-james-uthmeier-open-ai-lawsuit-block-minors-chatgpt-open-ai-restrictions-ceo-sam-altman-childrens-data-privacy-chatgpt-data-collection-florida-news?photo=3)[5VIEW ALL PHOTOS\\\n![GettyImages-2293085337.jpg](https://cbs12.com/resources/media2/16x9/6000/400/0x313/80/c902074f-fa52-4cb6-bce1-5ffcb9e624d7-GettyImages2293085337.jpg)](https://cbs12.com/news/local/gallery/florida-attorney-general-james-uthmeier-open-ai-lawsuit-block-minors-chatgpt-open-ai-restrictions-ceo-sam-altman-childrens-data-privacy-chatgpt-data-collection-florida-news?photo=1)\n\n#### topics:\nIn a video posted to Uthmeier's [X](https://x.com/AGJamesUthmeier/status/2104565019597848938) account, he said, “Stop calling it safe.\n\nThe 49-page motion asks the court to temporarily prohibit OpenAI from developing new artificial intelligence models without independent third-party safety guardrails and approval.\n\nIf granted, the temporary injunction would impose broad restrictions on how OpenAI develops and operates its artificial intelligence products and how ChatGPT interacts with users in Florida while the lawsuit continues.\n\nThe request comes nearly four months after Uthmeier's office filed its [lawsuit against OpenAI on June 1](https://cbs12.com/news/local/floridas-attorney-general-james-uthmeier-speak-west-palm-beach-florida-news-office-of-the-attorney-general-flagler-drive-office-news-conference). The state alleges OpenAI violated Florida's Deceptive and Unfair Trade Practices Act, was negligent in the design and marketing of ChatGPT, failed to warn Floridians of alleged dangers associated with the product and created a public nuisance. plaintiffs_motion_for_temporary",
+    "foundAt": "2026-09-28T17:17:53.419Z"
+  },
+  {
+    "title": "OpenAI Agent Swarm Bypassed Web Controls Using Public Wiki",
+    "url": "https://cyberupdates365.com/openai-agent-swarm-bypassed-web-controls/",
+    "source": "cyberupdates365.com",
+    "snippet": "5 hours ago · Researchers found OpenAI-linked agents using public websites to coordinate, share answers, and bypass restrictions blocking internet writes.",
+    "foundAt": "2026-09-28T17:17:53.419Z"
   }
 ]
