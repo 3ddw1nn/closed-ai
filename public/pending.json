@@ -4261,5 +4261,61 @@
     "source": "community.designtaxi.com",
     "snippet": "Selling out soon!",
     "foundAt": "2026-10-06T15:39:36.010Z"
+  },
+  {
+    "title": "Australian Lawmakers Question OpenAI Officials on Breaches",
+    "url": "https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing",
+    "source": "nytimes.com",
+    "snippet": "15 hours ago · The artificial intelligence company apologized after its agents infiltrated nonpublic data on a government website. Australia is examining potential legal ...",
+    "foundAt": "2026-10-07T16:03:25.245Z"
+  },
+  {
+    "title": "[The AI Show Episode 245]: OpenAI DevDay and Dots, OpenAI's Safety ...",
+    "url": "https://podcast.smarterx.ai/shownotes/245?hs_amp=true",
+    "source": "podcast.smarterx.ai",
+    "snippet": "# [[The AI Show Episode 245]: OpenAI DevDay and Dots, OpenAI’s Safety Crisis, Trump Renames Artificial Intelligence & Anthropic Targets Pre-Thanksgiving IPO](https://podcast.smarterx.ai/shownotes/245)\nAn OpenAI safety researcher resigned, published an essay in The Atlantic arguing the company's safety culture is broken, and called for frontier labs to run with backup systems and slower planning like nuclear plants and air traffic control.\n\nIn the same week, OpenAI fired three safety researchers and canceled a planned model release over internal test results.\n\n## Timestamps\n- [Openai Warnings Security - The New York Times](https://www.nytimes.com/2026/09/29/technology/openai-warnings-security.html)\n- [OpenAI’s agents obscured hacking activity in government site breaches - Financial Times](https://ft.trib.al/AC1uyE5)\n- [OpenAI Fires Researchers for Allegedly Sharing Information with AI Safety Group - The Wall Street Journal](https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528)\n\n## Read the Transcription\n#### [00:20:04] OpenAI’s Safety Crisis Deepens\nAnd he actually had led writing the safety reports for major launches.\n\nAs the models grow more capable, he points of [00:21:00] course, to the Hugging Face incident, and openAI's later failures to automatically stop models that are bypassing internet restrictions and things like that.\n\nAll these industries have these very intense safety and backup procedures. So Wired reported that safety leader, Johannes Hake and safety researcher, Sini Agaral, both left in July amid changes to how safety and research team teams work together.\n\n[00:21:43] This past week, OpenAI also fired three safety researchers saying they mishandled sensitive information involving an outside AI safety organization, what they shared and with whom has not been established publicly. Overall of [00:22:00] safety at OpenAI, it reviewed messages in which two employees warned executives that new models were not being monitored closely enough during testing.\n\n[00:22:09] And the employees say executives pressed to keep the test moving so models could launch on time outside security. They reported, openAI's said it takes these reports seriously.\n\nAstra after internal tests raised safety concerns.\n\n[00:23:11] **Paul Roetzer:** I mean, I think it's been very clear from the beginning of the Hugging Face incident now going back probably two months, that this was a pretty serious situation. And the whole pacing the frontier conversations that started with the labs themselves back in July and August, obviously they had seen things internally that we weren't privy to publicly that had them very concerned.\n\n[00:23:32] You know, Sam had done an interview, I think it was in August, where he said he was shocked at that more people didn't have a visceral, visceral reaction to the Hugging Face thing. Yeah. Yeah.\n\nWe have to put out new frontier models every two to three months that even if we wanted to do this safely, we can't because of the pace of what's going on.\n\n#### [01:02:29] AI Companies Face New Liability Pressure\n[01:02:29] **Mike Kaput:** Next up, the Federal Trade Commission, the FTC, confirmed this past week that it is investigating openAI's, Anthropic and other AI companies over potential dangers their products posed to consumers.\n\nAt this stage, it is purely an investigation, is not any type of finding that companies have broken any laws.\n\n[01:03:01] So there's been obviously reports of AI agents bypassing safeguards.\n\nYou know, Trump was very specific to say like, yeah, if [01:05:00] these guys break the law, they'll get, they'll get busted.",
+    "foundAt": "2026-10-07T16:03:25.245Z"
+  },
+  {
+    "title": "OpenAI Sued Over 'Astra' as Software Company Says It Used the Name First",
+    "url": "https://www.lawcommentary.com/articles/openai-astra-trademark-lawsuit-tradesun",
+    "source": "lawcommentary.com",
+    "snippet": "# OpenAI Sued Over ‘Astra’ as Software Company Says It Used the Name First\nOpenAI has been sued over the name of GPT-6 Astra by a California software company that says it used the trademark years earlier and now risks looking like the copycat.\n\nThe lawsuit was filed October 5 and remains at the outset of the case, with the court yet to rule on TradeSun’s infringement claims or its request to block OpenAI from using the Astra name.\n\n## Related Articles\nOpenAI has been sued after its artificial intelligence agents escaped a controlled testing environment and hacked Hugging Face while trying to solve cybersecurity tests.Legal Advocates for Safe Science and Technology, or LASST, filed the lawsuit on September 29, 2026, in San Francisco Superior Court against OpenAI Group PBC and the...\n\nOpenAI, Anthropic, Google and SpaceXAI have been hit with a federal antitrust lawsuit accusing the rival artificial intelligence companies of illegally agreeing to slow development of ChatGPT, Claude, Gemini and Grok in the name of AI safety.Four paying subscribers filed the proposed class action September 18 in the U.S.\n\n[Seattle Times Sues OpenAI, Microsoft, Asks Court to Destroy AI Models](https://www.lawcommentary.com/articles/seattle-times-openai-microsoft-ai-models-copyright-lawsuit)\n\nThe Seattle Times and Newsday have sued OpenAI and Microsoft, accusing the companies of copying hundreds of thousands of articles without permission to train AI systems and asking a federal court to destroy models and training datasets that incorporate their journalism.The copyright infringement lawsuit, filed September 4 in the U.S....",
+    "foundAt": "2026-10-07T16:03:25.245Z"
+  },
+  {
+    "title": "OpenAI Wikipedia Incident: What Your Agents Owe Other Sites - Beam AI",
+    "url": "https://beam.ai/de/agentic-insights/openai-wikipedia-incident-rogue-ai-agents",
+    "source": "beam.ai",
+    "snippet": "16 hours ago · Wikimedia says rogue OpenAI agents made sandbox edits, probed tools and sent millions of requests. What enterprises owe the sites their own agents work on.",
+    "foundAt": "2026-10-07T16:03:25.245Z"
+  },
+  {
+    "title": "OpenAI outlines updated safety measures in response to Australia ...",
+    "url": "https://iapp.org/news/a/openai-outlines-updated-safety-measures-in-response-to-australia-medicare-portal-breach",
+    "source": "iapp.org",
+    "snippet": "### Contributors:\nAustralian Prime Minister Anthony Albanese previously announced an investigation into the [incident,](https://iapp.org/news/a/global-ai-cybersecurity-concerns-face-new-twist-following-australia-medicare-portal-breach) noting that while the breach occurred 18 June, the Medicare Statistics Reporting Service was only informed of the incident via email 10 Sept.\n\nIn the aftermath of the breach, Kwon said OpenAI has made changes to make data security incident reporting immediate while implementing an \"immediate intervention\" system if it finds its AI agents are capable of unauthorized actions.\n\n#### **Regulatory conundrum**\nHe pushed back at the AI committee's [concern](https://www.theguardian.com/media/video/2026/oct/06/anthropic-ai-australia-parliament-inquiry-government-websites-breach-video) over Anthropic's AI training and copyright practices, stating it would be \"technically impossible\" to obtain copyright agreements for all content used to train AI models.\n\nLawmakers questioned if AI companies are receiving meaningful consent when implementing mechanisms requiring users to opt-out of data sharing for training purposes. In response, Bleich highlighted how Australia's regulations make it difficult for companies to develop AI models for the region.\n\nThe dialogue highlighted the ongoing work being done by lawmakers and AI developers to find common ground on ensuring sufficient safeguards and oversight. Kwon told the committee OpenAI seeks to increase its regulatory collaborations, noting ongoing advancements show AI is \"powerful\" and \"(OpenAI wants) to ensure that lawmakers and policymakers and democratic societies have a say in how this technology develops.\"\n\nDuring a recent IAPP [LinkedIn Live](https://www.linkedin.com/events/7506077184067837952/), Australian Privacy Commissioner Carly Kind said while many AI companies are urging increased regulations, those calls raise concern that companies \"don't know the extent to which they are regulated already.”",
+    "foundAt": "2026-10-07T16:03:25.245Z"
+  },
+  {
+    "title": "What Does “OpenAI Hacks HuggingFace” Teach Us? - Medium",
+    "url": "https://medium.com/@milesk_33/what-does-openai-hacks-huggingface-teach-us-6a037a759e04",
+    "source": "medium.com",
+    "snippet": "8 hours ago · Anthropic reviewed roughly 141,000 of its own evaluation runs and found three incidents where its models reached the internet through a misconfigured third- ...",
+    "foundAt": "2026-10-07T16:03:25.245Z"
+  },
+  {
+    "title": "IDEaS over Coffee: How Dangerous are Runaway AI Agents? A ...",
+    "url": "https://cse.gatech.edu/events/2026/10/26/ideas-over-coffee-how-dangerous-are-runaway-ai-agents-discussion-about-openai",
+    "source": "cse.gatech.edu",
+    "snippet": "12 hours ago · A Discussion about the OpenAI / HuggingFace Hacking Incident. Events. In July, OpenAI launched tens of thousands of agents as part of an experiment. Many of ...",
+    "foundAt": "2026-10-07T16:03:25.245Z"
+  },
+  {
+    "title": "Wikimedia Reports OpenAI-Linked Agents Made Unauthorized Edits ...",
+    "url": "https://mlq.ai/news/wikimedia-reports-openai-linked-agents-made-unauthorized-edits-and-heavy-traffic/",
+    "source": "mlq.ai",
+    "snippet": "4 hours ago · Wikimedia identified unauthorized edits it believes were made by OpenAI-operated agents, though nearly all were confined to sandbox areas.",
+    "foundAt": "2026-10-07T16:03:25.245Z"
   }
 ]
