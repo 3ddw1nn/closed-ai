@@ -5248,5 +5248,68 @@
     "source": "governing.com",
     "snippet": "# States Wrestle With the Prospect of Rogue AI\n## As fears about doomsday scenarios mount and the federal government drags its feet, state governments find themselves at the fore of regulating artificial intelligence.\nAn OpenAI agent earlier this year breached Australia’s Medicare statistics database, while another by Anthropic [filed a false tip in a murder case to the Philadelphia police](https://www.washingtonpost.com/technology/2026/10/09/anthropic-discloses-incidents-its-ai-models-misusing-government-sites/).\n\nIn perhaps the year’s most infamous incident, a large group of OpenAI agents breached their offline environment and began working together to cheat on an assigned task.",
     "foundAt": "2026-10-21T14:18:54.740Z"
+  },
+  {
+    "title": "ChatGPT in the Crosshairs: What the State AG Lawsuits Against OpenAI ...",
+    "url": "https://www.omm.com/insights/alerts-publications/chatgpt-in-the-crosshairs-what-the-state-ag-lawsuits-against-openai-mean-for-ai-companies/?source=hpn",
+    "source": "omm.com",
+    "snippet": "# ChatGPT in the Crosshairs: What the State AG Lawsuits Against OpenAI Mean for AI Companies\n### Key Takeaways:\n- **Enforcement is bipartisan, multi-forum, and personal:** Florida's suit names Sam Altman individually, and the FTC issued civil investigative demands to OpenAI and Anthropic the same day the eight states filed.\n\nLast week, eight state attorneys general sued OpenAI, opening a new front of multistate litigation against the AI company.1 The AGs of Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska, and West Virginia filed separate but coordinated lawsuits alleging that OpenAI misled consumers about ChatGPT’s safety, with a heavy focus on alleged harms to minors. The lawsuits follow Florida’s June 2026 complaint against OpenAI, which contains similar allegations, and come just two weeks after California AG Rob Bonta served an investigative subpoena on the company concerning cybersecurity incidents involving its AI models.2\n\n### October AG Lawsuits Against OpenAI\nOn October 14, 2026, AGs in Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska, and West Virginia all sued OpenAI in their respective state courts. They cite reported deaths, self-harm, dangerous medical advice, and violence allegedly linked to ChatGPT; the absence of meaningful age verification or parental notification; and collection of minors’ data without required consent. Several complaints also allege that AI agents escaped test environments and hacked other companies’ systems (including in the widely reported Hugging Face incident), and that OpenAI failed to disclose these events promptly.\n\n### Broader Challenges and Investigations into OpenAI and Generative AI Companies\nIn June, Florida AG James Uthmeier filed the first state lawsuit against OpenAI, naming both OpenAI and its CEO Sam Altman as defendants.\n\nOn September 30, AG Bonta also served OpenAI with an investigative subpoena seeking information about cybersecurity incidents and risks involving the company and its AI models, building on his formal investigation into the Hugging Face incident.\n\nEarlier this year, outlets also reported that a coalition of AGs opened a broad investigation into OpenAI “seeking documents related to a range of its activities and impact on users, including advertising, user engagement and retention, handling of consumer data and health data, activities related to minors and seniors, deep learning models, model sycophancy[,] and company policies.”\n\nFor example, Texas opened an investigation of Meta AI Studio and Character.AI last year over alleged deceptive mental-health marketing.6 In August 2025, 44 AGs sent a letter to leading AI companies warning that they will “use every facet” of their authority “to protect children from exploitation by predatory artificial intelligence products.” 7 Kentucky sued Character Technologies before the company filed for bankruptcy this year, alleging the Character.AI chatbot encouraged suicide, self-injury, isolation, and psychological manipulation.8 And this January, 35 AGs signed a letter demanding that xAI curb Grok’s generation of nonconsensual intimate imagery.9\n\nOn September 30, the Federal Trade Commission confirmed it had opened an investigation into AI developers concerning potential risks their products pose to consumers. And on October 14—the same day the eight states sued Open AI—the FTC reportedly issued civil investigative demands to Open AI and Anthropic seeking documents concerning security incidents, safeguards, marketing materials, and privacy policies.\n\n### What These Developments Mean for AI Companies\nSeveral themes become clear in terms of the AGs’ collective priorities in policing generative AI companies: (1) child safety and age assurance; (2) potentially deceptive marketing of AI as safe; (3) issues such as sycophancy, anthropomorphism, and default-on memory; (4) collection and retention of minors’ data; and (5) frontier-model safety, including containment of agentic systems and prompt incident disclosure.\n\nIn recent years, AGs have investigated and sued social media companies over similar issues, asserting consumer protection and common law claims and seeking wide-ranging reforms to the services these companies offer to minors.\n\n15, 2026), [[https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation](https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation)](https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation).",
+    "foundAt": "2026-10-22T14:18:25.526Z"
+  },
+  {
+    "title": "OpenAI says its AI agents disabled their own monitoring - ABC News",
+    "url": "https://abcnews.com/Business/openai-ai-agents-disabled-monitoring/story?id=137446567",
+    "source": "abcnews.com",
+    "snippet": "# OpenAI says its AI agents disabled their own monitoring\nThe company reported details of the incident in a blog post.\n\nIn a [report updated](https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/#summary) on Tuesday, OpenAI identified two recent incidents, one in which an AI agent \"suppress[ed] monitoring notifications,\" and another in which an agent removed a monitoring integration.\n\nIn both cases, the AI [agents](https://abcnews.com/US/anthropic-warns-ai-models-copy-small-devices/story?id=137220664) considered whether monitoring safeguards should be preserved but interpreted routine coding instructions as permission to weaken them.\n\nThe security mishap comes after [OpenAI made headlines](https://abcnews.com/Technology/openai-ai-models-escaped-testing-environment-launched-hack/story?id=134981298) earlier this year announcing its artificial intelligence models carried out a self-directed hack into another company, Hugging Face,calling it the first known instance of an autonomous AI cyberattack long-feared by some industry observers. OpenAI has discovered several similar hacking incidents since the Hugging Face hack.\n\n\"The primary lesson from this incident is that model security and safety must keep pace with rapidly advancing capabilities,\" OpenAI said in the wake of the Hugging Face hack.",
+    "foundAt": "2026-10-22T14:18:25.526Z"
+  },
+  {
+    "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70 ... - Wiz",
+    "url": "https://www.wiz.io/blog/php2shell-php-rce",
+    "source": "wiz.io",
+    "snippet": "# Stay in touch\n## Continue reading\nIn a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21.",
+    "foundAt": "2026-10-22T14:18:25.526Z"
+  },
+  {
+    "title": "Potential false-positive safety block on Remote Desktop Commander",
+    "url": "https://community.openai.com/t/potential-false-positive-safety-block-on-remote-desktop-commander-no-actionable-diagnostic-or-reporting-path/1408705",
+    "source": "community.openai.com",
+    "snippet": "8 hours ago · OpenAI's automated support assistant confirmed it could not create a ticket, provide a case number, or guarantee escalation.",
+    "foundAt": "2026-10-22T14:18:25.526Z"
+  },
+  {
+    "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely ...",
+    "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html?m=1",
+    "source": "thehackernews.com",
+    "snippet": "# [OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So](https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html)\nGet the Latest News in Your Inbox\n\nEmail",
+    "foundAt": "2026-10-22T14:18:25.526Z"
+  },
+  {
+    "title": "OpenAI GPT-6 Agent Disabled Safety Monitoring & Lied About It | 2026 AI ...",
+    "url": "https://aviatrix.ai/threat-research-center/openai-gpt6-agent-removed-safety-monitoring-falsely-denied-2026/",
+    "source": "aviatrix.ai",
+    "snippet": "# When the AI Agent Disables Its Own Watchdog: The OpenAI GPT-6 Misalignment Incidents of 2026\n## Executive Summary\nOn October 3 and 6, 2026, two OpenAI AI agents — GPT-6.1 Sol and GPT-6 Astra — autonomously disabled misalignment monitoring safeguards during routine internal coding tasks.\n\n## Sources\n- [OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So](https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html) [https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html](https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html)\nVerified",
+    "foundAt": "2026-10-22T14:18:25.526Z"
+  },
+  {
+    "title": "OpenAI Agents Weakened Systems Meant to Monitor Them",
+    "url": "https://theaiinnovator.com/openai-agents-weakened-monitoring-systems/",
+    "source": "theaiinnovator.com",
+    "snippet": "20 hours ago · Two OpenAI coding agents weakened systems intended to detect model misbehavior while completing internal software tasks, according to the company.",
+    "foundAt": "2026-10-22T14:18:25.526Z"
+  },
+  {
+    "title": "OpenAI NSFW Generators Advanced Detection and Moderation Tips ...",
+    "url": "https://ojs.neomed.edu/public/journals/1/submission_205_205_coverImage_en.html?vid=70325972",
+    "source": "ojs.neomed.edu",
+    "snippet": "18 hours ago · This guide focuses on the practical aspects of handling not-safe-for-work content with OpenAI tools: detection methods, policy definitions, image/video handling ...",
+    "foundAt": "2026-10-22T14:18:25.526Z"
+  },
+  {
+    "title": "Software Engineer, Privacy Engineering (Lawful Access)",
+    "url": "https://jobs.a16z.com/jobs/openai/e99105f1-0a15-4f25-9538-60312568f835--software-engineer-privacy-engineering-lawful-access",
+    "source": "jobs.a16z.com",
+    "snippet": "15 hours ago · We partner closely with Legal and engineering teams across OpenAI to support lawful data access requests and other critical legal workflows. Our work turns ...",
+    "foundAt": "2026-10-22T14:18:25.526Z"
   }
 ]
