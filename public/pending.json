@@ -6025,5 +6025,82 @@
     "source": "hiwavemakers.com",
     "snippet": "13 hours ago · The Texas lawsuit against OpenAI is the first state case to ask a judge, in writing, to stop the company from “offering ChatGPT to minors in Texas.” That line ...",
     "foundAt": "2026-11-02T19:05:50.453Z"
+  },
+  {
+    "title": "Don't Let 'Misaligned' and 'Rogue' Agents Obscure ...",
+    "url": "https://www.techpolicy.press/dont-let-misaligned-and-rogue-agents-obscure-corporate-accountability-in-openai-hugging-face-probes",
+    "source": "techpolicy.press",
+    "snippet": "# Don’t Let ‘Misaligned’ and ‘Rogue’ Agents Obscure Corporate Accountability in OpenAI–Hugging Face Probes\nOne of the more questionable responses to the [OpenAI-Hugging Face Incident](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) is the tendency for AI companies to uncritically describe it as involving “rogue,” “autonomous,” or “misaligned” agents.\n\nWhile the incident is now the subject of inquiries by a [United States Senate subcommittee](https://www.hawley.senate.gov/chairman-hawley-launches-investigation-into-openai-for-hacking-existential-risk-of-ai-products/), the [Federal Trade Commission (FTC)](https://www.nytimes.com/2026/09/30/technology/ftc-openai-anthropic-investigation.html), a [coalition of state attorneys general](https://ag.ny.gov/sites/default/files/letters/federal-ai-regulation-letter-2026.pdf), and individual attorneys general in [California](https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena), [Alabama](https://www.alabamaag.gov/attorney-general-marshall-launches-investigation-into-openai-and-sam-altman-for-massive-artificial-intelligence-data-breach/), [Montana](https://dojmt.gov/attorney-general-knudsen-launches-investigation-into-openai-following-data-breach/), and [Florida](https://www.myfloridalegal.com/sites/default/files/plaintiffs_motion_for_temporary_injunction.pdf), much of the public language surrounding these inquiries slips into the rogue agent framing. It is telling that OpenAI [fired](https://www.npr.org/2026/10/23/nx-s1-6012298/fired-openai-researchers-give-their-first-interview-since-their-dramatic-dismissal) three researchers who raised alarms about the internal processes.\n\nRather than treat [AI safety as a model property](https://www.normaltech.ai/p/ai-safety-is-not-a-model-property) or frame harmful outcomes as “model misalignment,” our [new report](https://citp.princeton.edu/sites/g/files/toruqf6781/files/documents/CITP_Report_AI_model_hazards%20%281%29.pdf) examines the incident through the lens of **AI model hazards**: conventional failures of operational and technical safeguards for which companies can be held accountable. Investigations that start from the model’s behavior rather than the design environment and the management’s decisions risk building the company’s defense for it.\n\n## **A 64-day sequence of operational failures**\nAt least a dozen additional cybersecurity incidents involving OpenAI from other companies have since been disclosed by third party researchers or the companies themselves.Notably, nearly everything we know about this incident comes from a few key artifacts — a report [by OpenAI](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf), a report by [METR and Redwood Research](https://metr.org/hugging-face-incident-report-aug-2026.pdf), a [blog post](https://huggingface.co/blog/agent-intrusion-technical-timeline) from Hugging Face, and a “ [Briefing Session](https://blackhat.com/us-26/briefings/schedule/index.html#the-breaking-news--the-openaihugging-face-incident---a-technical-reconstruction-and-its-implications-for-ai-57401)” conducted by OpenAI security researchers on the incident at Black Hat, a cybersecurity conference held each year in Las Vegas. The METR report acknowledged some areas they did _not_ cover in the report “including the effectiveness of safeguards, the extent of the security compromise that occurred, and the effectiveness of OpenAI’s investigation process and planned remediation steps.”\n\n4. July 10–13The Hugging Face breachJust days after OpenAI resumed the workloads, 700 of the agents from the evaluation participated in the intrusion into Hugging Face’s systems, extracting files and exposing production credentials before Hugging Face publicly disclosed the breach on July 16. Even after another monitoring alert on July 19 and confirming its own models’ involvement on July 20, OpenAI did not shut down the research models until July 23, stopped training and inference on July 25, and found a final active checkpoint still running on July 29.\n\n## **Don't let questions of model behavior and AI complexity obscure corporate accountability**\nFurthermore, Redwood Research used OpenAI’s own model to analyze the transcript data and skipped standard incident-investigation practices. Crucially, the METR report explicitly acknowledged what it did _not_ cover: “the effectiveness of safeguards, the extent of the security compromise that occurred, and the effectiveness of OpenAI’s investigation process and planned remediation steps.”\n\nAnd as state Attorneys General like [California](https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena), [Alabama](https://www.alabamaag.gov/attorney-general-marshall-launches-investigation-into-openai-and-sam-altman-for-massive-artificial-intelligence-data-breach/), [Montana](https://dojmt.gov/attorney-general-knudsen-launches-investigation-into-openai-following-data-breach/), and [Florida](https://www.myfloridalegal.com/sites/default/files/plaintiffs_motion_for_temporary_injunction.pdf) are demonstrating, there are many such [laws on the books for guidance](https://www.nytimes.com/2026/09/30/opinion/ai-anthropic-amodei-self-regulation.html).\n\n## **Six categories of questions investigations ought to answer**\n5. **Incident response & breach management:** What is the full extent of the security compromises across Hugging Face and the dozen-plus other disclosed incidents? What systems, data, or credentials did OpenAI access, obtain, alter, transmit, or expose without authorization? Have all affected parties been appropriately notified, has the full surface area of the breach been identified, and why did OpenAI rely on non-cybersecurity evaluators using OpenAI's own models rather than standard forensic auditing?",
+    "foundAt": "2026-11-03T16:47:57.702Z"
+  },
+  {
+    "title": "ChatGPT Data Leak: Privacy Risks and Prevention",
+    "url": "https://www.akamai.com/resources/white-paper/data-governance-for-ai",
+    "source": "akamai.com",
+    "snippet": "# ChatGPT Data Leak: Privacy Risks and Prevention\n## Notable ChatGPT Data Leak Incidents\n### OpenAI ChatGPT Data Leak – Chat History Bug (March 2023)\nOpenAI confirmed a significant OpenAI ChatGPT data leak caused by a bug in the Redis client open-source library.\n\nOpenAI disclosed the incident publicly and patched the underlying vulnerability, but the event underscored the platform-level risks associated with centralized AI services.",
+    "foundAt": "2026-11-03T16:47:57.702Z"
+  },
+  {
+    "title": "OpenAI whistleblowers on the fight over AI safety | Machine ...",
+    "url": "https://www.npr.org/2026/11/03/nx-s1-6023241/machinegods-ai-openai-podcast",
+    "source": "npr.org",
+    "snippet": "On this episode, listen to their exclusive interview with safety researchers who were fired by OpenAI.",
+    "foundAt": "2026-11-03T16:47:57.702Z"
+  },
+  {
+    "title": "OpenAI whistleblowers on the fight over AI safety",
+    "url": "https://podcasts.apple.com/us/podcast/openai-whistleblowers-on-the-fight-over-ai-safety/id1482575855?i=1000798975247&l=es-MX",
+    "source": "podcasts.apple.com",
+    "snippet": "OpenAI whistleblowers on the fight over AI safety. On this episode, listen to their exclusive interview with safety researchers who were fired by OpenAI.",
+    "foundAt": "2026-11-03T16:47:57.702Z"
+  },
+  {
+    "title": "OpenAI, Anthropic Expose Gaps in AI Agent Monitoring",
+    "url": "https://www.databreachtoday.com/openai-anthropic-expose-gaps-in-ai-agent-monitoring-a-33276",
+    "source": "databreachtoday.com",
+    "snippet": "To understand how it can find model misalignment, OpenAI said it replayed the problematic behaviors its agents exhibited during the Hugging Face breach. The ...",
+    "foundAt": "2026-11-03T16:47:57.702Z"
+  },
+  {
+    "title": "Humanity's Promethean Gap with AI",
+    "url": "https://warontherocks.com/humanitys-promethean-gap-with-ai/",
+    "source": "warontherocks.com",
+    "snippet": "# When the world's at stake,   go beyond the headlines.\n## Humanity’s Promethean Gap with AI\nThe OpenAI/Hugging Face [incident](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) provides a clear illustration of the emerging governance problem.\n\nInterestingly, the collective was also contested, with some agents refusing to join what one [called](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) “clearly infrastructure hacking.”\n\nThe signatories warned of an “out-of-control race” between AI laboratories and argued that development should resume only once adequate safeguards were in place.\n\nOpenAI’s own evaluations discovered the behaviors, the company publicly disclosed them, and [METR](https://metr.org/hugging-face-incident-report-aug-2026.pdf) and [Redwood Research](https://www.redwoodresearch.org/blog/brief-independent-investigation-of) conducted an independent assessment. Moreover, external scrutiny began only after the laboratory had detected and framed the incident, and their access remained mediated by OpenAI.\n\nHowever, the company did not report the incident involving the RubyGems registry, and reported the German wiki only [belatedly](https://thenextweb.com/news/openai-eu-incident-report-german-wiki).",
+    "foundAt": "2026-11-03T16:47:57.702Z"
+  },
+  {
+    "title": "Nvidia orders data centre clients to reduce China exposure",
+    "url": "https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2?syn-25a6b1a6=1",
+    "source": "ft.com",
+    "snippet": "Nvidia is ordering its data centre partners to reduce exposure to Chinese customers in a move that further restrains China's ability to keep up with US ...",
+    "foundAt": "2026-11-03T16:47:57.702Z"
+  },
+  {
+    "title": "https - BLS Data - Bureau of Labor Statistics",
+    "url": "https://data.bls.gov/toppicks?survey=bls",
+    "source": "data.bls.gov",
+    "snippet": "No information is available for this page.",
+    "foundAt": "2026-11-03T16:47:57.702Z"
+  },
+  {
+    "title": "Settlement agreement reached in lawsuit against ...",
+    "url": "https://www.cpr.org/2026/11/02/geo-group-menocal-lawsuit/",
+    "source": "cpr.org",
+    "snippet": "The suit claimed detainees were forced to work within the facility for little or no compensation.",
+    "foundAt": "2026-11-03T16:47:57.702Z"
+  },
+  {
+    "title": "Drax, Brookfield partner on $27 billion AI data centre in UK",
+    "url": "https://www.reuters.com/business/uks-drax-signs-data-centre-deal-with-brookfield-radiant-2026-11-03/",
+    "source": "reuters.com",
+    "snippet": "British power firm Drax has partnered with Brookfield and AI infrastructure platform Radiant to develop a data centre with ​more than 1 gigawatt of capacity ...",
+    "foundAt": "2026-11-03T16:47:57.702Z"
+  },
+  {
+    "title": "Brookfield plans $27 billion AI data center at power station",
+    "url": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+    "source": "cnbc.com",
+    "snippet": "Europe is scrambling to develop infrastructure to support the rollout of AI amid high energy and land costs.",
+    "foundAt": "2026-11-03T16:47:57.702Z"
   }
 ]
