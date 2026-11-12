@@ -6655,5 +6655,61 @@
     "source": "chat-got.ai",
     "snippet": "# OpenAI and ChatGPT Status\n## What the Status Labels Mean\n| Status | Meaning |\n|-|-|\n| Partial outage | One or more important components are unavailable while other parts may continue working. |\n| Major outage | OpenAI reports a serious disruption affecting the service. |",
     "foundAt": "2026-11-11T16:51:24.726Z"
+  },
+  {
+    "title": "OpenAI and Anthropic Incidents Expose AI's Next Challenge",
+    "url": "https://www.cybersecurity-insiders.com/openai-and-anthropic-incidents-expose-ais-next-challenge/",
+    "source": "cybersecurity-insiders.com",
+    "snippet": "By the end of that month, Axios reported the labs were investigating tens of thousands of incidents.\n\n- **The model vendor handles safety.** The labs’ own incidents were often caused by configuration, not models. Your tool permissions, network access and data scopes are your responsibility.\n\n- [_Tom’s Hardware: Labs investigating tens of thousands of incidents_](https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-and-anthropic-are-reportedly-investigating-tens-of-thousands-of-ai-security-incidents-openai-pauses-testing-after-ai-kill-switch-fails-to-stop-a-rogue-agent-report-says-problem-is-orders-of-magnitude-more-complex-than-what-is-publicly-known)",
+    "foundAt": "2026-11-12T17:18:32.047Z"
+  },
+  {
+    "title": "Australia to Mandate AI Breach Reporting, Create ...",
+    "url": "https://english.aawsat.com/technology/5339617-australia-mandate-ai-breach-reporting-create-regulator-after-openai-breach",
+    "source": "english.aawsat.com",
+    "snippet": "# Australia to Mandate AI Breach Reporting, Create Regulator After OpenAI Breach\n10, 2026. (AP)\n\n10:24-10 November 2026 AD ـ 30 Jumada Al-Ula 1448 AH\n\nTT\n\n20\n\n10:24-10 November 2026 AD ـ 30 Jumada Al-Ula 1448 AH\n\nTT\n\n![](https://english.aawsat.com/themes/custom/enaawsatv3/assets/img/aawsat-logo-w-text.svg?ss=)\n\nAustralia to Mandate AI Breach Reporting, Create Regulator After OpenAI Breach\n\n10, 2026. (AP)\n\nAustralia will require artificial intelligence companies to report breaches and consider changes to criminal law to address \"serious misconduct\", Prime Minister Anthony Albanese said on Tuesday, after an OpenAI agent broke into a government website.\n\nThe breach triggered a rapid ‌government ⁠review into the ⁠incident.\n\nOpenAI has said it learned ‌of the breach only in August and that the incident was ‌unintentional. Its review found no evidence that patient records were accessed ‌by the agent.\n\nThe breach has added to friction between Australia and US technology companies, after Canberra refused ChatGPT maker OpenAI and rival Anthropic exemptions from copyright laws for model training, instead requiring them to negotiate ‌licensing agreements with Australian rights holders.\n\nHowever, both companies told Australian parliament last month that they would ⁠welcome laws ⁠requiring them to report data breaches carried out by their AI agents, acknowledging the decision to notify was currently at their discretion.\n\nAlbanese said his center-left Labor government would set up an AI regulator to oversee security controls throughout the development and deployment of AI systems, identify serious risks and conduct independent evaluations of AI models.\n\n\"The AI safety regulator will be able to enforce significant penalties for AI companies doing the wrong thing,\" he said.",
+    "foundAt": "2026-11-12T17:18:32.048Z"
+  },
+  {
+    "title": "New York AI safety law: OpenAI and Anthropic face oversight",
+    "url": "https://www.renascence.io/news/174111/new-york-ai-safety-law-openai-and-anthropic-face-oversight",
+    "source": "renascence.io",
+    "snippet": "New York's AI safety law is taking effect, placing OpenAI and Anthropic under state oversight with registration, safety disclosure, critical incident reporting ...",
+    "foundAt": "2026-11-12T17:18:32.048Z"
+  },
+  {
+    "title": "Georgia residents sue OpenAI over $20 billion data center ...",
+    "url": "https://cryptobriefing.com/georgia-residents-sue-openai-data-center/",
+    "source": "cryptobriefing.com",
+    "snippet": "## What this means\nIn [Regulation](https://cryptobriefing.com/regulation/)",
+    "foundAt": "2026-11-12T17:18:32.048Z"
+  },
+  {
+    "title": "Australia Moves to Tighten AI Oversight After OpenAI ...",
+    "url": "https://www.esecurityplanet.com/artificial-intelligence/news-australia-ai-security-rules-openai-incident-emea/",
+    "source": "esecurityplanet.com",
+    "snippet": "Australia backs 18 AI safety recommendations after an OpenAI security incident, raising questions about incident reporting, developer accountability, and AI ...",
+    "foundAt": "2026-11-12T17:18:32.048Z"
+  },
+  {
+    "title": "Can Southeast Asia cut and paste Australia's AI safeguards?",
+    "url": "https://amp.scmp.com/week-asia/economics/article/3374089/can-southeast-asia-cut-and-paste-australias-ai-safeguards",
+    "source": "amp.scmp.com",
+    "snippet": "The measures followed a breach of Australia's government health data system in June by OpenAI agents that bypassed restrictions on private files. OpenAI did not ...",
+    "foundAt": "2026-11-12T17:18:32.048Z"
+  },
+  {
+    "title": "Advocacy groups sue AI giants to freeze new models ...",
+    "url": "https://www.wdbo.com/news/business/advocacy-groups-sue/HOA2GRMEVEZGZNCLZ6USMJIUYA/",
+    "source": "wdbo.com",
+    "snippet": "Recent incidents of AI agents hacking government websites and companies — including when OpenAI's ChatGPT hacked into another AI company on its own in July — ...",
+    "foundAt": "2026-11-12T17:18:32.048Z"
+  },
+  {
+    "title": "Australia Plans Dedicated AI Safety Regulator Following ...",
+    "url": "https://boardstewardship.com/australia-plans-dedicated-ai-safety-regulator-following-openai-security-breach/",
+    "source": "boardstewardship.com",
+    "snippet": "The incident involved the public-facing Medicare Statistics Reporting Service portal, where information was accessed on June 18. OpenAI reportedly took until ...",
+    "foundAt": "2026-11-12T17:18:32.048Z"
   }
 ]
