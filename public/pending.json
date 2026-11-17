@@ -6942,5 +6942,96 @@
     "source": "foxnews.com",
     "snippet": "## **ChatGPT adds warnings and 24-hour suspensions**\nOpenAI says they could also result in reports to authorities.\n\nOpenAI is introducing stronger ChatGPT safeguards to interrupt attempts to find child sexual abuse material and discourage further violations.(",
     "foundAt": "2026-11-16T19:12:36.362Z"
+  },
+  {
+    "title": "OpenAI sued by California over Hugging Face attack",
+    "url": "https://www.bbc.com/news/articles/c6wy4xv2mxglo",
+    "source": "bbc.com",
+    "snippet": "# OpenAI sued by California over Hugging Face attack\n16 hours ago\n\nShare\n\nSave\n\nLily JamaliNorth America Technology correspondent, Palo Alto, CA\n\nCalifornia Attorney General Rob Bonta sued OpenAI on Monday, alleging the ChatGPT-maker misled and endangered the public by developing artificial intelligence (AI) models without proper safeguards.\n\nIn the lawsuit, Bonta cited the July 2026 [attack on the AI platform Hugging Face](https://www.bbc.co.uk/news/articles/cj9xj89dk40o) by experimental OpenAI agents which accessed the internet to breach that company's internal systems.\n\nBonta claimed OpenAI created a public nuisance and violated the state's unfair competition laws.\n\nOpenAI spokesperson Drew Pusateri told the BBC in a statement that Bonta's lawsuit \"appears to single out OpenAI over a challenge that's been identified by every major AI lab\".\n\nBut Bonta's lawsuit, filed in San Francisco, where the company is headquartered, appears to be the first such suit filed by a US state.\n\n[**OpenAI says its rogue AI tried to hack other companies**](https://www.bbc.co.uk/news/articles/c2el319vzr3o)\n\nHundreds of OpenAI agents coordinated the Hugging Face attack over two days even though they were supposed to be contained in a safe testing environment.\n\nThe incident drew added scrutiny because the agents went as far as attempting to cover their tracks.\n\nBonta announced an investigation into the incident in September, and served an investigative subpoena on OpenAI as part of its probe.\n\n\"The company knowingly tested a dangerous product without proper oversight or safety procedures and misled the public about it - this disregard for public safety violated California law,\" Bonta said in a statement on Monday.\n\nOpenAI said it has been transparent and responsive to the Attorney General's office.\n\nThe company added that, since the Hugging Face incident, it has worked to understand and address \"misaligned model activity\" which industry figures often refer to as rogue agents.\n\nNathan Calvin, chief strategy officer at AI safety campaign group Encode AI, said the lawsuit \"recognises something we at Encode have long raised alarms about\".\n\n\"OpenAI and other companies developing frontier AI systems have safety and security practices that are insufficient to protect the public from risks that could be catastrophic,\" he said.\n\n[**Unexpected chat between OpenAI agents led to Hugging Face hack**](https://www.bbc.com/news/articles/cj9xj89dk40o)",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California attorney general sues OpenAI over alleged ...",
+    "url": "https://thehill.com/homenews/state-watch/6223583-california-sues-openai-huggingface-hack/",
+    "source": "thehill.com",
+    "snippet": "# California attorney general sues OpenAI over alleged safety failures\n- Chapters\n\nDescriptions\n\n- descriptions off, selected\n\n## Most Popular\nLoad more\n\nPeople were interested in these podcasts\n\n[Discover more podcasts →](https://thehill.com/homenews/state-watch/6223583-california-sues-openai-huggingface-hack/#)\n\nMorning Report\n\n•\n\n17min\n\nHow the Alaska Senate vote count could play out from here\n\nPlay Episode\n\n17min\n\n0:00\n\n2:46:40\n\nMorning Report\n\n•\n\n15min\n\nGOP crushed in blue landslide\n\nPlay Episode\n\n15min\n\n0:00\n\n2:46:40\n\nRising\n\n•\n\n52min\n\nPlay Episode\n\n52min\n\n0:00\n\n2:46:40\n\nMorning Report\n\n•\n\n15min\n\nDeSantis comes out swinging as Vance takes heat\n\nPlay Episode\n\n15min\n\n0:00\n\n2:46:40\n\nMorning Report\n\n•\n\n15min\n\nThe Hill’s election night cheat sheet\n\nPlay Episode\n\n15min\n\n0:00\n\n2:46:40\n\nRising\n\n•\n\n52min\n\nHegseth SLAMS Massie's impeachment effort (Plus: Joe Biden releasing MEMOIR ) | RISING\n\nPlay Episode\n\n52min\n\n0:00\n\n2:46:40\n\n[Powered by![Powered by](data:image/svg+xml,%3csvg%20width='66'%20height='15'%20viewBox='0%200%2066%2015'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_2154_441)'%3e%3cpath%20d='M0%2014.8514V11.4586H4.70594C4.84731%2011.4586%204.96269%2011.3495%204.96269%2011.2141V0.44458H9.05114V11.5492C9.05114%2013.3728%207.49847%2014.8514%205.58343%2014.8514H0Z'%20fill='black'/%3e%3cpath%20d='M49.4785%2014.851H45.39V5.50591C45.39%204.28187%2044.4557%203.39208%2043.1996%203.39208C41.9435%203.39208%2041.0384%204.28187%2041.0384%205.50591V14.851H36.9499V5.50591C36.9499%204.28187%2036.0155%203.39208%2034.7594%203.39208C33.5033%203.39208%2032.5982%204.28187%2032.5982%205.50591V14.851H28.5098V5.56162C28.509%202.28023%2031.2544%20-0.000732422%2034.7294%20-0.000732422C36.5981%20-0.000732422%2038.0882%200.666997%2039.0518%201.83456C40.0739%200.666223%2041.5925%20-0.000732422%2043.4328%20-0.000732422C46.937%20-0.000732422%2049.4785%202.28023%2049.4785%205.56162V14.851Z'%20fill='black'/%3e%3cpath%20d='M50.4131%200.44458H54.9687L57.8311%204.97787H57.9481L60.752%200.44458H65.25L60.3141%207.5923L65.2792%2014.8514H60.7528L57.8327%2010.2346H57.7157L54.9411%2014.8514H50.4147L55.3798%207.5923L50.4147%200.44458H50.4131Z'%20fill='black'/%3e%3cpath%20d='M18.5895%20-0.000488281C14.2833%20-0.000488281%2010.792%203.32423%2010.792%207.425C10.792%2011.5258%2014.2833%2014.8505%2018.5895%2014.8505H26.3869V7.425C26.3869%203.32423%2022.8957%20-0.000488281%2018.5895%20-0.000488281ZM18.5756%2011.6062C16.2097%2011.6062%2014.4872%209.85374%2014.4872%207.35073C14.4872%204.84771%2016.2105%203.15092%2018.5756%203.15092C20.9408%203.15092%2022.6933%204.87556%2022.6933%207.35073C22.6933%209.82589%2020.9701%2011.6062%2018.5756%2011.6062Z'%20fill='black'/%3e%3cpath%20d='M17.0234%207.36188C17.0234%206.46382%2017.7543%205.76147%2018.6888%205.76147C19.6234%205.76147%2020.3745%206.46382%2020.3745%207.36188C20.3745%208.25994%2019.6234%208.96228%2018.6888%208.96228C17.7543%208.96228%2017.0234%208.25994%2017.0234%207.36188Z'%20fill='black'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_2154_441'%3e%3crect%20width='65.2787'%20height='14.8518'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)](https://jamx.ai/)\n\n[![](https://thehill.com/wp-content/uploads/sites/2/2025/09/hill-login-dialog-modalsvg_c3bb3d.webp?w=300)](https://thehill.com/)\n\nProvided by Nexstar Media Inc.\n\n## Sign In or create a new account.\nChange email\n\nContinue\n\nor\n\nNo Thanks\n\nLearn more at [nexstar.tv/privacy-policy.](https://www.nexstar.tv/privacy-policy/)\n\nLearn more at [nexstar.tv/privacy-policy.](https://www.nexstar.tv/privacy-policy/)\n\n![](https://thehill.com/wp-content/plugins/login-registration/img/logo-nexstar.png)![](https://thehill.com/wp-content/plugins/login-registration/img/logo-cw.png)![](https://thehill.com/wp-content/plugins/login-registration/img/logo-newsnation.png)![](https://thehill.com/wp-content/plugins/login-registration/img/logo-the-hill.png)\n\n[![](https://thehill.com/wp-content/uploads/sites/2/2025/09/hill-login-dialog-modalsvg_c3bb3d.webp?w=300)](https://thehill.com/)\n\nProvided by Nexstar Media Inc.\n\n## Thanks for registering!\n![](https://thehill.com/wp-content/plugins/login-registration/img/logo-nexstar.png)![](https://thehill.com/wp-content/plugins/login-registration/img/logo-cw.png)![](https://thehill.com/wp-content/plugins/login-registration/img/logo-newsnation.png)![](https://thehill.com/wp-content/plugins/login-registration/img/logo-the-hill.png)\n\n[![](https://thehill.com/wp-content/uploads/sites/2/2025/09/hill-login-dialog-modalsvg_c3bb3d.webp?w=300)](https://thehill.com/)\n\nProvided by Nexstar Media Inc.\n\n## Password updated\n### Insider Premium\nTry Insider Premium Free",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California sues ChatGPT maker OpenAI over rogue ...",
+    "url": "https://www.google.com/goto?url=CAESqwEBxCJF16M7U5gUgbeNukycFrRC1LiQesmnqHEGqvXG6t3Lj1eJZHRnN01qIsT49ylxbdIspw3a2VsH2o3LJ9gdqx2xAqvFfhNWvSXB8OOW8hzWUM86x974bCW6EaLUt43bi-EWFoFhOL60Tc_hB6KZfT6mxRLkNnLkaMEpk3xyuGoAoaYbPa75QKYifCiSM7CSqKip1wfA7VysmxFpAyB03QIlWvRgkF0pjd4&gsessionid=FAi9pDZUVQ3lCbbYPRS8RDquPCdN_1tL0dHN6S7RIg-x_74q8K2HKA",
+    "source": "google.com",
+    "snippet": "The suit centers on a July incident involving hundreds of autonomous AI agents created by OpenAI that attacked computer systems at Hugging Face, a separate AI ...",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California Attorney General Rob Bonta has filed a lawsuit ...",
+    "url": "https://www.google.com/goto?url=CAES0AEBxCJF13wE2bJWxmGCBkiDkoHRBQ6FuYXxASopQsVqiXx6Kxji8U16jn2iU9G30VsNtd1eid0yJvI75Nn9xV-kcB-HnZby4Ni1w0C32EFWSYH16ddniucSyvqiMhMaW5tVnlpkFhE25S9V_MKrQ6Wfn1ix3_7GQMoY_-v8_pHks6qpjwD_iv1UZla_C0vhwlJmo8WS1FEjaIkwrpW4jKZzuLJe8uCyZuUdkvyIh0nAGULdxN2MadUvsAIu2Nhid_Sa5ZcXfBZO_XJhTDYpraM5&gsessionid=FAi9pDZUVQ3lCbbYPRS8RDquPCdN_1tL0dHN6S7RIg-x_74q8K2HKA",
+    "source": "google.com",
+    "snippet": "OpenAI's AI models escaped containment and breached the Hugging Face platform. The models reportedly used publicly exposed credentials",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California sues ChatGPT maker OpenAI over rogue ...",
+    "url": "https://www.google.com/goto?url=CAESnAEBxCJF12hcFZm79TIdJCnqecexy7VDj5Gfcqg_IMvK2E7JV8EsMd3YXrZ0Q2zcb8iJaoVJCoDpWTsVRwR1VqnJd5wpCJQNrI93Wq9YsslMaePYGFtUKuoztTfgwg82D5mQ5RIB9fR5UBCYsuiZtc6tWC_PEgtVM8eRStF6ZwVj_CrdsMvUArmn5Lu9zMNm_-sxYoLP0-yhOxuckos&gsessionid=FAi9pDZUVQ3lCbbYPRS8RDquPCdN_1tL0dHN6S7RIg-x_74q8K2HKA",
+    "source": "google.com",
+    "snippet": "The suit centers on a July incident in which hundreds of autonomous AI agents created by OpenAI attacked computer systems at Hugging Face, a separate AI ...",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California Sues OpenAI Over 80 AI Security Incidents",
+    "url": "https://www.google.com/goto?url=CAESkAEBxCJF106m4ib780LufxLef0MdORMwA0qvPe3g0_otT80F9laoqE0hatkJp41lxjSmdqt4zQRNweW9bG3oM0LBv07toLuien2kdf-oFNNF_dZvIJsYHPe69NG_kyGjwudHTBAmUDjC9lJd2jYAFsd98LOycj-LvIO5gOATC3GNroE9FQDPvasqsdy-jvhHWe0&gsessionid=FAi9pDZUVQ3lCbbYPRS8RDquPCdN_1tL0dHN6S7RIg-x_74q8K2HKA",
+    "source": "google.com",
+    "snippet": "Rob Bonta sued OpenAI on November 16, 2026, accusing the company of losing control of experimental artificial intelligence agents more than 80 times",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California Attorney General Rob Bonta has filed a lawsuit ...",
+    "url": "https://www.google.com/goto?url=CAESxgEBxCJF17Kjvp6Uf2BUITghBDPe48p5B9oY-6CWlAuyTLEGjHYG7FJO7eOkBJp1M6Gq0HJQabfZ14o1okjeobsg2XM2m_fY3oWRVtTa3Yy8_avHKvOTa-Xqht2GaryPlourxGpTvRm3Y1mmBk0ZmJVkN86sHYGZ7hoJAltVNbSVD-Dyu8zigUgGzezymtSnp0hcP8N7YBoCimJUo_bXKCvVFmFUVsw6ZcloP8OqB2yUaK6DE6aGnMvWO7wRyHxMTGFnAFztQT4&gsessionid=FAi9pDZUVQ3lCbbYPRS8RDquPCdN_1tL0dHN6S7RIg-x_74q8K2HKA",
+    "source": "google.com",
+    "snippet": "ABC News reports on an incident where OpenAI's advanced AI models, including GPT-5.6 Soul, allegedly exceeded their testing parameters and breached the Hugging ...",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California sues OpenAI over 'entirely foreseeable' Hugging ...",
+    "url": "https://www.google.com/goto?url=CAESpQEBxCJF1zINLkZ5GHvp1a0SLvXjhIhEtu-6Lr80NnOIhjCQE_4Kqr2k7LkbYRx8CHE7eohwsbe60u9wscD4YtIEZMPrVErY_oEeieTzosJjzLalkolFi5ROr9wB7kENr6VXBvlTXaK7N5zaucMnO7tf_N_iHIVQ5sYjhpoCuKM2iBwnhj_xEnCnHP4UYllhVfuDTsIwyMj4PJsa4gaj5or50nMdWlU&gsessionid=FAi9pDZUVQ3lCbbYPRS8RDquPCdN_1tL0dHN6S7RIg-x_74q8K2HKA",
+    "source": "google.com",
+    "snippet": "The lawsuit stems from an incident in July when hundreds of autonomous AI agents created by OpenAI attacked another AI company, Hugging Face. The ChatGPT maker ...",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California is suing OpenAI over a July cybersecurity ...",
+    "url": "https://www.google.com/goto?url=CAESxQEBxCJF18vaDnLbqGQonothH15qmz2u5DLvjBjt4lBtLl6lj30E-LsBhLT4JbS5qi0YGmdzTi5QHAs4jO7954rct5LuEG7IBNIVJSurDAIWSYS639OSEVwDXomyPspDFfKVk45YdIh4QJTeM3mt6L8Ul_6zeHB3JROAtUA6UkgFQAIzxltx4AibMuvUNf0UuMYdrcr5kym0yyAhcfn-Rp2l_baVWA_LmfQcFmwKgwoksTHoLHh2JKseWnBVO2L1N3kLr-ye1Q&gsessionid=FAi9pDZUVQ3lCbbYPRS8RDquPCdN_1tL0dHN6S7RIg-x_74q8K2HKA",
+    "source": "google.com",
+    "snippet": "OpenAI says it's investigating what is called an unprecedented cyber incident after one of its AI models went rogue and hacked another company. The ChatGPT ...",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California sues OpenAI for being a 'public nuisance'",
+    "url": "https://mashable.com/tech/openai-california-lawsuit-public-nuisance",
+    "source": "mashable.com",
+    "snippet": "The filing cited several of these incidents, including a breach in June where an OpenAI agent hacked the Australian government's healthcare system. Researchers ...",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California Sues OpenAI, Seeking Court-Ordered Changes ...",
+    "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
+    "source": "securityweek.com",
+    "snippet": "### ICS:\n**California’s attorney general filed a lawsuit against OpenAI on Monday in an effort to force the ChatGPT-maker to change its business practices over a July cybersecurity incident in which its artificial intelligence system hacked into another company on its own.**\n\nIn the lawsuit filed in San Francisco Superior Court, Attorney General Rob Bonta alleges that OpenAI misled and endangered the public and users of its services by knowingly developing advanced AI models without necessary safeguards.\n\nOpenAI announced an “unprecedented cyber incident ” on July 21, when its AI agent [hacked into another AI company, Hugging Face](https://www.securityweek.com/openai-says-its-ai-models-broke-loose-and-hacked-hugging-face/), after escaping from what was supposed to be an isolated testing environment known as a sandbox. OpenAI said its AI [used stolen credentials](https://www.securityweek.com/openai-agents-coordinated-via-makeshift-message-board-ahead-of-hugging-face-hack/) and discovered a previously unknown vulnerability to access Hugging Face’s servers.\n\nOpenAI spokesperson Drew Pusateri said the lawsuit appears to single out OpenAI over a challenge that has been identified by every major AI lab.\n\nIn the lawsuit, Bonta says OpenAI’s promises about safety and security are deceptive.\n\nOpenAI was already being sued by at least eight states that say the company’s popular chatbot model is hurting children and deceiving adults by giving dangerous medical advice, encouraging paranoia and coaching people to kill themselves or hurt or kill others.\n\nIn a statement released last month in response to those lawsuits, OpenAI said it had built safety protections into ChatGPT for children and that it would continue to improve the model.",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California sued OpenAI on Monday, alleging it failed to rein ...",
+    "url": "https://www.google.com/goto?url=CAESZQHEIkXXVzK5smXVA2vqtjBezIrvr_4P9TAHGgBY30la8ZbbMvPCErNaMhX-Ij-jgnPBnk3mwG-bw6ffPWUgH4Zm50O1gcTLJLoFYthvocpnw9TsN01lqKQF9iwkWY71UYs2DgIG&gsessionid=wB1ynSpYgbiC_akmrAf3QQcZerSb91BstANvLpQqaQDPpqNgbv1ZHA",
+    "source": "google.com",
+    "snippet": "Eight US states filed lawsuits against OpenAI on Wednesday, accusing the artificial intelligence company of deceiving parents about the safety of its widely ...",
+    "foundAt": "2026-11-17T18:05:39.940Z"
+  },
+  {
+    "title": "California is suing OpenAI over its 'rogue' AI agent hack",
+    "url": "https://www.google.com/goto?url=CAESiwEBxCJF10NsxoXk_HqtP7B7DRwkqJoXmCai8BNQMC_51xmUA_TVDRgrG5BDXJ-VVUS7cFSb4ggQH3uCvIOr-kwV8pVFNZLxsx-PDbpqmwWZMSBg23wuiLySm1wjvzpvfkF1vTbmpavSk2TCBJtn-J0DVBBIoG2dWAX_TniijkmxKxud8QfG9vjOtkWi&gsessionid=wB1ynSpYgbiC_akmrAf3QQcZerSb91BstANvLpQqaQDPpqNgbv1ZHA",
+    "source": "google.com",
+    "snippet": "California sues OpenAI over an AI agent hacking incident involving Hugging Face. Learn why Attorney General Rob Bonta says safeguards failed.",
+    "foundAt": "2026-11-17T18:05:39.940Z"
   }
 ]
